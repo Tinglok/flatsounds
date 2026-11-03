@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+.ruff_cache/
+evaluation_results/
+benchmark_warped_clips/
+benchmark_clips_full/
+*.mp4
+*.wav
+!examples/**/*.wav

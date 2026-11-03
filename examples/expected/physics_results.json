@@ -1,0 +1,257 @@
+{
+  "meta": {
+    "benchmark": "FlatSounds-Physics",
+    "split": "physics.json",
+    "metadata_md5": "818e7695762d7ebaebd81c40997ff03b",
+    "num_runs": 5,
+    "sample_rate": 16000,
+    "n_cases": 2,
+    "n_records": 6,
+    "missing_cases": [],
+    "n_unreadable_files": 0
+  },
+  "summary": {
+    "overall": {
+      "confidence": 0.30504713001923683,
+      "net_confidence": 0.04076748709393362
+    },
+    "metrics": {
+      "attack_time": {
+        "confidence": 0.13990676754560227,
+        "net_confidence": -0.14333872993787128,
+        "n_tests": 1
+      },
+      "decay_rate": {
+        "confidence": null,
+        "net_confidence": null,
+        "n_tests": 0
+      },
+      "fundamental_frequency": {
+        "confidence": 0.42457801256424343,
+        "net_confidence": 0.1731537494394514,
+        "n_tests": 2
+      },
+      "spectral_centroid": {
+        "confidence": 0.17869673356031762,
+        "net_confidence": -0.06575879790844058,
+        "n_tests": 1
+      },
+      "spectral_flux": {
+        "confidence": null,
+        "net_confidence": null,
+        "n_tests": 0
+      },
+      "spectral_rolloff": {
+        "confidence": 0.17869673356031762,
+        "net_confidence": -0.06575879790844058,
+        "n_tests": 1
+      },
+      "temporal_modulation": {
+        "confidence": null,
+        "net_confidence": null,
+        "n_tests": 0
+      },
+      "rt60": {
+        "confidence": 0.0,
+        "net_confidence": null,
+        "n_tests": 1
+      },
+      "drr": {
+        "confidence": null,
+        "net_confidence": null,
+        "n_tests": 0
+      }
+    },
+    "hit_coverage": {
+      "overall": 0.8444444444444444,
+      "factual": 0.9333333333333333,
+      "counterfactual": 0.6666666666666666,
+      "min": 0.8333333333333333
+    },
+    "hit_coverage_above_chance": {
+      "overall": 0.4687559354226021,
+      "factual": 0.6018518518518519,
+      "counterfactual": 0.20256410256410257,
+      "min": 0.49572649572649574
+    },
+    "perfect_alignment": {
+      "overall": 0.7333333333333334,
+      "factual": 0.9,
+      "counterfactual": 0.4,
+      "min": 0.7
+    },
+    "clap": {
+      "overall": 0.6283218701680502,
+      "factual": 0.6103065669536591,
+      "counterfactual": 0.6643524765968323,
+      "min": 0.6103065669536591
+    }
+  },
+  "metric_definitions": {
+    "attack_time": "10-90% rise time (ms) of the smoothed Hilbert envelope at the hit onset (material hardness).",
+    "decay_rate": "Amplitude decay rate 1/tau (1/s) from the slope of the hit's noise-compensated energy decay curve over its first 10 dB (damping).",
+    "fundamental_frequency": "Pitch (Hz) of the played note (SwiftF0) in cases marked \"f0\": \"pitch\"; otherwise the lowest resonance (>= 150 Hz) excited by the hit.",
+    "spectral_centroid": "Magnitude-weighted mean frequency (Hz) of the hit (-20 to +180 ms around the onset) after subtracting twice the clip's background power spectrum (brightness).",
+    "spectral_flux": "Mean log-mel spectral flux across the hit onset, -94 to +180 ms (transient sharpness and contrast).",
+    "spectral_rolloff": "Frequency (Hz) below which 85% of the spectral magnitude of the same background-subtracted hit spectrum lies.",
+    "temporal_modulation": "Amplitude-modulation index (0-1) of the whole clip's envelope (loudness fluctuation).",
+    "rt60": "Reverberation time (s): 60 dB over the slope of the hit's noise-compensated energy decay curve between -5 and -15 dB (T10).",
+    "drr": "Clarity C50 (dB, ISO 3382-1): energy in the first 50 ms after the hit peak over the energy after it (room dryness).",
+    "hit_values": "Per-hit metrics are measured at the detected onset matched to each annotated hit (the annotated time when unmatched); a pair test compares clip values (mean over the matched hits, median for rt60 and drr), a single-video test the per-hit sequence over all hits.",
+    "seed_weight": "0.5 x hit coverage above chance + 0.5 x CLAP score of the seed (each the worse side of a pair).",
+    "confidence": "Per test: summed weights of the seeds that show the expected behaviour / number of seeds; missing or failed seeds count in the denominator.",
+    "increase/decrease": "A seed votes for a direction when counterfactual - factual exceeds tau = max(2% of the pooled mean, 0.25 x the robust SD of the pooled seed values).",
+    "no_change (pair)": "Passes when, over >= 3 seeds with both values, |median of ln(counterfactual / factual)| (the difference for drr and temporal_modulation) is within the metric's margin (half the median labelled change on the original recordings); every such seed then counts.",
+    "no_change (single video)": "A seed votes when the coefficient of variation of its per-hit values (SD in dB for drr) is below the metric's threshold; undefined (null) for temporal_modulation, which has no per-hit sequence.",
+    "ascending/descending": "A seed votes for a trend when the Spearman correlation of its per-hit F0 with hit order (the sign of the change for 2 hits) passes a length-dependent threshold.",
+    "opposite_confidence": "Summed weights of the seeds that vote for the opposite direction or trend / number of seeds; null for no_change tests.",
+    "net_confidence": "confidence - opposite_confidence: 0 at chance, negative when seeds mostly move the wrong way; null for no_change tests.",
+    "overall": "Overall confidence = mean over test cases of the mean confidence of their tests (net: of their directional tests); a metric's confidence = mean over its tests; a test case without generated audio scores 0; null entries are left out of every mean.",
+    "hit_coverage": "Fraction of annotated hits matched by a detected onset (tolerance 0.10-0.25 s, set by the number and spacing of the hits), mean over seeds (missing or failed seeds 0).",
+    "hit_coverage_above_chance": "Per seed, hit coverage minus the same fraction at times with no annotated hit (at least the tolerance + 0.1 s from every hit), floored at 0, so onsets everywhere earn little; mean over seeds (missing or failed seeds 0).",
+    "timing_error": "Mean |detected - annotated| onset time (s) of the matched hits, mean over seeds.",
+    "perfect_alignment": "Fraction of seeds with every annotated hit matched.",
+    "clap": "CLAP audio-caption cosine similarity of the audio up to the case duration, mapped to [0, 1], mean over seeds (missing or failed seeds 0).",
+    "factual/counterfactual/min/overall": "hit_coverage, hit_coverage_above_chance, perfect_alignment and clap per side: factual and counterfactual = mean over test cases; min = mean over test cases of the worse side of a pair, or the only side of a single-video case; overall = mean over every video of every test case (a pair counts both videos)."
+  },
+  "results": [
+    {
+      "case": "striker_3h_04_f137cf140",
+      "category": "striker",
+      "evaluation_method": "pair_comparison",
+      "metric": "attack_time",
+      "expected": "decrease",
+      "confidence": 0.13990676754560227,
+      "opposite_confidence": 0.28324549748347355,
+      "net_confidence": -0.14333872993787128,
+      "n_valid": 5,
+      "n_total": 5,
+      "factual_mean": 38.75416666666666,
+      "counterfactual_mean": 49.02916666666667,
+      "delta": 10.27500000000001,
+      "test_case_confidence": 0.18409049993906268,
+      "test_case_net_confidence": -0.09161877525158414,
+      "hit_coverage_factual": 0.8666666666666666,
+      "hit_coverage_counterfactual": 0.6666666666666666,
+      "timing_error_factual": 0.05491023333333341,
+      "timing_error_counterfactual": 0.08950801666666683,
+      "factual_clip": "striker_3h_04_f137cf140_factual.mp4",
+      "counterfactual_clip": "striker_3h_04_f137cf140_counterfactual.mp4"
+    },
+    {
+      "case": "striker_3h_04_f137cf140",
+      "category": "striker",
+      "evaluation_method": "pair_comparison",
+      "metric": "spectral_centroid",
+      "expected": "increase",
+      "confidence": 0.17869673356031762,
+      "opposite_confidence": 0.2444555314687582,
+      "net_confidence": -0.06575879790844058,
+      "n_valid": 5,
+      "n_total": 5,
+      "factual_mean": 3752.4009237010373,
+      "counterfactual_mean": 3308.3417731513605,
+      "delta": -444.05915054967693,
+      "test_case_confidence": 0.18409049993906268,
+      "test_case_net_confidence": -0.09161877525158414,
+      "hit_coverage_factual": 0.8666666666666666,
+      "hit_coverage_counterfactual": 0.6666666666666666,
+      "timing_error_factual": 0.05491023333333341,
+      "timing_error_counterfactual": 0.08950801666666683,
+      "factual_clip": "striker_3h_04_f137cf140_factual.mp4",
+      "counterfactual_clip": "striker_3h_04_f137cf140_counterfactual.mp4"
+    },
+    {
+      "case": "striker_3h_04_f137cf140",
+      "category": "striker",
+      "evaluation_method": "pair_comparison",
+      "metric": "spectral_rolloff",
+      "expected": "increase",
+      "confidence": 0.17869673356031762,
+      "opposite_confidence": 0.2444555314687582,
+      "net_confidence": -0.06575879790844058,
+      "n_valid": 5,
+      "n_total": 5,
+      "factual_mean": 5372.916666666666,
+      "counterfactual_mean": 4937.5,
+      "delta": -435.41666666666663,
+      "test_case_confidence": 0.18409049993906268,
+      "test_case_net_confidence": -0.09161877525158414,
+      "hit_coverage_factual": 0.8666666666666666,
+      "hit_coverage_counterfactual": 0.6666666666666666,
+      "timing_error_factual": 0.05491023333333341,
+      "timing_error_counterfactual": 0.08950801666666683,
+      "factual_clip": "striker_3h_04_f137cf140_factual.mp4",
+      "counterfactual_clip": "striker_3h_04_f137cf140_counterfactual.mp4"
+    },
+    {
+      "case": "striker_3h_04_f137cf140",
+      "category": "striker",
+      "evaluation_method": "pair_comparison",
+      "metric": "fundamental_frequency",
+      "expected": "no_change",
+      "confidence": 0.4231522650290758,
+      "opposite_confidence": null,
+      "net_confidence": null,
+      "n_valid": 5,
+      "n_total": 5,
+      "factual_mean": 2053.472603846312,
+      "counterfactual_mean": 2257.751939473613,
+      "delta": 204.27933562730126,
+      "test_case_confidence": 0.18409049993906268,
+      "test_case_net_confidence": -0.09161877525158414,
+      "hit_coverage_factual": 0.8666666666666666,
+      "hit_coverage_counterfactual": 0.6666666666666666,
+      "timing_error_factual": 0.05491023333333341,
+      "timing_error_counterfactual": 0.08950801666666683,
+      "factual_clip": "striker_3h_04_f137cf140_factual.mp4",
+      "counterfactual_clip": "striker_3h_04_f137cf140_counterfactual.mp4"
+    },
+    {
+      "case": "striker_3h_04_f137cf140",
+      "category": "striker",
+      "evaluation_method": "pair_comparison",
+      "metric": "rt60",
+      "expected": "no_change",
+      "confidence": 0.0,
+      "opposite_confidence": null,
+      "net_confidence": null,
+      "n_valid": 5,
+      "n_total": 5,
+      "factual_mean": 0.6281793805392129,
+      "counterfactual_mean": 0.40365826646227765,
+      "delta": -0.22452111407693529,
+      "test_case_confidence": 0.18409049993906268,
+      "test_case_net_confidence": -0.09161877525158414,
+      "hit_coverage_factual": 0.8666666666666666,
+      "hit_coverage_counterfactual": 0.6666666666666666,
+      "timing_error_factual": 0.05491023333333341,
+      "timing_error_counterfactual": 0.08950801666666683,
+      "factual_clip": "striker_3h_04_f137cf140_factual.mp4",
+      "counterfactual_clip": "striker_3h_04_f137cf140_counterfactual.mp4"
+    },
+    {
+      "case": "piano_clip_023_ascending",
+      "category": "direction",
+      "evaluation_method": "single_video",
+      "metric": "fundamental_frequency",
+      "expected": "ascending",
+      "confidence": 0.426003760099411,
+      "opposite_confidence": 0.2528500106599596,
+      "net_confidence": 0.1731537494394514,
+      "n_valid": 5,
+      "n_total": 5,
+      "factual_mean": null,
+      "counterfactual_mean": null,
+      "delta": null,
+      "test_case_confidence": 0.426003760099411,
+      "test_case_net_confidence": 0.1731537494394514,
+      "hit_coverage_factual": 1.0,
+      "hit_coverage_counterfactual": null,
+      "timing_error_factual": 0.035220166666666594,
+      "timing_error_counterfactual": null,
+      "factual_clip": "piano_clip_023_ascending.mp4",
+      "counterfactual_clip": null
+    }
+  ]
+}

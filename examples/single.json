@@ -1,0 +1,22 @@
+{
+  "clip_012": {
+    "video": "clip_012.mp4",
+    "caption": "A fist repeatedly hammers down on a wooden stool surface",
+    "duration": 5.572,
+    "hit_times": [
+      1.044898,
+      2.472925,
+      4.266667
+    ]
+  },
+  "clip_020": {
+    "video": "clip_020.mp4",
+    "caption": "Hands clapping repeatedly",
+    "duration": 5.172,
+    "hit_times": [
+      0.249615,
+      2.037551,
+      2.658685
+    ]
+  }
+}

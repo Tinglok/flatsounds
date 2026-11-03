@@ -1,0 +1,240 @@
+{
+  "meta": {
+    "benchmark": "FlatSounds-Single",
+    "metadata": "single.json",
+    "metadata_md5": "e78967cad500ed078ff741ff54691f54",
+    "num_runs": 5,
+    "sample_rate": 16000,
+    "n_clips": 2,
+    "n_caption_groups": 2,
+    "n_records": 10,
+    "n_missing_files": 0,
+    "n_unreadable_files": 0
+  },
+  "summary": {
+    "hit_f1": {
+      "value": 0.7923809523809524,
+      "ci95": [
+        0.7714285714285715,
+        0.8133333333333332
+      ]
+    },
+    "hit_precision": {
+      "value": 0.8416666666666666,
+      "ci95": [
+        0.75,
+        0.9333333333333332
+      ]
+    },
+    "hit_coverage": {
+      "value": 0.7666666666666666,
+      "ci95": [
+        0.7333333333333332,
+        0.8
+      ]
+    },
+    "timing_error_ms": {
+      "value": 40.19637499999995,
+      "ci95": [
+        36.08218333333328,
+        44.31056666666661
+      ]
+    },
+    "timing_offset_ms": {
+      "value": 20.319499999999824,
+      "ci95": [
+        19.511499999999682,
+        51.20000000000013
+      ]
+    },
+    "timing_drift_ms_per_s": {
+      "value": 33.23594018698282,
+      "ci95": [
+        30.218181377994437,
+        35.383986351579644
+      ]
+    }
+  },
+  "metric_definitions": {
+    "onsets": "Hit onsets detected with librosa (onset strength with reflect padding, ~3.3 ms hop, peak-picking threshold 0.3) in the audio up to the clip's duration.",
+    "hit_f1": "Headline: F-measure of the detected onsets against the annotated hits, one-to-one matching within +-0.1 s (mir_eval.onset.f_measure), per seed; mean over seeds (a missing seed scores 0), then over clips.",
+    "hit_precision": "Fraction of the detected onsets matched to an annotated hit; same matching and means.",
+    "hit_coverage": "Recall: fraction of the annotated hits matched by a detected onset; same matching and means.",
+    "timing_error_ms": "Mean |detected - annotated| time (ms) of a seed's matched hits (each within +-0.1 s), mean over the seeds with at least one match; read it with hit F1, since unmatched hits do not count.",
+    "timing_offset_ms": "Diagnostic: per annotated hit, the median over seeds of (nearest detected onset - hit time) when within +-0.25 s; median over hits (positive = late audio).",
+    "timing_drift_ms_per_s": "Diagnostic: Theil-Sen slope (scipy.stats.theilslopes) of those per-hit medians (ms) against hit time (s); nonzero = time-scale mismatch. Read offset and drift only when hit F1 is well above chance.",
+    "ci95": "95% percentile bootstrap interval: 2000 resamples (seed 0) of whole caption groups (clips sharing a caption); every model gets the same resamples."
+  },
+  "results": [
+    {
+      "clip": "clip_012",
+      "seed": 0,
+      "file": "clip_012_seed0.wav",
+      "n_hits": 3,
+      "n_detected": 3,
+      "n_matched": 3,
+      "hit_f1": 1.0,
+      "hit_precision": 1.0,
+      "hit_coverage": 1.0,
+      "timing_error_ms": 49.51866666666663,
+      "hit_offsets_ms": [
+        -27.960500000000053,
+        51.20000000000013,
+        69.39549999999971
+      ]
+    },
+    {
+      "clip": "clip_012",
+      "seed": 1,
+      "file": "clip_012_seed1.wav",
+      "n_hits": 3,
+      "n_detected": 3,
+      "n_matched": 2,
+      "hit_f1": 0.6666666666666666,
+      "hit_precision": 0.6666666666666666,
+      "hit_coverage": 0.6666666666666666,
+      "timing_error_ms": 44.54899999999995,
+      "hit_offsets_ms": [
+        -14.71050000000007,
+        74.38749999999983,
+        102.5204999999998
+      ]
+    },
+    {
+      "clip": "clip_012",
+      "seed": 2,
+      "file": "clip_012_seed2.wav",
+      "n_hits": 3,
+      "n_detected": 4,
+      "n_matched": 3,
+      "hit_f1": 0.8571428571428571,
+      "hit_precision": 0.75,
+      "hit_coverage": 1.0,
+      "timing_error_ms": 41.88533333333333,
+      "hit_offsets_ms": [
+        -71.02300000000005,
+        -1.8000000000002458,
+        52.832999999999686
+      ]
+    },
+    {
+      "clip": "clip_012",
+      "seed": 3,
+      "file": "clip_012_seed3.wav",
+      "n_hits": 3,
+      "n_detected": 3,
+      "n_matched": 3,
+      "hit_f1": 1.0,
+      "hit_precision": 1.0,
+      "hit_coverage": 1.0,
+      "timing_error_ms": 47.31033333333327,
+      "hit_offsets_ms": [
+        -27.960500000000053,
+        47.88749999999986,
+        66.08299999999988
+      ]
+    },
+    {
+      "clip": "clip_012",
+      "seed": 4,
+      "file": "clip_012_seed4.wav",
+      "n_hits": 3,
+      "n_detected": 3,
+      "n_matched": 1,
+      "hit_f1": 0.3333333333333333,
+      "hit_precision": 0.3333333333333333,
+      "hit_coverage": 0.3333333333333333,
+      "timing_error_ms": 38.28949999999986,
+      "hit_offsets_ms": [
+        38.28949999999986,
+        117.44999999999983,
+        125.70800000000037
+      ]
+    },
+    {
+      "clip": "clip_020",
+      "seed": 0,
+      "file": "clip_020_seed0.wav",
+      "n_hits": 3,
+      "n_detected": 3,
+      "n_matched": 2,
+      "hit_f1": 0.6666666666666666,
+      "hit_precision": 0.6666666666666666,
+      "hit_coverage": 0.6666666666666666,
+      "timing_error_ms": 11.152499999999982,
+      "hit_offsets_ms": [
+        -1.177499999999998,
+        null,
+        21.127499999999966
+      ]
+    },
+    {
+      "clip": "clip_020",
+      "seed": 1,
+      "file": "clip_020_seed1.wav",
+      "n_hits": 3,
+      "n_detected": 3,
+      "n_matched": 3,
+      "hit_f1": 1.0,
+      "hit_precision": 1.0,
+      "hit_coverage": 1.0,
+      "timing_error_ms": 29.397166666666475,
+      "hit_offsets_ms": [
+        -34.302500000000016,
+        19.511499999999682,
+        34.37749999999973
+      ]
+    },
+    {
+      "clip": "clip_020",
+      "seed": 2,
+      "file": "clip_020_seed2.wav",
+      "n_hits": 3,
+      "n_detected": 2,
+      "n_matched": 2,
+      "hit_f1": 0.8,
+      "hit_precision": 1.0,
+      "hit_coverage": 0.6666666666666666,
+      "timing_error_ms": 56.275000000000155,
+      "hit_offsets_ms": [
+        -87.30250000000001,
+        null,
+        -25.24750000000031
+      ]
+    },
+    {
+      "clip": "clip_020",
+      "seed": 3,
+      "file": "clip_020_seed3.wav",
+      "n_hits": 3,
+      "n_detected": 2,
+      "n_matched": 2,
+      "hit_f1": 0.8,
+      "hit_precision": 1.0,
+      "hit_coverage": 0.6666666666666666,
+      "timing_error_ms": 40.96499999999985,
+      "hit_offsets_ms": [
+        -64.11500000000001,
+        null,
+        17.814999999999692
+      ]
+    },
+    {
+      "clip": "clip_020",
+      "seed": 4,
+      "file": "clip_020_seed4.wav",
+      "n_hits": 3,
+      "n_detected": 2,
+      "n_matched": 2,
+      "hit_f1": 0.8,
+      "hit_precision": 1.0,
+      "hit_coverage": 0.6666666666666666,
+      "timing_error_ms": 42.62124999999998,
+      "hit_offsets_ms": [
+        -64.11500000000001,
+        null,
+        21.127499999999966
+      ]
+    }
+  ]
+}

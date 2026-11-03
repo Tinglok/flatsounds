@@ -1,0 +1,6941 @@
+{
+  "fullness_1h_01_f0007cf0008": {
+    "category": "fullness",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "full",
+      "to": "empty"
+    },
+    "factual": {
+      "video": "fullness_1h_01_f0007cf0008_factual.mp4",
+      "caption": "A metal spoon taps a glass full of coffee from the side"
+    },
+    "counterfactual": {
+      "video": "fullness_1h_01_f0007cf0008_counterfactual.mp4",
+      "caption": "A metal spoon taps an empty glass from the side"
+    },
+    "duration": 6.098,
+    "hit_times": [
+      3.099864
+    ],
+    "expected_metrics": {
+      "decay_rate": "decrease",
+      "fundamental_frequency": "increase",
+      "spectral_centroid": "increase"
+    }
+  },
+  "fullness_1h_02_f0007cf0009": {
+    "category": "fullness",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "full",
+      "to": "empty"
+    },
+    "factual": {
+      "video": "fullness_1h_02_f0007cf0009_factual.mp4",
+      "caption": "A metal spoon taps a glass full of coffee from the side"
+    },
+    "counterfactual": {
+      "video": "fullness_1h_02_f0007cf0009_counterfactual.mp4",
+      "caption": "A metal spoon taps an empty glass from the side"
+    },
+    "duration": 5.24,
+    "hit_times": [
+      3.099864
+    ],
+    "expected_metrics": {
+      "decay_rate": "decrease",
+      "fundamental_frequency": "increase",
+      "spectral_centroid": "increase"
+    }
+  },
+  "fullness_1h_04_f0009cf002": {
+    "category": "fullness",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "full",
+      "to": "empty"
+    },
+    "factual": {
+      "video": "fullness_1h_04_f0009cf002_factual.mp4",
+      "caption": "A metal spoon repeatedly taps the side of a glass cup full of liquid"
+    },
+    "counterfactual": {
+      "video": "fullness_1h_04_f0009cf002_counterfactual.mp4",
+      "caption": "A metal spoon taps an empty glass from the side"
+    },
+    "duration": 5.24,
+    "hit_times": [
+      2.321995
+    ],
+    "expected_metrics": {
+      "decay_rate": "decrease",
+      "fundamental_frequency": "increase",
+      "spectral_centroid": "increase"
+    }
+  },
+  "striker_1h_09_f0020cf0024": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "wooden_rolling_pin",
+      "to": "metal_spoon"
+    },
+    "factual": {
+      "video": "striker_1h_09_f0020cf0024_factual.mp4",
+      "caption": "A wooden rolling pin taps a metal cup from the side"
+    },
+    "counterfactual": {
+      "video": "striker_1h_09_f0020cf0024_counterfactual.mp4",
+      "caption": "A metal spoon taps a metal cup from the side"
+    },
+    "duration": 3.631,
+    "hit_times": [
+      1.044898
+    ],
+    "expected_metrics": {
+      "attack_time": "decrease",
+      "spectral_centroid": "increase",
+      "spectral_rolloff": "increase"
+    }
+  },
+  "striker_1h_11_f0020cf018": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "wooden_rolling_pin",
+      "to": "metal_spoon"
+    },
+    "factual": {
+      "video": "striker_1h_11_f0020cf018_factual.mp4",
+      "caption": "A wooden rolling pin taps a metal cup from the side"
+    },
+    "counterfactual": {
+      "video": "striker_1h_11_f0020cf018_counterfactual.mp4",
+      "caption": "A metal spoon repeatedly tapping a metal cup"
+    },
+    "duration": 4.136,
+    "hit_times": [
+      1.044898
+    ],
+    "expected_metrics": {
+      "attack_time": "decrease",
+      "spectral_centroid": "increase",
+      "spectral_rolloff": "increase"
+    }
+  },
+  "striker_2h_12_f0044cf057": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "metal_spoon",
+      "to": "wooden_stick"
+    },
+    "factual": {
+      "video": "striker_2h_12_f0044cf057_factual.mp4",
+      "caption": "A metal spoon taps a wooden surface repeatedly"
+    },
+    "counterfactual": {
+      "video": "striker_2h_12_f0044cf057_counterfactual.mp4",
+      "caption": "A wooden stick repeatedly taps the wooden surface of a stool"
+    },
+    "duration": 6.11,
+    "hit_times": [
+      2.165261,
+      5.102585
+    ],
+    "expected_metrics": {
+      "attack_time": "increase",
+      "spectral_centroid": "decrease",
+      "spectral_rolloff": "decrease"
+    }
+  },
+  "striker_2h_13_f0044cf058": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "metal_spoon",
+      "to": "wooden_stick"
+    },
+    "factual": {
+      "video": "striker_2h_13_f0044cf058_factual.mp4",
+      "caption": "A metal spoon taps a wooden surface repeatedly"
+    },
+    "counterfactual": {
+      "video": "striker_2h_13_f0044cf058_counterfactual.mp4",
+      "caption": "A wooden stick repeatedly taps the wooden surface of a stool"
+    },
+    "duration": 6.11,
+    "hit_times": [
+      2.165261,
+      5.102585
+    ],
+    "expected_metrics": {
+      "attack_time": "increase",
+      "spectral_centroid": "decrease",
+      "spectral_rolloff": "decrease"
+    }
+  },
+  "fullness_2h_03_f0009cf001": {
+    "category": "fullness",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "full",
+      "to": "empty"
+    },
+    "factual": {
+      "video": "fullness_2h_03_f0009cf001_factual.mp4",
+      "caption": "A metal spoon repeatedly taps the side of a glass cup full of liquid"
+    },
+    "counterfactual": {
+      "video": "fullness_2h_03_f0009cf001_counterfactual.mp4",
+      "caption": "A metal spoon taps an empty glass from the side"
+    },
+    "duration": 3.98,
+    "hit_times": [
+      1.352562,
+      2.49034
+    ],
+    "expected_metrics": {
+      "decay_rate": "decrease",
+      "fundamental_frequency": "increase",
+      "spectral_centroid": "increase"
+    }
+  },
+  "fullness_2h_07_f0008cf001": {
+    "category": "fullness",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "empty",
+      "to": "full"
+    },
+    "factual": {
+      "video": "fullness_2h_07_f0008cf001_factual.mp4",
+      "caption": "A metal spoon taps an empty glass from the side"
+    },
+    "counterfactual": {
+      "video": "fullness_2h_07_f0008cf001_counterfactual.mp4",
+      "caption": "A metal spoon repeatedly taps the side of a glass cup full of liquid"
+    },
+    "duration": 5.524,
+    "hit_times": [
+      0.795283,
+      3.581678
+    ],
+    "expected_metrics": {
+      "decay_rate": "increase",
+      "fundamental_frequency": "decrease",
+      "spectral_centroid": "decrease"
+    }
+  },
+  "striker_2h_01_f0009cf0012": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "wooden_rolling_pin",
+      "to": "metal_spoon"
+    },
+    "factual": {
+      "video": "striker_2h_01_f0009cf0012_factual.mp4",
+      "caption": "A wooden rolling pin taps an empty glass from the side"
+    },
+    "counterfactual": {
+      "video": "striker_2h_01_f0009cf0012_counterfactual.mp4",
+      "caption": "A metal spoon taps an empty glass from the side"
+    },
+    "duration": 5.24,
+    "hit_times": [
+      1.950476,
+      3.959002
+    ],
+    "expected_metrics": {
+      "attack_time": "decrease",
+      "spectral_centroid": "increase",
+      "spectral_rolloff": "increase",
+      "rt60": "no_change"
+    }
+  },
+  "striker_2h_02_f0009cf0013": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "wooden_rolling_pin",
+      "to": "metal_spoon"
+    },
+    "factual": {
+      "video": "striker_2h_02_f0009cf0013_factual.mp4",
+      "caption": "A wooden rolling pin taps an empty glass from the side"
+    },
+    "counterfactual": {
+      "video": "striker_2h_02_f0009cf0013_counterfactual.mp4",
+      "caption": "A metal spoon taps an empty glass from the side"
+    },
+    "duration": 3.753,
+    "hit_times": [
+      1.073923,
+      1.741497
+    ],
+    "expected_metrics": {
+      "attack_time": "decrease",
+      "spectral_centroid": "increase",
+      "spectral_rolloff": "increase",
+      "rt60": "no_change"
+    }
+  },
+  "striker_2h_04_f0019cf0022": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "metal_spoon",
+      "to": "wooden_rolling_pin"
+    },
+    "factual": {
+      "video": "striker_2h_04_f0019cf0022_factual.mp4",
+      "caption": "A metal spoon taps a metal cup from the side"
+    },
+    "counterfactual": {
+      "video": "striker_2h_04_f0019cf0022_counterfactual.mp4",
+      "caption": "A wooden rolling pin taps a metal cup from the side"
+    },
+    "duration": 6.04,
+    "hit_times": [
+      2.763175,
+      4.916825
+    ],
+    "expected_metrics": {
+      "attack_time": "increase",
+      "spectral_centroid": "decrease",
+      "spectral_rolloff": "decrease"
+    }
+  },
+  "striker_2h_06_f0019cf017": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "metal_spoon",
+      "to": "wooden_rolling_pin"
+    },
+    "factual": {
+      "video": "striker_2h_06_f0019cf017_factual.mp4",
+      "caption": "A metal spoon repeatedly tapping a metal cup"
+    },
+    "counterfactual": {
+      "video": "striker_2h_06_f0019cf017_counterfactual.mp4",
+      "caption": "A wooden rolling pin taps a metal cup from the side"
+    },
+    "duration": 5.413,
+    "hit_times": [
+      1.097143,
+      3.250794
+    ],
+    "expected_metrics": {
+      "attack_time": "increase",
+      "spectral_centroid": "decrease",
+      "spectral_rolloff": "decrease"
+    }
+  },
+  "striker_2h_07_f0019cf018": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "metal_spoon",
+      "to": "wooden_rolling_pin"
+    },
+    "factual": {
+      "video": "striker_2h_07_f0019cf018_factual.mp4",
+      "caption": "A metal spoon repeatedly tapping a metal cup"
+    },
+    "counterfactual": {
+      "video": "striker_2h_07_f0019cf018_counterfactual.mp4",
+      "caption": "A wooden rolling pin taps a metal cup from the side"
+    },
+    "duration": 4.136,
+    "hit_times": [
+      0.841723,
+      2.083991
+    ],
+    "expected_metrics": {
+      "attack_time": "increase",
+      "spectral_centroid": "decrease",
+      "spectral_rolloff": "decrease"
+    }
+  },
+  "striker_2h_08_f0020cf0022": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "metal_spoon",
+      "to": "wooden_rolling_pin"
+    },
+    "factual": {
+      "video": "striker_2h_08_f0020cf0022_factual.mp4",
+      "caption": "A metal spoon taps a metal cup from the side"
+    },
+    "counterfactual": {
+      "video": "striker_2h_08_f0020cf0022_counterfactual.mp4",
+      "caption": "A wooden rolling pin taps a metal cup from the side"
+    },
+    "duration": 7.079,
+    "hit_times": [
+      2.763175,
+      4.916825
+    ],
+    "expected_metrics": {
+      "attack_time": "increase",
+      "spectral_centroid": "decrease",
+      "spectral_rolloff": "decrease"
+    }
+  },
+  "striker_2h_14_f016cf017": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "metal_spoon",
+      "to": "wooden_stick"
+    },
+    "factual": {
+      "video": "striker_2h_14_f016cf017_factual.mp4",
+      "caption": "A metal spoon repeatedly tapping a metal cup"
+    },
+    "counterfactual": {
+      "video": "striker_2h_14_f016cf017_counterfactual.mp4",
+      "caption": "A wooden stick repeatedly knocking a metal cup"
+    },
+    "duration": 5.413,
+    "hit_times": [
+      1.097143,
+      3.250794
+    ],
+    "expected_metrics": {
+      "attack_time": "increase",
+      "spectral_centroid": "decrease",
+      "spectral_rolloff": "decrease"
+    }
+  },
+  "striker_2h_15_f016cf018": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "metal_spoon",
+      "to": "wooden_stick"
+    },
+    "factual": {
+      "video": "striker_2h_15_f016cf018_factual.mp4",
+      "caption": "A metal spoon repeatedly tapping a metal cup"
+    },
+    "counterfactual": {
+      "video": "striker_2h_15_f016cf018_counterfactual.mp4",
+      "caption": "A wooden stick repeatedly knocking a metal cup"
+    },
+    "duration": 4.136,
+    "hit_times": [
+      0.841723,
+      2.083991
+    ],
+    "expected_metrics": {
+      "attack_time": "increase",
+      "spectral_centroid": "decrease",
+      "spectral_rolloff": "decrease"
+    }
+  },
+  "floor_to_gravel_3h_v1": {
+    "category": "surface_texture",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "wooden_floor",
+      "to": "gravel"
+    },
+    "factual": {
+      "video": "floor_to_gravel_3h_v1_factual.mp4",
+      "caption": "Sound of a shoe stomping on the wooden floor"
+    },
+    "counterfactual": {
+      "video": "floor_to_gravel_3h_v1_counterfactual.mp4",
+      "caption": "Sound of a shoe stomping in gravel"
+    },
+    "duration": 4.171,
+    "hit_times": [
+      0.922993,
+      2.200091,
+      3.361088
+    ],
+    "expected_metrics": {
+      "spectral_flux": "increase",
+      "temporal_modulation": "increase",
+      "spectral_centroid": "increase",
+      "spectral_rolloff": "increase"
+    }
+  },
+  "floor_to_gravel_3h_v2": {
+    "category": "surface_texture",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "wooden_floor",
+      "to": "gravel"
+    },
+    "factual": {
+      "video": "floor_to_gravel_3h_v2_factual.mp4",
+      "caption": "Sound of a shoe stomping on the wooden floor"
+    },
+    "counterfactual": {
+      "video": "floor_to_gravel_3h_v2_counterfactual.mp4",
+      "caption": "Sound of a shoe stomping in gravel"
+    },
+    "duration": 4.5,
+    "hit_times": [
+      0.603719,
+      1.956281,
+      3.366893
+    ],
+    "expected_metrics": {
+      "spectral_flux": "increase",
+      "temporal_modulation": "increase",
+      "spectral_centroid": "increase",
+      "spectral_rolloff": "increase"
+    }
+  },
+  "env_hallway_to_cushioned_3h_v1": {
+    "category": "acoustic_environment",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "hallway",
+      "to": "cushioned_room"
+    },
+    "factual": {
+      "video": "env_hallway_to_cushioned_3h_v1_factual.mp4",
+      "caption": "A hand claps repeatedly in a long, open hallway."
+    },
+    "counterfactual": {
+      "video": "env_hallway_to_cushioned_3h_v1_counterfactual.mp4",
+      "caption": "A hand claps repeatedly against a backdrop of a cushioned surface"
+    },
+    "duration": 5.306,
+    "hit_times": [
+      1.660227,
+      3.593288,
+      4.371156
+    ],
+    "expected_metrics": {
+      "rt60": "decrease",
+      "drr": "increase"
+    }
+  },
+  "env_cushioned_to_hallway_3h_v2": {
+    "category": "acoustic_environment",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "cushioned_room",
+      "to": "hallway"
+    },
+    "factual": {
+      "video": "env_cushioned_to_hallway_3h_v2_factual.mp4",
+      "caption": "A hand claps repeatedly against a backdrop of a cushioned surface"
+    },
+    "counterfactual": {
+      "video": "env_cushioned_to_hallway_3h_v2_counterfactual.mp4",
+      "caption": "A hand claps repeatedly in an open hallway"
+    },
+    "duration": 5.072,
+    "hit_times": [
+      0.412154,
+      2.165261,
+      3.854512
+    ],
+    "expected_metrics": {
+      "rt60": "increase",
+      "drr": "decrease",
+      "decay_rate": "decrease"
+    }
+  },
+  "env_hallway_to_cushioned_2h_v3": {
+    "category": "acoustic_environment",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "hallway",
+      "to": "cushioned_room"
+    },
+    "factual": {
+      "video": "env_hallway_to_cushioned_2h_v3_factual.mp4",
+      "caption": "A hand claps repeatedly in a hallway"
+    },
+    "counterfactual": {
+      "video": "env_hallway_to_cushioned_2h_v3_counterfactual.mp4",
+      "caption": "A hand claps repeatedly against a backdrop of a cushioned surface"
+    },
+    "duration": 5.306,
+    "hit_times": [
+      1.654422,
+      4.069297
+    ],
+    "expected_metrics": {
+      "rt60": "decrease",
+      "drr": "increase"
+    }
+  },
+  "env_hallway_consistency_2h_v1": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "env_hallway_consistency_2h_v1.mp4",
+      "caption": "A hand claps repeatedly in a long, open hallway."
+    },
+    "duration": 5.072,
+    "hit_times": [
+      1.660227,
+      3.593288,
+      4.371156
+    ],
+    "expected_metrics": {
+      "rt60": "no_change",
+      "drr": "no_change"
+    }
+  },
+  "env_hallway_consistency_2h_v2": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "env_hallway_consistency_2h_v2.mp4",
+      "caption": "A hand claps repeatedly in an open hallway"
+    },
+    "duration": 5.072,
+    "hit_times": [
+      1.660227,
+      3.593288
+    ],
+    "expected_metrics": {
+      "rt60": "no_change",
+      "drr": "no_change",
+      "spectral_centroid": "no_change"
+    }
+  },
+  "knife_honing_consistency_3h_v1": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "knife_honing_consistency_3h_v1.mp4",
+      "caption": "Sound of a knife stroking against a metal honing steel"
+    },
+    "duration": 4.467,
+    "hit_times": [
+      1.143583,
+      2.292971,
+      3.575873
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "no_change"
+    }
+  },
+  "knife_honing_consistency_3h_v2": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "knife_honing_consistency_3h_v2.mp4",
+      "caption": "Sound of a knife stroking against a metal honing steel"
+    },
+    "duration": 4.467,
+    "hit_times": [
+      1.143583,
+      2.292971,
+      3.575873
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "no_change"
+    }
+  },
+  "striker_1h_10_f0020cf017": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "wooden_rolling_pin",
+      "to": "metal_spoon"
+    },
+    "factual": {
+      "video": "striker_1h_10_f0020cf017_factual.mp4",
+      "caption": "A wooden rolling pin taps a metal cup from the side"
+    },
+    "counterfactual": {
+      "video": "striker_1h_10_f0020cf017_counterfactual.mp4",
+      "caption": "A metal spoon repeatedly tapping a metal cup"
+    },
+    "duration": 4.5,
+    "hit_times": [
+      1.044898
+    ],
+    "expected_metrics": {
+      "attack_time": "decrease",
+      "spectral_centroid": "increase",
+      "spectral_rolloff": "increase"
+    }
+  },
+  "knife_chopping_to_honing_2h": {
+    "category": "interaction_type",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "chopping",
+      "to": "honing"
+    },
+    "factual": {
+      "video": "knife_chopping_to_honing_2h_factual.mp4",
+      "caption": "Sound of a knife chopping cabbage and hitting the wooden cutting board beneath"
+    },
+    "counterfactual": {
+      "video": "knife_chopping_to_honing_2h_counterfactual.mp4",
+      "caption": "Sound of a knife stroking against a metal honing steel"
+    },
+    "duration": 4.5,
+    "hit_times": [
+      2.176871,
+      3.570068
+    ],
+    "expected_metrics": {
+      "attack_time": "increase",
+      "spectral_centroid": "increase",
+      "spectral_rolloff": "increase",
+      "spectral_flux": "decrease"
+    }
+  },
+  "piano_clip_023_ascending": {
+    "category": "direction",
+    "evaluation_method": "single_video",
+    "pattern": "ascending",
+    "factual": {
+      "video": "piano_clip_023_ascending.mp4",
+      "caption": "Ascending piano notes are played in succession"
+    },
+    "duration": 5.839,
+    "hit_times": [
+      0.446984,
+      2.39746,
+      4.260862
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "ascending"
+    },
+    "f0": "pitch"
+  },
+  "piano_clip_026_descending": {
+    "category": "direction",
+    "evaluation_method": "single_video",
+    "pattern": "descending",
+    "factual": {
+      "video": "piano_clip_026_descending.mp4",
+      "caption": "Descending piano keys are played in succession"
+    },
+    "duration": 5.305,
+    "hit_times": [
+      0.957823,
+      2.200091,
+      3.384308
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "descending"
+    },
+    "f0": "pitch"
+  },
+  "piano_clip_027_descending": {
+    "category": "direction",
+    "evaluation_method": "single_video",
+    "pattern": "descending",
+    "factual": {
+      "video": "piano_clip_027_descending.mp4",
+      "caption": "Descending piano keys are played in succession"
+    },
+    "duration": 5.572,
+    "hit_times": [
+      1.242268,
+      2.281361,
+      3.512018
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "descending"
+    },
+    "f0": "pitch"
+  },
+  "piano_clip_029_ascending": {
+    "category": "direction",
+    "evaluation_method": "single_video",
+    "pattern": "ascending",
+    "factual": {
+      "video": "piano_clip_029_ascending.mp4",
+      "caption": "Ascending piano notes are played in succession"
+    },
+    "duration": 5.038,
+    "hit_times": [
+      0.812698,
+      2.020136,
+      3.163719
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "ascending"
+    },
+    "f0": "pitch"
+  },
+  "piano_clip_030_ascending": {
+    "category": "direction",
+    "evaluation_method": "single_video",
+    "pattern": "ascending",
+    "factual": {
+      "video": "piano_clip_030_ascending.mp4",
+      "caption": "Ascending piano notes are played in succession"
+    },
+    "duration": 5.372,
+    "hit_times": [
+      1.735692,
+      2.937324,
+      4.173787
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "ascending"
+    },
+    "f0": "pitch"
+  },
+  "palm_vs_fist_3h": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "open_palm",
+      "to": "closed_fist"
+    },
+    "factual": {
+      "video": "palm_vs_fist_3h_factual.mp4",
+      "caption": "An open-palmed hand smacks the wooden surface of a stool repeatedly"
+    },
+    "counterfactual": {
+      "video": "palm_vs_fist_3h_counterfactual.mp4",
+      "caption": "A fist repeatedly hammers down on a wooden stool surface"
+    },
+    "duration": 5.038,
+    "hit_times": [
+      0.307664,
+      1.097143,
+      2.69932
+    ],
+    "expected_metrics": {
+      "attack_time": "decrease",
+      "spectral_centroid": "decrease",
+      "spectral_rolloff": "decrease"
+    }
+  },
+  "fist_consistency_3h_v1": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "fist_consistency_3h_v1.mp4",
+      "caption": "A fist repeatedly hammers down on a wooden stool surface"
+    },
+    "duration": 5.57,
+    "hit_times": [
+      1.044898,
+      2.472925,
+      4.266667
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "no_change",
+      "attack_time": "no_change",
+      "drr": "no_change"
+    }
+  },
+  "fist_consistency_3h_v2": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "fist_consistency_3h_v2.mp4",
+      "caption": "A fist repeatedly hammers down on a wooden stool surface"
+    },
+    "duration": 5.57,
+    "hit_times": [
+      1.044898,
+      2.472925,
+      4.266667
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "no_change",
+      "attack_time": "no_change",
+      "rt60": "no_change",
+      "drr": "no_change"
+    }
+  },
+  "wooden_stick_consistency_2h_v1": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "wooden_stick_consistency_2h_v1.mp4",
+      "caption": "A wooden stick repeatedly knocking a metal cup"
+    },
+    "duration": 4.2,
+    "hit_times": [
+      0.714014,
+      3.320454
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "no_change",
+      "fundamental_frequency": "no_change",
+      "decay_rate": "no_change",
+      "rt60": "no_change",
+      "drr": "no_change"
+    }
+  },
+  "wooden_stick_consistency_2h_v2": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "wooden_stick_consistency_2h_v2.mp4",
+      "caption": "A wooden stick repeatedly knocking a metal cup"
+    },
+    "duration": 4.2,
+    "hit_times": [
+      0.714014,
+      3.320454
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "no_change",
+      "fundamental_frequency": "no_change"
+    }
+  },
+  "fullness_2h_01_f062cf065": {
+    "category": "fullness",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "empty",
+      "to": "partially_full"
+    },
+    "factual": {
+      "video": "fullness_2h_01_f062cf065_factual.mp4",
+      "caption": "A metal spoon repeatedly taps a large, empty, clear glass jar"
+    },
+    "counterfactual": {
+      "video": "fullness_2h_01_f062cf065_counterfactual.mp4",
+      "caption": "A metal spoon repeatedly taps a large glass jar partially filled with fluid."
+    },
+    "duration": 6.655,
+    "hit_times": [
+      1.271293,
+      5.288345
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "decrease",
+      "decay_rate": "increase",
+      "spectral_centroid": "decrease"
+    }
+  },
+  "fullness_2h_02_f065cf068": {
+    "category": "fullness",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "partially_full",
+      "to": "full"
+    },
+    "factual": {
+      "video": "fullness_2h_02_f065cf068_factual.mp4",
+      "caption": "A metal spoon repeatedly taps a large glass jar partially filled with fluid."
+    },
+    "counterfactual": {
+      "video": "fullness_2h_02_f065cf068_counterfactual.mp4",
+      "caption": "A metal spoon repeatedly taps a large glass jar completely filled with fluid."
+    },
+    "duration": 5.78,
+    "hit_times": [
+      1.718277,
+      3.465578
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "decrease",
+      "decay_rate": "increase",
+      "spectral_centroid": "decrease"
+    }
+  },
+  "fullness_2h_03_f062cf068": {
+    "category": "fullness",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "empty",
+      "to": "full"
+    },
+    "factual": {
+      "video": "fullness_2h_03_f062cf068_factual.mp4",
+      "caption": "A metal spoon repeatedly taps a large, empty, clear glass jar"
+    },
+    "counterfactual": {
+      "video": "fullness_2h_03_f062cf068_counterfactual.mp4",
+      "caption": "A metal spoon repeatedly taps a large glass jar completely filled with fluid."
+    },
+    "duration": 6.655,
+    "hit_times": [
+      1.271293,
+      5.288345
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "decrease",
+      "decay_rate": "increase",
+      "spectral_centroid": "decrease"
+    }
+  },
+  "fullness_3h_01_f059cf064": {
+    "category": "fullness",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "empty",
+      "to": "partially_full"
+    },
+    "factual": {
+      "video": "fullness_3h_01_f059cf064_factual.mp4",
+      "caption": "A metal spoon repeatedly taps a large, empty, clear glass jar"
+    },
+    "counterfactual": {
+      "video": "fullness_3h_01_f059cf064_counterfactual.mp4",
+      "caption": "A metal spoon repeatedly taps a large glass jar partially filled with fluid."
+    },
+    "duration": 7.978,
+    "hit_times": [
+      2.902494,
+      4.504671,
+      6.652517
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "decrease",
+      "decay_rate": "increase",
+      "spectral_centroid": "decrease"
+    }
+  },
+  "fullness_3h_02_f064cf067": {
+    "category": "fullness",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "partially_full",
+      "to": "full"
+    },
+    "factual": {
+      "video": "fullness_3h_02_f064cf067_factual.mp4",
+      "caption": "A metal spoon repeatedly taps a large glass jar partially filled with fluid."
+    },
+    "counterfactual": {
+      "video": "fullness_3h_02_f064cf067_counterfactual.mp4",
+      "caption": "A metal spoon repeatedly taps a large glass jar completely filled with fluid."
+    },
+    "duration": 8.49,
+    "hit_times": [
+      1.503492,
+      3.918367,
+      6.095238
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "decrease",
+      "decay_rate": "increase",
+      "spectral_centroid": "decrease"
+    }
+  },
+  "fullness_3h_03_f059cf067": {
+    "category": "fullness",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "empty",
+      "to": "full"
+    },
+    "factual": {
+      "video": "fullness_3h_03_f059cf067_factual.mp4",
+      "caption": "A metal spoon repeatedly taps a large, empty, clear glass jar"
+    },
+    "counterfactual": {
+      "video": "fullness_3h_03_f059cf067_counterfactual.mp4",
+      "caption": "A metal spoon repeatedly taps a large glass jar completely filled with fluid."
+    },
+    "duration": 7.978,
+    "hit_times": [
+      2.902494,
+      4.504671,
+      6.652517
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "decrease",
+      "decay_rate": "increase",
+      "spectral_centroid": "decrease"
+    }
+  },
+  "fullness_3h_04_f061cf064": {
+    "category": "fullness",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "empty",
+      "to": "partially_full"
+    },
+    "factual": {
+      "video": "fullness_3h_04_f061cf064_factual_cut.mp4",
+      "caption": "A metal spoon repeatedly taps a large, empty, clear glass jar"
+    },
+    "counterfactual": {
+      "video": "fullness_3h_04_f061cf064_counterfactual_cut.mp4",
+      "caption": "A metal spoon repeatedly taps a large glass jar partially filled with fluid."
+    },
+    "duration": 7.37,
+    "hit_times": [
+      1.428027,
+      3.366893,
+      5.787574
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "decrease",
+      "decay_rate": "increase",
+      "spectral_centroid": "decrease"
+    }
+  },
+  "fullness_3h_05_f061cf067": {
+    "category": "fullness",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "empty",
+      "to": "full"
+    },
+    "factual": {
+      "video": "fullness_3h_05_f061cf067_factual_cut.mp4",
+      "caption": "A metal spoon repeatedly taps a large, empty, clear glass jar"
+    },
+    "counterfactual": {
+      "video": "fullness_3h_05_f061cf067_counterfactual_cut.mp4",
+      "caption": "A metal spoon repeatedly taps a large glass jar completely filled with fluid."
+    },
+    "duration": 7.37,
+    "hit_times": [
+      1.428027,
+      3.366893,
+      5.787574
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "decrease",
+      "decay_rate": "increase",
+      "spectral_centroid": "decrease"
+    }
+  },
+  "fullness_consistency_3h_v1": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "fullness_consistency_3h_v1.mp4",
+      "caption": "A metal spoon repeatedly taps a large, empty, clear glass jar"
+    },
+    "duration": 8.959,
+    "hit_times": [
+      1.428027,
+      3.366893,
+      5.787574,
+      7.66839
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "no_change",
+      "spectral_centroid": "no_change",
+      "decay_rate": "no_change",
+      "attack_time": "no_change",
+      "rt60": "no_change",
+      "drr": "no_change"
+    }
+  },
+  "fullness_1h_01_f060cf063": {
+    "category": "fullness",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "empty",
+      "to": "partially_full"
+    },
+    "factual": {
+      "video": "fullness_1h_01_f060cf063_factual.mp4",
+      "caption": "A metal spoon taps a large, empty, clear glass jar"
+    },
+    "counterfactual": {
+      "video": "fullness_1h_01_f060cf063_counterfactual.mp4",
+      "caption": "A metal spoon taps a large glass jar partially filled with fluid."
+    },
+    "duration": 5.173991,
+    "hit_times": [
+      2.71093
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "decrease",
+      "decay_rate": "increase",
+      "spectral_centroid": "decrease"
+    }
+  },
+  "fullness_1h_02_f060cf066": {
+    "category": "fullness",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "empty",
+      "to": "full"
+    },
+    "factual": {
+      "video": "fullness_1h_02_f060cf066_factual.mp4",
+      "caption": "A metal spoon taps a large, empty, clear glass jar"
+    },
+    "counterfactual": {
+      "video": "fullness_1h_02_f060cf066_counterfactual.mp4",
+      "caption": "A metal spoon taps a large glass jar completely filled with fluid."
+    },
+    "duration": 5.173991,
+    "hit_times": [
+      2.71093
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "decrease",
+      "decay_rate": "increase",
+      "spectral_centroid": "decrease"
+    }
+  },
+  "fullness_1h_03_f063cf066": {
+    "category": "fullness",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "partially_full",
+      "to": "full"
+    },
+    "factual": {
+      "video": "fullness_1h_03_f063cf066_factual.mp4",
+      "caption": "A metal spoon taps a large glass jar partially filled with fluid."
+    },
+    "counterfactual": {
+      "video": "fullness_1h_03_f063cf066_counterfactual.mp4",
+      "caption": "A metal spoon taps a large glass jar completely filled with fluid."
+    },
+    "duration": 5.173991,
+    "hit_times": [
+      2.71093
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "decrease",
+      "decay_rate": "increase",
+      "spectral_centroid": "decrease"
+    }
+  },
+  "fullness_1h_04_f063cf069": {
+    "category": "fullness",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "partially_full",
+      "to": "full"
+    },
+    "factual": {
+      "video": "fullness_1h_04_f063cf069_factual.mp4",
+      "caption": "A metal spoon taps a large glass jar partially filled with fluid."
+    },
+    "counterfactual": {
+      "video": "fullness_1h_04_f063cf069_counterfactual.mp4",
+      "caption": "A metal spoon taps a large glass jar completely filled with fluid."
+    },
+    "duration": 5.173991,
+    "hit_times": [
+      2.71093
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "decrease",
+      "decay_rate": "increase",
+      "spectral_centroid": "decrease"
+    }
+  },
+  "texture_3h_01_f077cf081": {
+    "category": "surface_texture",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "wooden_floor",
+      "to": "carpet"
+    },
+    "factual": {
+      "video": "texture_3h_01_f077cf081_factual.mp4",
+      "caption": "A rubber slipper repeatedly taps a wooden floor"
+    },
+    "counterfactual": {
+      "video": "texture_3h_01_f077cf081_counterfactual.mp4",
+      "caption": "A rubber slipper repeatedly taps a carpeted floor"
+    },
+    "duration": 5.418,
+    "hit_times": [
+      0.992653,
+      2.519365,
+      4.365351
+    ],
+    "expected_metrics": {
+      "attack_time": "increase",
+      "spectral_centroid": "decrease",
+      "decay_rate": "increase",
+      "spectral_rolloff": "decrease",
+      "spectral_flux": "decrease"
+    }
+  },
+  "texture_2h_02_f079cf083": {
+    "category": "surface_texture",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "wooden_floor",
+      "to": "hollow_cardboard"
+    },
+    "factual": {
+      "video": "texture_2h_02_f079cf083_factual.mp4",
+      "caption": "A rubber slipper repeatedly taps a wooden floor"
+    },
+    "counterfactual": {
+      "video": "texture_2h_02_f079cf083_counterfactual.mp4",
+      "caption": "A rubber slipper repeatedly taps a hollow-sounding cardboard structure"
+    },
+    "duration": 7.594,
+    "hit_times": [
+      1.004263,
+      5.056145
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "decrease",
+      "decay_rate": "decrease",
+      "spectral_rolloff": "decrease"
+    }
+  },
+  "texture_3h_02_f077cf082": {
+    "category": "surface_texture",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "wooden_floor",
+      "to": "hollow_cardboard"
+    },
+    "factual": {
+      "video": "texture_3h_02_f077cf082_factual.mp4",
+      "caption": "A rubber slipper repeatedly taps a wooden floor"
+    },
+    "counterfactual": {
+      "video": "texture_3h_02_f077cf082_counterfactual.mp4",
+      "caption": "A rubber slipper repeatedly taps a hollow-sounding cardboard structure"
+    },
+    "duration": 5.418,
+    "hit_times": [
+      0.992653,
+      2.519365,
+      4.365351
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "decrease",
+      "decay_rate": "decrease",
+      "spectral_rolloff": "decrease"
+    }
+  },
+  "texture_1h_01_f088cf089": {
+    "category": "surface_texture",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "wooden_floor",
+      "to": "carpet"
+    },
+    "factual": {
+      "video": "texture_1h_01_f088cf089_factual.mp4",
+      "caption": "A rubber slipper is used to smack the wooden floor"
+    },
+    "counterfactual": {
+      "video": "texture_1h_01_f088cf089_counterfactual.mp4",
+      "caption": "A rubber slipper is used to smack a carpeted floor"
+    },
+    "duration": 5.816009,
+    "hit_times": [
+      2.176871
+    ],
+    "expected_metrics": {
+      "attack_time": "increase",
+      "spectral_centroid": "decrease",
+      "decay_rate": "increase",
+      "spectral_rolloff": "decrease",
+      "spectral_flux": "decrease"
+    }
+  },
+  "texture_1h_02_f091cf090": {
+    "category": "surface_texture",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "wooden_floor",
+      "to": "hollow_cardboard"
+    },
+    "factual": {
+      "video": "texture_1h_02_f091cf090_factual.mp4",
+      "caption": "A rubber slipper is used to smack the wooden floor"
+    },
+    "counterfactual": {
+      "video": "texture_1h_02_f091cf090_counterfactual.mp4",
+      "caption": "A rubber slipper is used to smack a hollow-sounding cardboard structure"
+    },
+    "duration": 6.36,
+    "hit_times": [
+      3.912562
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "decrease",
+      "decay_rate": "decrease",
+      "spectral_rolloff": "decrease"
+    }
+  },
+  "texture_1h_03_f092cf093": {
+    "category": "surface_texture",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "carpet",
+      "to": "hollow_cardboard"
+    },
+    "factual": {
+      "video": "texture_1h_03_f092cf093_factual.mp4",
+      "caption": "A rubber slipper is used to smack a carpeted floor"
+    },
+    "counterfactual": {
+      "video": "texture_1h_03_f092cf093_counterfactual.mp4",
+      "caption": "A rubber slipper is used to smack a hollow-sounding cardboard structure"
+    },
+    "duration": 5.912993,
+    "hit_times": [
+      2.014331
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "increase",
+      "spectral_rolloff": "increase",
+      "attack_time": "decrease",
+      "decay_rate": "decrease",
+      "spectral_flux": "increase"
+    }
+  },
+  "config_2h_01_f071cf073": {
+    "category": "interaction_type",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "free_hanging",
+      "to": "surface_constrained"
+    },
+    "factual": {
+      "video": "config_2h_01_f071cf073_factual.mp4",
+      "caption": "A metal stick hits another dangling metal stick"
+    },
+    "counterfactual": {
+      "video": "config_2h_01_f071cf073_counterfactual.mp4",
+      "caption": "A metal stick hits a protruding end of another metal stick that is lying flat on a wooden surface."
+    },
+    "duration": 7.06,
+    "hit_times": [
+      2.083991,
+      5.021315
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "decrease"
+    }
+  },
+  "interaction_1h_01_f070cf072": {
+    "category": "interaction_type",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "free_hanging",
+      "to": "surface_constrained"
+    },
+    "factual": {
+      "video": "interaction_1h_01_f070cf072_factual.mp4",
+      "caption": "A metal stick hits another dangling metal stick"
+    },
+    "counterfactual": {
+      "video": "interaction_1h_01_f070cf072_counterfactual.mp4",
+      "caption": "A metal stick hits a protruding end of another metal stick that is lying flat on a wooden surface."
+    },
+    "duration": 5.320998,
+    "hit_times": [
+      2.223311
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "decrease"
+    }
+  },
+  "scraping_1h_01_f085cf087": {
+    "category": "surface",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "cardboard_lid",
+      "to": "metal_stick"
+    },
+    "factual": {
+      "video": "scraping_1h_01_f085cf087_factual.mp4",
+      "caption": "A metal spoon scrapes the bottom of a cardboard lid"
+    },
+    "counterfactual": {
+      "video": "scraping_1h_01_f085cf087_counterfactual.mp4",
+      "caption": "A metal spoon scrapes along a metal stick"
+    },
+    "duration": 5.155011,
+    "hit_times": [
+      1.085533
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "increase",
+      "spectral_flux": "increase",
+      "spectral_rolloff": "increase"
+    }
+  },
+  "scraping_1h_02_f086cf087": {
+    "category": "surface",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "cardboard_lid",
+      "to": "metal_stick"
+    },
+    "factual": {
+      "video": "scraping_1h_02_f086cf087_factual.mp4",
+      "caption": "A metal spoon scrapes the sidewall of a cardboard lid"
+    },
+    "counterfactual": {
+      "video": "scraping_1h_02_f086cf087_counterfactual.mp4",
+      "caption": "A metal spoon scrapes along a metal stick"
+    },
+    "duration": 5.155011,
+    "hit_times": [
+      1.108753
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "increase",
+      "spectral_flux": "increase",
+      "spectral_rolloff": "increase"
+    }
+  },
+  "stairwell_consistency_2h_v1": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "stairwell_consistency_2h_v1.mp4",
+      "caption": "A hand claps against a backdrop of a stairwell"
+    },
+    "duration": 5.311,
+    "hit_times": [
+      1.073923,
+      3.215964
+    ],
+    "expected_metrics": {
+      "rt60": "no_change",
+      "spectral_centroid": "no_change",
+      "attack_time": "no_change",
+      "drr": "no_change"
+    }
+  },
+  "stairwell_consistency_3h_v2": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "stairwell_consistency_3h_v2.mp4",
+      "caption": "A hand claps against a backdrop of a stairwell"
+    },
+    "duration": 6.079,
+    "hit_times": [
+      1.131973,
+      2.59483,
+      3.947392
+    ],
+    "expected_metrics": {
+      "rt60": "no_change",
+      "spectral_centroid": "no_change",
+      "attack_time": "no_change",
+      "decay_rate": "no_change"
+    }
+  },
+  "stairwell_consistency_3h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "stairwell_consistency_3h.mp4",
+      "caption": "A hand claps against a backdrop of a stairwell"
+    },
+    "duration": 6.484,
+    "hit_times": [
+      0.760454,
+      3.192744,
+      5.14322
+    ],
+    "expected_metrics": {
+      "rt60": "no_change",
+      "spectral_centroid": "no_change",
+      "attack_time": "no_change",
+      "decay_rate": "no_change"
+    }
+  },
+  "env_stairwell_to_cushioned_2h": {
+    "category": "acoustic_environment",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "stairwell",
+      "to": "cushioned_room"
+    },
+    "factual": {
+      "video": "env_stairwell_to_cushioned_2h_factual.mp4",
+      "caption": "A hand claps against a backdrop of a stairwell"
+    },
+    "counterfactual": {
+      "video": "env_stairwell_to_cushioned_2h_counterfactual.mp4",
+      "caption": "A hand claps repeatedly against a backdrop of a cushioned surface"
+    },
+    "duration": 5.311,
+    "hit_times": [
+      1.073923,
+      3.215964
+    ],
+    "expected_metrics": {
+      "rt60": "decrease",
+      "drr": "increase",
+      "decay_rate": "increase"
+    }
+  },
+  "env_stairwell_to_cushioned_3h": {
+    "category": "acoustic_environment",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "stairwell",
+      "to": "cushioned_room"
+    },
+    "factual": {
+      "video": "env_stairwell_to_cushioned_3h_factual.mp4",
+      "caption": "A hand claps against a backdrop of a stairwell"
+    },
+    "counterfactual": {
+      "video": "env_stairwell_to_cushioned_3h_counterfactual.mp4",
+      "caption": "A hand claps repeatedly against a backdrop of a cushioned surface"
+    },
+    "duration": 6.484,
+    "hit_times": [
+      0.760454,
+      3.192744,
+      5.14322
+    ],
+    "expected_metrics": {
+      "rt60": "decrease",
+      "drr": "increase"
+    }
+  },
+  "env_cushioned_to_stairwell_3h_v1": {
+    "category": "acoustic_environment",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "cushioned_room",
+      "to": "stairwell"
+    },
+    "factual": {
+      "video": "env_cushioned_to_stairwell_3h_v1_factual.mp4",
+      "caption": "A hand claps repeatedly against a backdrop of a cushioned surface"
+    },
+    "counterfactual": {
+      "video": "env_cushioned_to_stairwell_3h_v1_counterfactual.mp4",
+      "caption": "A hand claps against a backdrop of a stairwell"
+    },
+    "duration": 5.306,
+    "hit_times": [
+      0.412154,
+      2.165261,
+      3.854512
+    ],
+    "expected_metrics": {
+      "rt60": "increase",
+      "drr": "decrease",
+      "decay_rate": "decrease"
+    }
+  },
+  "env_cushioned_to_stairwell_3h_v2": {
+    "category": "acoustic_environment",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "cushioned_room",
+      "to": "stairwell"
+    },
+    "factual": {
+      "video": "env_cushioned_to_stairwell_3h_v2_factual.mp4",
+      "caption": "A hand claps repeatedly against a backdrop of a cushioned surface"
+    },
+    "counterfactual": {
+      "video": "env_cushioned_to_stairwell_3h_v2_counterfactual.mp4",
+      "caption": "A hand claps against a backdrop of a stairwell"
+    },
+    "duration": 5.306,
+    "hit_times": [
+      0.412154,
+      2.165261,
+      3.854512
+    ],
+    "expected_metrics": {
+      "rt60": "increase",
+      "drr": "decrease",
+      "decay_rate": "decrease"
+    }
+  },
+  "wood_floor_consistency_2h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "wood_floor_consistency_2h.mp4",
+      "caption": "A rubber slipper repeatedly taps a wooden floor"
+    },
+    "duration": 7.594,
+    "hit_times": [
+      1.004263,
+      5.056145
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "no_change",
+      "attack_time": "no_change",
+      "decay_rate": "no_change",
+      "rt60": "no_change"
+    }
+  },
+  "wood_floor_consistency_3h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "wood_floor_consistency_3h.mp4",
+      "caption": "A rubber slipper repeatedly taps a wooden floor"
+    },
+    "duration": 5.418,
+    "hit_times": [
+      0.992653,
+      2.519365,
+      4.365351
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "no_change",
+      "attack_time": "no_change",
+      "decay_rate": "no_change",
+      "rt60": "no_change"
+    }
+  },
+  "cardboard_consistency_2h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "cardboard_consistency_2h.mp4",
+      "caption": "A rubber slipper repeatedly taps a hollow-sounding cardboard structure"
+    },
+    "duration": 6.207,
+    "hit_times": [
+      1.311927,
+      4.702041
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "no_change",
+      "attack_time": "no_change",
+      "decay_rate": "no_change",
+      "rt60": "no_change",
+      "drr": "no_change"
+    }
+  },
+  "cardboard_consistency_3h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "cardboard_consistency_3h.mp4",
+      "caption": "A rubber slipper repeatedly taps a hollow-sounding cardboard structure"
+    },
+    "duration": 7.124,
+    "hit_times": [
+      2.113016,
+      3.750023,
+      5.416054
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "no_change",
+      "attack_time": "no_change",
+      "decay_rate": "no_change",
+      "rt60": "no_change",
+      "drr": "no_change"
+    }
+  },
+  "carpet_consistency_3h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "carpet_consistency_3h.mp4",
+      "caption": "A rubber slipper repeatedly taps a carpeted floor"
+    },
+    "duration": 7.295,
+    "hit_times": [
+      1.468662,
+      4.063492,
+      6.548027
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "no_change",
+      "attack_time": "no_change",
+      "decay_rate": "no_change",
+      "drr": "no_change"
+    }
+  },
+  "empty_jar_consistency_2h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "empty_jar_consistency_2h.mp4",
+      "caption": "A metal spoon repeatedly taps a large, empty, clear glass jar"
+    },
+    "duration": 6.655,
+    "hit_times": [
+      1.271293,
+      5.288345
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "no_change",
+      "spectral_centroid": "no_change",
+      "decay_rate": "no_change",
+      "rt60": "no_change",
+      "drr": "no_change"
+    }
+  },
+  "empty_jar_consistency_3h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "empty_jar_consistency_3h.mp4",
+      "caption": "A metal spoon repeatedly taps a large, empty, clear glass jar"
+    },
+    "duration": 7.978,
+    "hit_times": [
+      2.902494,
+      4.504671,
+      6.652517
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "no_change",
+      "spectral_centroid": "no_change",
+      "decay_rate": "no_change",
+      "rt60": "no_change",
+      "drr": "no_change"
+    }
+  },
+  "partial_jar_consistency_2h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "partial_jar_consistency_2h.mp4",
+      "caption": "A metal spoon repeatedly taps a large glass jar partially filled with fluid."
+    },
+    "duration": 5.78,
+    "hit_times": [
+      1.718277,
+      3.465578
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "no_change",
+      "spectral_centroid": "no_change",
+      "decay_rate": "no_change",
+      "rt60": "no_change",
+      "drr": "no_change"
+    }
+  },
+  "partial_jar_consistency_3h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "partial_jar_consistency_3h.mp4",
+      "caption": "A metal spoon repeatedly taps a large glass jar partially filled with fluid."
+    },
+    "duration": 8.49,
+    "hit_times": [
+      1.503492,
+      3.918367,
+      6.095238
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "no_change",
+      "spectral_centroid": "no_change",
+      "decay_rate": "no_change",
+      "attack_time": "no_change"
+    }
+  },
+  "full_jar_consistency_2h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "full_jar_consistency_2h.mp4",
+      "caption": "A metal spoon repeatedly taps a large glass jar completely filled with fluid."
+    },
+    "duration": 9.812,
+    "hit_times": [
+      3.895147,
+      6.698957
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "no_change",
+      "spectral_centroid": "no_change",
+      "decay_rate": "no_change"
+    }
+  },
+  "full_jar_consistency_3h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "full_jar_consistency_3h.mp4",
+      "caption": "A metal spoon repeatedly taps a large glass jar completely filled with fluid."
+    },
+    "duration": 9.578,
+    "hit_times": [
+      2.46712,
+      5.21288,
+      7.801905
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "no_change",
+      "spectral_centroid": "no_change",
+      "decay_rate": "no_change",
+      "rt60": "no_change",
+      "drr": "no_change"
+    }
+  },
+  "metal_stick_consistency_2h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "metal_stick_consistency_2h.mp4",
+      "caption": "A metal stick hits another dangling metal stick"
+    },
+    "duration": 7.06,
+    "hit_times": [
+      2.083991,
+      5.021315
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "no_change",
+      "decay_rate": "no_change",
+      "attack_time": "no_change"
+    }
+  },
+  "guitar_clip_094_ascending": {
+    "category": "direction",
+    "evaluation_method": "single_video",
+    "pattern": "ascending",
+    "factual": {
+      "video": "guitar_clip_094_ascending.mp4",
+      "caption": "A man plays a sequence of ascending notes on a guitar"
+    },
+    "duration": 7.541,
+    "hit_times": [
+      1.091338,
+      2.977959,
+      4.562721,
+      6.228753
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "ascending"
+    },
+    "f0": "pitch"
+  },
+  "guitar_clip_095_ascending": {
+    "category": "direction",
+    "evaluation_method": "single_video",
+    "pattern": "ascending",
+    "factual": {
+      "video": "guitar_clip_095_ascending.mp4",
+      "caption": "A man plays a sequence of ascending notes on a guitar"
+    },
+    "duration": 7.908,
+    "hit_times": [
+      0.661769,
+      2.321995,
+      4.086712,
+      5.961723
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "ascending"
+    },
+    "f0": "pitch"
+  },
+  "guitar_clip_096_ascending": {
+    "category": "direction",
+    "evaluation_method": "single_video",
+    "pattern": "ascending",
+    "factual": {
+      "video": "guitar_clip_096_ascending.mp4",
+      "caption": "A man plays a sequence of ascending notes on a guitar"
+    },
+    "duration": 9.142,
+    "hit_times": [
+      1.091338,
+      2.890884,
+      4.893605,
+      6.844082
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "ascending"
+    },
+    "f0": "pitch"
+  },
+  "guitar_clip_100_ascending": {
+    "category": "direction",
+    "evaluation_method": "single_video",
+    "pattern": "ascending",
+    "factual": {
+      "video": "guitar_clip_100_ascending.mp4",
+      "caption": "A man plays a sequence of ascending notes on a guitar"
+    },
+    "duration": 8.976,
+    "hit_times": [
+      1.282902,
+      2.914104,
+      4.400181,
+      6.112653
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "ascending"
+    },
+    "f0": "pitch"
+  },
+  "guitar_clip_101_ascending": {
+    "category": "direction",
+    "evaluation_method": "single_video",
+    "pattern": "ascending",
+    "factual": {
+      "video": "guitar_clip_101_ascending.mp4",
+      "caption": "A man plays a sequence of ascending notes on a guitar"
+    },
+    "duration": 8.642,
+    "hit_times": [
+      1.671837,
+      3.274014,
+      4.94585,
+      6.669932
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "ascending"
+    },
+    "f0": "pitch"
+  },
+  "guitar_clip_097_descending": {
+    "category": "direction",
+    "evaluation_method": "single_video",
+    "pattern": "descending",
+    "factual": {
+      "video": "guitar_clip_097_descending.mp4",
+      "caption": "A man plays a sequence of descending notes on a guitar"
+    },
+    "duration": 8.175,
+    "hit_times": [
+      1.950476,
+      3.488798,
+      5.14322,
+      6.739592
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "descending"
+    },
+    "f0": "pitch"
+  },
+  "guitar_clip_098_descending": {
+    "category": "direction",
+    "evaluation_method": "single_video",
+    "pattern": "descending",
+    "factual": {
+      "video": "guitar_clip_098_descending.mp4",
+      "caption": "A man plays a sequence of descending notes on a guitar"
+    },
+    "duration": 8.008,
+    "hit_times": [
+      0.632744,
+      2.39746,
+      4.127347,
+      6.008163
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "descending"
+    },
+    "f0": "pitch"
+  },
+  "guitar_clip_099_descending": {
+    "category": "direction",
+    "evaluation_method": "single_video",
+    "pattern": "descending",
+    "factual": {
+      "video": "guitar_clip_099_descending.mp4",
+      "caption": "A man plays a sequence of descending notes on a guitar"
+    },
+    "duration": 7.574,
+    "hit_times": [
+      0.650159,
+      2.229116,
+      3.935782,
+      5.671474
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "descending"
+    },
+    "f0": "pitch"
+  },
+  "guitar_clip_102_descending": {
+    "category": "direction",
+    "evaluation_method": "single_video",
+    "pattern": "descending",
+    "factual": {
+      "video": "guitar_clip_102_descending.mp4",
+      "caption": "A man plays a sequence of descending notes on a guitar"
+    },
+    "duration": 8.675,
+    "hit_times": [
+      1.433832,
+      2.896689,
+      4.440816,
+      6.170703
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "descending"
+    },
+    "f0": "pitch"
+  },
+  "striker_1h_01_f104cf106": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "metal_spatula",
+      "to": "wooden_spatula"
+    },
+    "factual": {
+      "video": "striker_1h_01_f104cf106_factual.mp4",
+      "caption": "A metal spatula scrapes the surface of a cast iron pan"
+    },
+    "counterfactual": {
+      "video": "striker_1h_01_f104cf106_counterfactual.mp4",
+      "caption": "A wooden spatula scrapes the surface of a cast iron pan"
+    },
+    "duration": 8.676442000000002,
+    "hit_times": [
+      4.655601
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "decrease",
+      "spectral_rolloff": "decrease"
+    }
+  },
+  "striker_1h_02_f104cf107": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "metal_spatula",
+      "to": "wooden_spatula"
+    },
+    "factual": {
+      "video": "striker_1h_02_f104cf107_factual.mp4",
+      "caption": "A metal spatula scrapes the surface of a cast iron pan"
+    },
+    "counterfactual": {
+      "video": "striker_1h_02_f104cf107_counterfactual.mp4",
+      "caption": "A wooden spatula scrapes the surface of a cast iron pan"
+    },
+    "duration": 8.554537,
+    "hit_times": [
+      4.533696
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "decrease",
+      "spectral_rolloff": "decrease"
+    }
+  },
+  "striker_1h_03_f105cf106": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "metal_spatula",
+      "to": "wooden_spatula"
+    },
+    "factual": {
+      "video": "striker_1h_03_f105cf106_factual.mp4",
+      "caption": "A metal spatula scrapes the surface of a cast iron pan"
+    },
+    "counterfactual": {
+      "video": "striker_1h_03_f105cf106_counterfactual.mp4",
+      "caption": "A wooden spatula scrapes the surface of a cast iron pan"
+    },
+    "duration": 9.172522,
+    "hit_times": [
+      4.655601
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "decrease",
+      "spectral_rolloff": "decrease"
+    }
+  },
+  "striker_1h_04_f105cf107": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "metal_spatula",
+      "to": "wooden_spatula"
+    },
+    "factual": {
+      "video": "striker_1h_04_f105cf107_factual.mp4",
+      "caption": "A metal spatula scrapes the surface of a cast iron pan"
+    },
+    "counterfactual": {
+      "video": "striker_1h_04_f105cf107_counterfactual.mp4",
+      "caption": "A wooden spatula scrapes the surface of a cast iron pan"
+    },
+    "duration": 9.050616999999999,
+    "hit_times": [
+      4.533696
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "decrease",
+      "spectral_rolloff": "decrease"
+    }
+  },
+  "striker_2h_01_f111cf113": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "metal_spatula",
+      "to": "wooden_spatula"
+    },
+    "factual": {
+      "video": "striker_2h_01_f111cf113_factual.mp4",
+      "caption": "A metal spatula repeatedly scrapes the surface of a cast iron pan"
+    },
+    "counterfactual": {
+      "video": "striker_2h_01_f111cf113_counterfactual.mp4",
+      "caption": "A wooden spatula repeatedly scrapes the surface of a cast iron pan"
+    },
+    "duration": 6.548,
+    "hit_times": [
+      1.158,
+      4.336327
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "decrease",
+      "spectral_rolloff": "decrease"
+    }
+  },
+  "striker_2h_02_f112cf113": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "metal_spatula",
+      "to": "wooden_spatula"
+    },
+    "factual": {
+      "video": "striker_2h_02_f112cf113_factual.mp4",
+      "caption": "A metal spatula repeatedly scrapes the surface of a cast iron pan"
+    },
+    "counterfactual": {
+      "video": "striker_2h_02_f112cf113_counterfactual.mp4",
+      "caption": "A wooden spatula repeatedly scrapes the surface of a cast iron pan"
+    },
+    "duration": 6.548,
+    "hit_times": [
+      3.430748,
+      5.090975
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "decrease",
+      "spectral_rolloff": "decrease"
+    }
+  },
+  "striker_2h_03_f113cf111": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "wooden_spatula",
+      "to": "metal_spatula"
+    },
+    "factual": {
+      "video": "striker_2h_03_f113cf111_factual.mp4",
+      "caption": "A wooden spatula repeatedly scrapes the surface of a cast iron pan"
+    },
+    "counterfactual": {
+      "video": "striker_2h_03_f113cf111_counterfactual.mp4",
+      "caption": "A metal spatula repeatedly scrapes the surface of a cast iron pan"
+    },
+    "duration": 6.548,
+    "hit_times": [
+      2.838639,
+      4.289887
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "increase",
+      "spectral_rolloff": "increase"
+    }
+  },
+  "striker_3h_01_f110cf115": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "metal_spatula",
+      "to": "wooden_spatula"
+    },
+    "factual": {
+      "video": "striker_3h_01_f110cf115_factual.mp4",
+      "caption": "A metal spatula repeatedly scrapes the surface of a cast iron pan"
+    },
+    "counterfactual": {
+      "video": "striker_3h_01_f110cf115_counterfactual.mp4",
+      "caption": "A wooden spatula repeatedly scrapes the surface of a cast iron pan"
+    },
+    "duration": 7.892,
+    "hit_times": [
+      1.967891,
+      4.458231,
+      6.913741
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "decrease",
+      "spectral_rolloff": "decrease"
+    }
+  },
+  "striker_3h_02_f110cf114": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "metal_spatula",
+      "to": "wooden_spatula"
+    },
+    "factual": {
+      "video": "striker_3h_02_f110cf114_factual.mp4",
+      "caption": "A metal spatula repeatedly scrapes the surface of a cast iron pan"
+    },
+    "counterfactual": {
+      "video": "striker_3h_02_f110cf114_counterfactual.mp4",
+      "caption": "A wooden spatula repeatedly scrapes the surface of a cast iron pan"
+    },
+    "duration": 7.743,
+    "hit_times": [
+      1.967891,
+      4.458231,
+      6.913741
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "decrease",
+      "spectral_rolloff": "decrease"
+    }
+  },
+  "striker_3h_03_f115cf110": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "wooden_spatula",
+      "to": "metal_spatula"
+    },
+    "factual": {
+      "video": "striker_3h_03_f115cf110_factual.mp4",
+      "caption": "A wooden spatula repeatedly scrapes the surface of a cast iron pan"
+    },
+    "counterfactual": {
+      "video": "striker_3h_03_f115cf110_counterfactual.mp4",
+      "caption": "A metal spatula repeatedly scrapes the surface of a cast iron pan"
+    },
+    "duration": 7.892,
+    "hit_times": [
+      2.827029,
+      3.813878,
+      4.986485
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "increase",
+      "spectral_rolloff": "increase"
+    }
+  },
+  "scraping_1h_01_f104cf108": {
+    "category": "scraper_type",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "metal_spatula",
+      "to": "dish_sponge"
+    },
+    "factual": {
+      "video": "scraping_1h_01_f104cf108_factual.mp4",
+      "caption": "A metal spatula scrapes the surface of a cast iron pan"
+    },
+    "counterfactual": {
+      "video": "scraping_1h_01_f104cf108_counterfactual.mp4",
+      "caption": "The rough side of a dish sponge scrubs across the surface of a cast iron pan"
+    },
+    "duration": 8.717077,
+    "hit_times": [
+      4.696236
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "decrease",
+      "spectral_flux": "decrease"
+    }
+  },
+  "scraping_1h_02_f105cf109": {
+    "category": "scraper_type",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "metal_spatula",
+      "to": "dish_sponge"
+    },
+    "factual": {
+      "video": "scraping_1h_02_f105cf109_factual.mp4",
+      "caption": "A metal spatula scrapes the surface of a cast iron pan"
+    },
+    "counterfactual": {
+      "video": "scraping_1h_02_f105cf109_counterfactual.mp4",
+      "caption": "The rough side of a dish sponge scrubs across the surface of a cast iron pan"
+    },
+    "duration": 8.426,
+    "hit_times": [
+      4.220227
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "decrease",
+      "spectral_flux": "decrease"
+    }
+  },
+  "scraping_1h_03_f106cf108": {
+    "category": "scraper_type",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "wooden_spatula",
+      "to": "dish_sponge"
+    },
+    "factual": {
+      "video": "scraping_1h_03_f106cf108_factual.mp4",
+      "caption": "A wooden spatula scrapes the surface of a cast iron pan"
+    },
+    "counterfactual": {
+      "video": "scraping_1h_03_f106cf108_counterfactual.mp4",
+      "caption": "The rough side of a dish sponge scrubs across the surface of a cast iron pan"
+    },
+    "duration": 9.537365,
+    "hit_times": [
+      4.655601
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "decrease",
+      "spectral_flux": "decrease"
+    }
+  },
+  "scraping_1h_04_f107cf109": {
+    "category": "scraper_type",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "wooden_spatula",
+      "to": "dish_sponge"
+    },
+    "factual": {
+      "video": "scraping_1h_04_f107cf109_factual.mp4",
+      "caption": "A wooden spatula scrapes the surface of a cast iron pan"
+    },
+    "counterfactual": {
+      "video": "scraping_1h_04_f107cf109_counterfactual.mp4",
+      "caption": "The rough side of a dish sponge scrubs across the surface of a cast iron pan"
+    },
+    "duration": 8.426,
+    "hit_times": [
+      4.220227
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "decrease",
+      "spectral_flux": "decrease"
+    }
+  },
+  "scraping_2h_01_f113cf116": {
+    "category": "scraper_type",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "wooden_spatula",
+      "to": "dish_sponge"
+    },
+    "factual": {
+      "video": "scraping_2h_01_f113cf116_factual.mp4",
+      "caption": "A wooden spatula repeatedly scrapes the surface of a cast iron pan"
+    },
+    "counterfactual": {
+      "video": "scraping_2h_01_f113cf116_counterfactual.mp4",
+      "caption": "The rough side of a dish sponge repeatedly scrubs across the surface of a cast iron pan"
+    },
+    "duration": 6.548,
+    "hit_times": [
+      2.838639,
+      4.289887
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "decrease",
+      "spectral_flux": "decrease",
+      "temporal_modulation": "decrease"
+    }
+  },
+  "scraping_2h_02_f116cf113": {
+    "category": "scraper_type",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "dish_sponge",
+      "to": "wooden_spatula"
+    },
+    "factual": {
+      "video": "scraping_2h_02_f116cf113_factual.mp4",
+      "caption": "The rough side of a dish sponge repeatedly scrubs across the surface of a cast iron pan"
+    },
+    "counterfactual": {
+      "video": "scraping_2h_02_f116cf113_counterfactual.mp4",
+      "caption": "A wooden spatula repeatedly scrapes the surface of a cast iron pan"
+    },
+    "duration": 6.548,
+    "hit_times": [
+      3.163719,
+      4.138957
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "increase",
+      "spectral_flux": "increase",
+      "temporal_modulation": "increase"
+    }
+  },
+  "scraping_3h_01_f115cf117": {
+    "category": "scraper_type",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "wooden_spatula",
+      "to": "dish_sponge"
+    },
+    "factual": {
+      "video": "scraping_3h_01_f115cf117_factual.mp4",
+      "caption": "A wooden spatula repeatedly scrapes the surface of a cast iron pan"
+    },
+    "counterfactual": {
+      "video": "scraping_3h_01_f115cf117_counterfactual.mp4",
+      "caption": "The rough side of a dish sponge repeatedly scrubs across the surface of a cast iron pan"
+    },
+    "duration": 7.146,
+    "hit_times": [
+      2.827029,
+      3.813878,
+      4.986485
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "decrease",
+      "spectral_flux": "decrease",
+      "temporal_modulation": "decrease"
+    }
+  },
+  "scraping_3h_02_f115cf118": {
+    "category": "scraper_type",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "wooden_spatula",
+      "to": "dish_sponge"
+    },
+    "factual": {
+      "video": "scraping_3h_02_f115cf118_factual_cut.mp4",
+      "caption": "A wooden spatula repeatedly scrapes the surface of a cast iron pan"
+    },
+    "counterfactual": {
+      "video": "scraping_3h_02_f115cf118_counterfactual_cut.mp4",
+      "caption": "The rough side of a dish sponge repeatedly scrubs across the surface of a cast iron pan"
+    },
+    "duration": 5.89,
+    "hit_times": [
+      2.827029,
+      3.813878,
+      4.986485
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "decrease",
+      "spectral_flux": "decrease",
+      "temporal_modulation": "decrease"
+    }
+  },
+  "scraping_3h_03_f117cf115": {
+    "category": "scraper_type",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "dish_sponge",
+      "to": "wooden_spatula"
+    },
+    "factual": {
+      "video": "scraping_3h_03_f117cf115_factual.mp4",
+      "caption": "The rough side of a dish sponge repeatedly scrubs across the surface of a cast iron pan"
+    },
+    "counterfactual": {
+      "video": "scraping_3h_03_f117cf115_counterfactual.mp4",
+      "caption": "A wooden spatula repeatedly scrapes the surface of a cast iron pan"
+    },
+    "duration": 7.146,
+    "hit_times": [
+      2.56,
+      3.668753,
+      4.713651
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "increase",
+      "spectral_flux": "increase",
+      "temporal_modulation": "increase"
+    }
+  },
+  "config_1h_01_f120cf122": {
+    "category": "configuration",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "pan_suspended",
+      "to": "pan_on_stove"
+    },
+    "factual": {
+      "video": "config_1h_01_f120cf122_factual.mp4",
+      "caption": "A wooden spatula taps the surface of a cast iron pan suspended in mid-air"
+    },
+    "counterfactual": {
+      "video": "config_1h_01_f120cf122_counterfactual.mp4",
+      "caption": "A wooden spatula taps the surface of a cast iron pan sitting on the stove"
+    },
+    "duration": 9.709585,
+    "hit_times": [
+      5.032925
+    ],
+    "expected_metrics": {
+      "decay_rate": "increase",
+      "temporal_modulation": "decrease"
+    }
+  },
+  "config_2h_01_f119cf123": {
+    "category": "configuration",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "pan_suspended",
+      "to": "pan_on_stove"
+    },
+    "factual": {
+      "video": "config_2h_01_f119cf123_factual.mp4",
+      "caption": "A wooden spatula repeatedly taps the surface of a cast iron pan suspended in mid-air"
+    },
+    "counterfactual": {
+      "video": "config_2h_01_f119cf123_counterfactual.mp4",
+      "caption": "A wooden spatula repeatedly taps the surface of a cast iron pan sitting on the stove"
+    },
+    "duration": 6.89,
+    "hit_times": [
+      2.977959,
+      6.159093
+    ],
+    "expected_metrics": {
+      "decay_rate": "increase"
+    }
+  },
+  "config_2h_02_f121cf123": {
+    "category": "configuration",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "pan_suspended",
+      "to": "pan_on_stove"
+    },
+    "factual": {
+      "video": "config_2h_02_f121cf123_factual.mp4",
+      "caption": "A wooden spatula repeatedly taps the surface of a cast iron pan suspended in mid-air"
+    },
+    "counterfactual": {
+      "video": "config_2h_02_f121cf123_counterfactual.mp4",
+      "caption": "A wooden spatula repeatedly taps the surface of a cast iron pan sitting on the stove"
+    },
+    "duration": 6.89,
+    "hit_times": [
+      3.691973,
+      5.462494
+    ],
+    "expected_metrics": {
+      "decay_rate": "increase"
+    }
+  },
+  "config_2h_03_f119cf124": {
+    "category": "configuration",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "pan_suspended",
+      "to": "pan_on_stove"
+    },
+    "factual": {
+      "video": "config_2h_03_f119cf124_factual.mp4",
+      "caption": "A wooden spatula repeatedly taps the surface of a cast iron pan suspended in mid-air"
+    },
+    "counterfactual": {
+      "video": "config_2h_03_f119cf124_counterfactual.mp4",
+      "caption": "A wooden spatula repeatedly taps the surface of a cast iron pan sitting on the stove"
+    },
+    "duration": 8.212,
+    "hit_times": [
+      2.977959,
+      6.159093
+    ],
+    "expected_metrics": {
+      "decay_rate": "increase"
+    }
+  },
+  "config_2h_04_f123cf119": {
+    "category": "configuration",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "pan_on_stove",
+      "to": "pan_suspended"
+    },
+    "factual": {
+      "video": "config_2h_04_f123cf119_factual.mp4",
+      "caption": "A wooden spatula repeatedly taps the surface of a cast iron pan sitting on the stove"
+    },
+    "counterfactual": {
+      "video": "config_2h_04_f123cf119_counterfactual.mp4",
+      "caption": "A wooden spatula repeatedly taps the surface of a cast iron pan suspended in mid-air"
+    },
+    "duration": 6.89,
+    "hit_times": [
+      2.681905,
+      3.935782
+    ],
+    "expected_metrics": {
+      "decay_rate": "decrease"
+    }
+  },
+  "config_1h_03_f126cf128": {
+    "category": "configuration",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "lid_suspended",
+      "to": "lid_on_stove"
+    },
+    "factual": {
+      "video": "config_1h_03_f126cf128_factual.mp4",
+      "caption": "A wooden spatula taps a steel pot lid suspended in mid-air"
+    },
+    "counterfactual": {
+      "video": "config_1h_03_f126cf128_counterfactual.mp4",
+      "caption": "A wooden spatula taps a steel pot lid lying flat on the surface of a stove"
+    },
+    "duration": 8.822917,
+    "hit_times": [
+      4.342132
+    ],
+    "expected_metrics": {
+      "decay_rate": "increase"
+    }
+  },
+  "config_2h_05_f125cf130": {
+    "category": "configuration",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "lid_suspended",
+      "to": "lid_on_stove"
+    },
+    "factual": {
+      "video": "config_2h_05_f125cf130_factual.mp4",
+      "caption": "A wooden spatula repeatedly taps a steel pot lid suspended in mid-air"
+    },
+    "counterfactual": {
+      "video": "config_2h_05_f125cf130_counterfactual.mp4",
+      "caption": "A wooden spatula repeatedly taps a steel pot lid lying flat on the surface of a stove"
+    },
+    "duration": 7.423,
+    "hit_times": [
+      3.837098,
+      5.067755
+    ],
+    "expected_metrics": {
+      "decay_rate": "increase"
+    }
+  },
+  "config_2h_06_f130cf125": {
+    "category": "configuration",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "lid_on_stove",
+      "to": "lid_suspended"
+    },
+    "factual": {
+      "video": "config_2h_06_f130cf125_factual.mp4",
+      "caption": "A wooden spatula repeatedly taps a steel pot lid lying flat on the surface of a stove"
+    },
+    "counterfactual": {
+      "video": "config_2h_06_f130cf125_counterfactual.mp4",
+      "caption": "A wooden spatula repeatedly taps a steel pot lid suspended in mid-air"
+    },
+    "duration": 7.423,
+    "hit_times": [
+      3.041814,
+      3.976417
+    ],
+    "expected_metrics": {
+      "decay_rate": "decrease"
+    }
+  },
+  "config_3h_01_f127cf129": {
+    "category": "configuration",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "lid_suspended",
+      "to": "lid_on_stove"
+    },
+    "factual": {
+      "video": "config_3h_01_f127cf129_factual.mp4",
+      "caption": "A wooden spatula repeatedly taps a steel pot lid suspended in mid-air"
+    },
+    "counterfactual": {
+      "video": "config_3h_01_f127cf129_counterfactual.mp4",
+      "caption": "A wooden spatula repeatedly taps a steel pot lid lying flat on the surface of a stove"
+    },
+    "duration": 6.954,
+    "hit_times": [
+      2.031746,
+      3.012789,
+      4.017052
+    ],
+    "expected_metrics": {
+      "decay_rate": "increase"
+    }
+  },
+  "config_3h_02_f129cf127": {
+    "category": "configuration",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "lid_on_stove",
+      "to": "lid_suspended"
+    },
+    "factual": {
+      "video": "config_3h_02_f129cf127_factual.mp4",
+      "caption": "A wooden spatula repeatedly taps a steel pot lid lying flat on the surface of a stove"
+    },
+    "counterfactual": {
+      "video": "config_3h_02_f129cf127_counterfactual.mp4",
+      "caption": "A wooden spatula repeatedly taps a steel pot lid suspended in mid-air"
+    },
+    "duration": 6.954,
+    "hit_times": [
+      2.589025,
+      3.535238,
+      4.556916
+    ],
+    "expected_metrics": {
+      "decay_rate": "decrease"
+    }
+  },
+  "surface_1h_01_f128cf131": {
+    "category": "surface_damping",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "hard_stove",
+      "to": "soft_towels"
+    },
+    "factual": {
+      "video": "surface_1h_01_f128cf131_factual.mp4",
+      "caption": "A wooden spatula taps a steel pot lid lying flat on the surface of a stove"
+    },
+    "counterfactual": {
+      "video": "surface_1h_01_f128cf131_counterfactual.mp4",
+      "caption": "A wooden spatula taps a steel pot lid lying flat on a pile of soft towels"
+    },
+    "duration": 9.327950999999999,
+    "hit_times": [
+      4.847166
+    ],
+    "expected_metrics": {
+      "decay_rate": "increase",
+      "spectral_centroid": "decrease"
+    }
+  },
+  "surface_2h_01_f130cf132": {
+    "category": "surface_damping",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "hard_stove",
+      "to": "soft_towels"
+    },
+    "factual": {
+      "video": "surface_2h_01_f130cf132_factual.mp4",
+      "caption": "A wooden spatula repeatedly taps a steel pot lid lying flat on the surface of a stove"
+    },
+    "counterfactual": {
+      "video": "surface_2h_01_f130cf132_counterfactual.mp4",
+      "caption": "A wooden spatula repeatedly taps a steel pot lid lying flat on a pile of towels"
+    },
+    "duration": 7.423,
+    "hit_times": [
+      3.041814,
+      3.976417
+    ],
+    "expected_metrics": {
+      "decay_rate": "increase",
+      "spectral_centroid": "decrease",
+      "spectral_rolloff": "decrease",
+      "temporal_modulation": "decrease"
+    }
+  },
+  "surface_2h_02_f130cf134": {
+    "category": "surface_damping",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "hard_stove",
+      "to": "soft_towels"
+    },
+    "factual": {
+      "video": "surface_2h_02_f130cf134_factual.mp4",
+      "caption": "A wooden spatula repeatedly taps a steel pot lid lying flat on the surface of a stove"
+    },
+    "counterfactual": {
+      "video": "surface_2h_02_f130cf134_counterfactual.mp4",
+      "caption": "A wooden spatula repeatedly taps a steel pot lid lying flat on a pile of towels"
+    },
+    "duration": 7.018,
+    "hit_times": [
+      3.041814,
+      3.976417
+    ],
+    "expected_metrics": {
+      "decay_rate": "increase",
+      "spectral_centroid": "decrease",
+      "temporal_modulation": "decrease"
+    }
+  },
+  "surface_2h_03_f132cf130": {
+    "category": "surface_damping",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "soft_towels",
+      "to": "hard_stove"
+    },
+    "factual": {
+      "video": "surface_2h_03_f132cf130_factual.mp4",
+      "caption": "A wooden spatula repeatedly taps a steel pot lid lying flat on a pile of towels"
+    },
+    "counterfactual": {
+      "video": "surface_2h_03_f132cf130_counterfactual.mp4",
+      "caption": "A wooden spatula repeatedly taps a steel pot lid lying flat on the surface of a stove"
+    },
+    "duration": 7.423,
+    "hit_times": [
+      3.047619,
+      3.837098
+    ],
+    "expected_metrics": {
+      "decay_rate": "decrease",
+      "spectral_centroid": "increase",
+      "spectral_rolloff": "increase",
+      "temporal_modulation": "increase"
+    }
+  },
+  "surface_3h_01_f129cf133": {
+    "category": "surface_damping",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "hard_stove",
+      "to": "soft_towels"
+    },
+    "factual": {
+      "video": "surface_3h_01_f129cf133_factual.mp4",
+      "caption": "A wooden spatula repeatedly taps a steel pot lid lying flat on the surface of a stove"
+    },
+    "counterfactual": {
+      "video": "surface_3h_01_f129cf133_counterfactual.mp4",
+      "caption": "A wooden spatula repeatedly taps a steel pot lid lying flat on a pile of towels"
+    },
+    "duration": 8.682,
+    "hit_times": [
+      2.589025,
+      3.535238,
+      4.556916
+    ],
+    "expected_metrics": {
+      "decay_rate": "increase",
+      "spectral_centroid": "decrease",
+      "spectral_rolloff": "decrease",
+      "temporal_modulation": "decrease"
+    }
+  },
+  "surface_3h_02_f133cf129": {
+    "category": "surface_damping",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "soft_towels",
+      "to": "hard_stove"
+    },
+    "factual": {
+      "video": "surface_3h_02_f133cf129_factual.mp4",
+      "caption": "A wooden spatula repeatedly taps a steel pot lid lying flat on a pile of towels"
+    },
+    "counterfactual": {
+      "video": "surface_3h_02_f133cf129_counterfactual.mp4",
+      "caption": "A wooden spatula repeatedly taps a steel pot lid lying flat on the surface of a stove"
+    },
+    "duration": 8.682,
+    "hit_times": [
+      3.088254,
+      4.092517,
+      5.20127
+    ],
+    "expected_metrics": {
+      "decay_rate": "decrease",
+      "spectral_centroid": "increase",
+      "spectral_rolloff": "increase",
+      "temporal_modulation": "increase"
+    }
+  },
+  "config_1h_05_f126cf131": {
+    "category": "configuration",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "lid_suspended",
+      "to": "lid_on_towels"
+    },
+    "factual": {
+      "video": "config_1h_05_f126cf131_factual.mp4",
+      "caption": "A wooden spatula taps a steel pot lid suspended in mid-air"
+    },
+    "counterfactual": {
+      "video": "config_1h_05_f126cf131_counterfactual.mp4",
+      "caption": "A wooden spatula taps a steel pot lid lying flat on a pile of soft towels"
+    },
+    "duration": 9.114965999999999,
+    "hit_times": [
+      4.342132
+    ],
+    "expected_metrics": {
+      "decay_rate": "increase",
+      "spectral_centroid": "decrease",
+      "temporal_modulation": "decrease"
+    }
+  },
+  "config_2h_07_f125cf132": {
+    "category": "configuration",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "lid_suspended",
+      "to": "lid_on_towels"
+    },
+    "factual": {
+      "video": "config_2h_07_f125cf132_factual.mp4",
+      "caption": "A wooden spatula repeatedly taps a steel pot lid suspended in mid-air"
+    },
+    "counterfactual": {
+      "video": "config_2h_07_f125cf132_counterfactual.mp4",
+      "caption": "A wooden spatula repeatedly taps a steel pot lid lying flat on a pile of towels"
+    },
+    "duration": 7.487,
+    "hit_times": [
+      3.837098,
+      5.067755
+    ],
+    "expected_metrics": {
+      "decay_rate": "increase",
+      "spectral_centroid": "decrease",
+      "temporal_modulation": "decrease"
+    }
+  },
+  "config_2h_08_f132cf125": {
+    "category": "configuration",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "lid_on_towels",
+      "to": "lid_suspended"
+    },
+    "factual": {
+      "video": "config_2h_08_f132cf125_factual.mp4",
+      "caption": "A wooden spatula repeatedly taps a steel pot lid lying flat on a pile of towels"
+    },
+    "counterfactual": {
+      "video": "config_2h_08_f132cf125_counterfactual.mp4",
+      "caption": "A wooden spatula repeatedly taps a steel pot lid suspended in mid-air"
+    },
+    "duration": 7.487,
+    "hit_times": [
+      3.047619,
+      3.837098
+    ],
+    "expected_metrics": {
+      "decay_rate": "decrease",
+      "spectral_centroid": "increase",
+      "temporal_modulation": "increase"
+    }
+  },
+  "config_3h_03_f127cf133": {
+    "category": "configuration",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "lid_suspended",
+      "to": "lid_on_towels"
+    },
+    "factual": {
+      "video": "config_3h_03_f127cf133_factual.mp4",
+      "caption": "A wooden spatula repeatedly taps a steel pot lid suspended in mid-air"
+    },
+    "counterfactual": {
+      "video": "config_3h_03_f127cf133_counterfactual.mp4",
+      "caption": "A wooden spatula repeatedly taps a steel pot lid lying flat on a pile of towels"
+    },
+    "duration": 6.954,
+    "hit_times": [
+      2.031746,
+      3.012789,
+      4.017052
+    ],
+    "expected_metrics": {
+      "decay_rate": "increase",
+      "spectral_centroid": "decrease",
+      "temporal_modulation": "decrease"
+    }
+  },
+  "config_3h_04_f133cf127": {
+    "category": "configuration",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "lid_on_towels",
+      "to": "lid_suspended"
+    },
+    "factual": {
+      "video": "config_3h_04_f133cf127_factual.mp4",
+      "caption": "A wooden spatula repeatedly taps a steel pot lid lying flat on a pile of towels"
+    },
+    "counterfactual": {
+      "video": "config_3h_04_f133cf127_counterfactual.mp4",
+      "caption": "A wooden spatula repeatedly taps a steel pot lid suspended in mid-air"
+    },
+    "duration": 6.954,
+    "hit_times": [
+      3.088254,
+      4.092517,
+      5.20127
+    ],
+    "expected_metrics": {
+      "decay_rate": "decrease",
+      "spectral_centroid": "increase",
+      "temporal_modulation": "increase"
+    }
+  },
+  "glass_cups_clip_137_ascending": {
+    "category": "direction",
+    "evaluation_method": "single_video",
+    "pattern": "ascending",
+    "factual": {
+      "video": "glass_cups_clip_137_ascending.mp4",
+      "caption": "A wooden spoon taps several glass cups filled to different levels of yellow liquid. The resulting pitch increases with each tap."
+    },
+    "duration": 7.658,
+    "hit_times": [
+      3.349478,
+      4.464036,
+      5.479909
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "ascending"
+    }
+  },
+  "glass_cups_clip_138_descending": {
+    "category": "direction",
+    "evaluation_method": "single_video",
+    "pattern": "descending",
+    "factual": {
+      "video": "glass_cups_clip_138_descending.mp4",
+      "caption": "A wooden spoon taps several glass cups filled to different levels of yellow liquid. The resulting pitch decreases with each tap."
+    },
+    "duration": 6.911,
+    "hit_times": [
+      2.008526,
+      2.844444,
+      3.779048
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "descending"
+    }
+  },
+  "glass_cups_clip_140_ascending": {
+    "category": "direction",
+    "evaluation_method": "single_video",
+    "pattern": "ascending",
+    "factual": {
+      "video": "glass_cups_clip_140_ascending.mp4",
+      "caption": "A metal spoon taps several glass cups filled to different levels of yellow liquid. The resulting pitch increases with each tap."
+    },
+    "duration": 7.658,
+    "hit_times": [
+      1.996916,
+      3.059229,
+      4.075102
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "ascending"
+    }
+  },
+  "glass_cups_clip_139_descending": {
+    "category": "direction",
+    "evaluation_method": "single_video",
+    "pattern": "descending",
+    "factual": {
+      "video": "glass_cups_clip_139_descending.mp4",
+      "caption": "A metal spoon taps several glass cups filled to different levels of yellow liquid. The resulting pitch decreases with each tap."
+    },
+    "duration": 7.06,
+    "hit_times": [
+      2.507755,
+      3.755828,
+      4.986485
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "descending"
+    }
+  },
+  "striker_3h_04_f137cf140": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "wooden_spoon",
+      "to": "metal_spoon"
+    },
+    "factual": {
+      "video": "striker_3h_04_f137cf140_factual.mp4",
+      "caption": "A wooden spoon taps several glass cups filled to different levels of yellow liquid. The resulting pitch increases with each tap."
+    },
+    "counterfactual": {
+      "video": "striker_3h_04_f137cf140_counterfactual.mp4",
+      "caption": "A metal spoon taps several glass cups filled to different levels of yellow liquid. The resulting pitch increases with each tap."
+    },
+    "duration": 7.658,
+    "hit_times": [
+      3.349478,
+      4.464036,
+      5.479909
+    ],
+    "expected_metrics": {
+      "attack_time": "decrease",
+      "spectral_centroid": "increase",
+      "spectral_rolloff": "increase",
+      "fundamental_frequency": "no_change",
+      "rt60": "no_change"
+    }
+  },
+  "striker_3h_05_f138cf139": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "wooden_spoon",
+      "to": "metal_spoon"
+    },
+    "factual": {
+      "video": "striker_3h_05_f138cf139_factual.mp4",
+      "caption": "A wooden spoon taps several glass cups filled to different levels of yellow liquid. The resulting pitch decreases with each tap."
+    },
+    "counterfactual": {
+      "video": "striker_3h_05_f138cf139_counterfactual.mp4",
+      "caption": "A metal spoon taps several glass cups filled to different levels of yellow liquid. The resulting pitch decreases with each tap."
+    },
+    "duration": 6.911,
+    "hit_times": [
+      2.008526,
+      2.844444,
+      3.779048
+    ],
+    "expected_metrics": {
+      "attack_time": "decrease",
+      "spectral_centroid": "increase",
+      "spectral_rolloff": "increase",
+      "fundamental_frequency": "no_change",
+      "rt60": "no_change"
+    }
+  },
+  "striker_3h_06_f140cf137": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "metal_spoon",
+      "to": "wooden_spoon"
+    },
+    "factual": {
+      "video": "striker_3h_06_f140cf137_factual.mp4",
+      "caption": "A metal spoon taps several glass cups filled to different levels of yellow liquid. The resulting pitch increases with each tap."
+    },
+    "counterfactual": {
+      "video": "striker_3h_06_f140cf137_counterfactual.mp4",
+      "caption": "A wooden spoon taps several glass cups filled to different levels of yellow liquid. The resulting pitch increases with each tap."
+    },
+    "duration": 7.658,
+    "hit_times": [
+      1.996916,
+      3.059229,
+      4.075102
+    ],
+    "expected_metrics": {
+      "attack_time": "increase",
+      "spectral_centroid": "decrease",
+      "spectral_rolloff": "decrease",
+      "fundamental_frequency": "no_change",
+      "rt60": "no_change"
+    }
+  },
+  "striker_3h_07_f139cf138": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "metal_spoon",
+      "to": "wooden_spoon"
+    },
+    "factual": {
+      "video": "striker_3h_07_f139cf138_factual.mp4",
+      "caption": "A metal spoon taps several glass cups filled to different levels of yellow liquid. The resulting pitch decreases with each tap."
+    },
+    "counterfactual": {
+      "video": "striker_3h_07_f139cf138_counterfactual.mp4",
+      "caption": "A wooden spoon taps several glass cups filled to different levels of yellow liquid. The resulting pitch decreases with each tap."
+    },
+    "duration": 6.911,
+    "hit_times": [
+      2.507755,
+      3.755828,
+      4.986485
+    ],
+    "expected_metrics": {
+      "attack_time": "increase",
+      "spectral_centroid": "decrease",
+      "spectral_rolloff": "decrease",
+      "fundamental_frequency": "no_change",
+      "rt60": "no_change"
+    }
+  },
+  "metal_scrape_consistency_2h_v1": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "metal_scrape_consistency_2h_v1.mp4",
+      "caption": "A metal spatula repeatedly scrapes the surface of a cast iron pan"
+    },
+    "duration": 6.548,
+    "hit_times": [
+      1.158,
+      4.336327
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "no_change"
+    }
+  },
+  "metal_scrape_consistency_2h_v2": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "metal_scrape_consistency_2h_v2.mp4",
+      "caption": "A metal spatula repeatedly scrapes the surface of a cast iron pan"
+    },
+    "duration": 8.383,
+    "hit_times": [
+      3.430748,
+      5.090975
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "no_change"
+    }
+  },
+  "metal_scrape_consistency_3h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "metal_scrape_consistency_3h.mp4",
+      "caption": "A metal spatula repeatedly scrapes the surface of a cast iron pan"
+    },
+    "duration": 9.386,
+    "hit_times": [
+      1.967891,
+      4.458231,
+      6.913741
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "no_change"
+    }
+  },
+  "wood_scrape_consistency_2h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "wood_scrape_consistency_2h.mp4",
+      "caption": "A wooden spatula repeatedly scrapes the surface of a cast iron pan"
+    },
+    "duration": 6.548,
+    "hit_times": [
+      2.838639,
+      4.289887
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "no_change"
+    }
+  },
+  "wood_scrape_consistency_3h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "wood_scrape_consistency_3h.mp4",
+      "caption": "A wooden spatula repeatedly scrapes the surface of a cast iron pan"
+    },
+    "duration": 7.892,
+    "hit_times": [
+      2.827029,
+      3.813878,
+      4.986485
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "no_change"
+    }
+  },
+  "sponge_scrub_consistency_2h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "sponge_scrub_consistency_2h.mp4",
+      "caption": "The rough side of a dish sponge repeatedly scrubs across the surface of a cast iron pan"
+    },
+    "duration": 7.21,
+    "hit_times": [
+      3.163719,
+      4.138957
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "no_change"
+    }
+  },
+  "sponge_scrub_consistency_3h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "sponge_scrub_consistency_3h.mp4",
+      "caption": "The rough side of a dish sponge repeatedly scrubs across the surface of a cast iron pan"
+    },
+    "duration": 7.146,
+    "hit_times": [
+      2.56,
+      3.668753,
+      4.713651
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "no_change",
+      "spectral_flux": "no_change"
+    }
+  },
+  "pan_suspended_consistency_2h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "pan_suspended_consistency_2h.mp4",
+      "caption": "A wooden spatula repeatedly taps the surface of a cast iron pan suspended in mid-air"
+    },
+    "duration": 8.212,
+    "hit_times": [
+      2.977959,
+      6.159093
+    ],
+    "expected_metrics": {
+      "decay_rate": "no_change",
+      "fundamental_frequency": "no_change",
+      "rt60": "no_change"
+    }
+  },
+  "pan_stove_consistency_2h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "pan_stove_consistency_2h.mp4",
+      "caption": "A wooden spatula repeatedly taps the surface of a cast iron pan sitting on the stove"
+    },
+    "duration": 6.89,
+    "hit_times": [
+      2.681905,
+      3.935782
+    ],
+    "expected_metrics": {
+      "decay_rate": "no_change",
+      "fundamental_frequency": "no_change",
+      "rt60": "no_change",
+      "drr": "no_change"
+    }
+  },
+  "pan_stove_consistency_3h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "pan_stove_consistency_3h.mp4",
+      "caption": "A wooden spatula repeatedly taps the surface of a cast iron pan sitting on the stove"
+    },
+    "duration": 9.044,
+    "hit_times": [
+      3.448163,
+      4.458231,
+      5.584399
+    ],
+    "expected_metrics": {
+      "decay_rate": "no_change",
+      "fundamental_frequency": "no_change",
+      "rt60": "no_change",
+      "drr": "no_change"
+    }
+  },
+  "lid_suspended_consistency_2h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "lid_suspended_consistency_2h.mp4",
+      "caption": "A wooden spatula repeatedly taps a steel pot lid suspended in mid-air"
+    },
+    "duration": 9.215,
+    "hit_times": [
+      3.837098,
+      5.067755
+    ],
+    "expected_metrics": {
+      "decay_rate": "no_change",
+      "fundamental_frequency": "no_change",
+      "rt60": "no_change"
+    }
+  },
+  "lid_suspended_consistency_3h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "lid_suspended_consistency_3h.mp4",
+      "caption": "A wooden spatula repeatedly taps a steel pot lid suspended in mid-air"
+    },
+    "duration": 6.954,
+    "hit_times": [
+      2.031746,
+      3.012789,
+      4.017052
+    ],
+    "expected_metrics": {
+      "decay_rate": "no_change",
+      "fundamental_frequency": "no_change",
+      "rt60": "no_change"
+    }
+  },
+  "lid_stove_consistency_2h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "lid_stove_consistency_2h.mp4",
+      "caption": "A wooden spatula repeatedly taps a steel pot lid lying flat on the surface of a stove"
+    },
+    "duration": 7.423,
+    "hit_times": [
+      3.041814,
+      3.976417
+    ],
+    "expected_metrics": {
+      "decay_rate": "no_change",
+      "fundamental_frequency": "no_change",
+      "rt60": "no_change",
+      "drr": "no_change"
+    }
+  },
+  "lid_stove_consistency_3h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "lid_stove_consistency_3h.mp4",
+      "caption": "A wooden spatula repeatedly taps a steel pot lid lying flat on the surface of a stove"
+    },
+    "duration": 8.682,
+    "hit_times": [
+      2.589025,
+      3.535238,
+      4.556916
+    ],
+    "expected_metrics": {
+      "decay_rate": "no_change",
+      "fundamental_frequency": "no_change",
+      "rt60": "no_change",
+      "drr": "no_change"
+    }
+  },
+  "lid_towels_consistency_2h_v1": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "lid_towels_consistency_2h_v1.mp4",
+      "caption": "A wooden spatula repeatedly taps a steel pot lid lying flat on a pile of towels"
+    },
+    "duration": 7.487,
+    "hit_times": [
+      3.047619,
+      3.837098
+    ],
+    "expected_metrics": {
+      "decay_rate": "no_change",
+      "spectral_centroid": "no_change",
+      "attack_time": "no_change",
+      "drr": "no_change"
+    }
+  },
+  "lid_towels_consistency_2h_v2": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "lid_towels_consistency_2h_v2.mp4",
+      "caption": "A wooden spatula repeatedly taps a steel pot lid lying flat on a pile of towels"
+    },
+    "duration": 7.018,
+    "hit_times": [
+      3.918367,
+      5.021315
+    ],
+    "expected_metrics": {
+      "decay_rate": "no_change",
+      "spectral_centroid": "no_change",
+      "attack_time": "no_change",
+      "drr": "no_change"
+    }
+  },
+  "lid_towels_consistency_3h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "lid_towels_consistency_3h.mp4",
+      "caption": "A wooden spatula repeatedly taps a steel pot lid lying flat on a pile of towels"
+    },
+    "duration": 8.788,
+    "hit_times": [
+      3.088254,
+      4.092517,
+      5.20127
+    ],
+    "expected_metrics": {
+      "decay_rate": "no_change",
+      "spectral_centroid": "no_change",
+      "drr": "no_change"
+    }
+  },
+  "env_1h_01_f156cf155": {
+    "category": "acoustic_environment",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "bathroom",
+      "to": "bedroom"
+    },
+    "factual": {
+      "video": "env_1h_01_f156cf155_factual.mp4",
+      "caption": "A metal spoon taps a glass jar sitting on a bathroom countertop"
+    },
+    "counterfactual": {
+      "video": "env_1h_01_f156cf155_counterfactual.mp4",
+      "caption": "A metal spoon taps a glass jar sitting on the wooden floor of a bedroom"
+    },
+    "duration": 7.956,
+    "hit_times": [
+      3.790658
+    ],
+    "expected_metrics": {
+      "rt60": "decrease",
+      "drr": "increase"
+    }
+  },
+  "env_1h_02_f156cf151": {
+    "category": "acoustic_environment",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "bathroom",
+      "to": "bedroom"
+    },
+    "factual": {
+      "video": "env_1h_02_f156cf151_factual.mp4",
+      "caption": "A metal spoon taps a glass jar sitting on a bathroom countertop"
+    },
+    "counterfactual": {
+      "video": "env_1h_02_f156cf151_counterfactual.mp4",
+      "caption": "A metal spoon taps a glass jar sitting on the wooden floor of a bedroom"
+    },
+    "duration": 7.124,
+    "hit_times": [
+      2.4439
+    ],
+    "expected_metrics": {
+      "rt60": "decrease",
+      "drr": "increase"
+    }
+  },
+  "env_1h_03_f146cf154": {
+    "category": "acoustic_environment",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "bathroom",
+      "to": "bedroom"
+    },
+    "factual": {
+      "video": "env_1h_03_f146cf154_factual.mp4",
+      "caption": "Hands clapping in the bathroom"
+    },
+    "counterfactual": {
+      "video": "env_1h_03_f146cf154_counterfactual.mp4",
+      "caption": "Hands clapping in the bedroom with a backdrop of cushioned bedding"
+    },
+    "duration": 6.522066,
+    "hit_times": [
+      4.011247
+    ],
+    "expected_metrics": {
+      "rt60": "decrease",
+      "drr": "increase"
+    }
+  },
+  "env_1h_04_f149cf154": {
+    "category": "acoustic_environment",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "bathroom",
+      "to": "bedroom"
+    },
+    "factual": {
+      "video": "env_1h_04_f149cf154_factual.mp4",
+      "caption": "Hands clapping in the bathroom"
+    },
+    "counterfactual": {
+      "video": "env_1h_04_f149cf154_counterfactual.mp4",
+      "caption": "Hands clapping in the bedroom with a backdrop of cushioned bedding"
+    },
+    "duration": 7.914,
+    "hit_times": [
+      4.011247
+    ],
+    "expected_metrics": {
+      "rt60": "decrease",
+      "drr": "increase"
+    }
+  },
+  "env_2h_01_f141cf150": {
+    "category": "acoustic_environment",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "bathroom",
+      "to": "bedroom"
+    },
+    "factual": {
+      "video": "env_2h_01_f141cf150_factual.mp4",
+      "caption": "A metal spoon taps a glass jar sitting on a bathroom countertop"
+    },
+    "counterfactual": {
+      "video": "env_2h_01_f141cf150_counterfactual.mp4",
+      "caption": "A metal spoon taps a glass jar sitting on the wooden floor of a bedroom"
+    },
+    "duration": 6.356,
+    "hit_times": [
+      1.526712,
+      4.231837
+    ],
+    "expected_metrics": {
+      "rt60": "decrease",
+      "drr": "increase"
+    }
+  },
+  "env_2h_02_f142cf150": {
+    "category": "acoustic_environment",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "bathroom",
+      "to": "bedroom"
+    },
+    "factual": {
+      "video": "env_2h_02_f142cf150_factual.mp4",
+      "caption": "A metal spoon taps a glass jar sitting on a bathroom countertop"
+    },
+    "counterfactual": {
+      "video": "env_2h_02_f142cf150_counterfactual.mp4",
+      "caption": "A metal spoon taps a glass jar sitting on the wooden floor of a bedroom"
+    },
+    "duration": 7.21,
+    "hit_times": [
+      2.281361,
+      5.253515
+    ],
+    "expected_metrics": {
+      "rt60": "decrease",
+      "drr": "increase"
+    }
+  },
+  "env_2h_03_f144cf152": {
+    "category": "acoustic_environment",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "bathroom",
+      "to": "bedroom"
+    },
+    "factual": {
+      "video": "env_2h_03_f144cf152_factual.mp4",
+      "caption": "Hands clapping repeatedly in the bathroom"
+    },
+    "counterfactual": {
+      "video": "env_2h_03_f144cf152_counterfactual.mp4",
+      "caption": "Hands clapping in the bedroom with a backdrop of cushioned bedding"
+    },
+    "duration": 5.674,
+    "hit_times": [
+      1.660227,
+      4.098322
+    ],
+    "expected_metrics": {
+      "rt60": "decrease",
+      "drr": "increase"
+    }
+  },
+  "env_3h_01_f145cf153": {
+    "category": "acoustic_environment",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "bathroom",
+      "to": "bedroom"
+    },
+    "factual": {
+      "video": "env_3h_01_f145cf153_factual.mp4",
+      "caption": "Hands clapping repeatedly in the bathroom"
+    },
+    "counterfactual": {
+      "video": "env_3h_01_f145cf153_counterfactual.mp4",
+      "caption": "Hands clapping in the bedroom with a backdrop of cushioned bedding"
+    },
+    "duration": 7.06,
+    "hit_times": [
+      0.766259,
+      3.233379,
+      5.584399
+    ],
+    "expected_metrics": {
+      "rt60": "decrease",
+      "drr": "increase"
+    }
+  },
+  "env_2h_04_f150cf143": {
+    "category": "acoustic_environment",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "bedroom",
+      "to": "bathroom"
+    },
+    "factual": {
+      "video": "env_2h_04_f150cf143_factual.mp4",
+      "caption": "A metal spoon taps a glass jar sitting on the wooden floor of a bedroom"
+    },
+    "counterfactual": {
+      "video": "env_2h_04_f150cf143_counterfactual.mp4",
+      "caption": "A metal spoon taps a glass jar sitting on a bathroom countertop"
+    },
+    "duration": 7.594,
+    "hit_times": [
+      2.298776,
+      5.706304
+    ],
+    "expected_metrics": {
+      "rt60": "increase",
+      "drr": "decrease"
+    }
+  },
+  "env_2h_05_f152cf148": {
+    "category": "acoustic_environment",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "bedroom",
+      "to": "bathroom"
+    },
+    "factual": {
+      "video": "env_2h_05_f152cf148_factual.mp4",
+      "caption": "Hands clapping in the bedroom with a backdrop of cushioned bedding"
+    },
+    "counterfactual": {
+      "video": "env_2h_05_f152cf148_counterfactual.mp4",
+      "caption": "Hands clapping repeatedly in the bathroom"
+    },
+    "duration": 6.378,
+    "hit_times": [
+      1.938866,
+      4.458231
+    ],
+    "expected_metrics": {
+      "rt60": "increase",
+      "drr": "decrease"
+    }
+  },
+  "env_3h_02_f153cf147": {
+    "category": "acoustic_environment",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "bedroom",
+      "to": "bathroom"
+    },
+    "factual": {
+      "video": "env_3h_02_f153cf147_factual.mp4",
+      "caption": "Hands clapping in the bedroom with a backdrop of cushioned bedding"
+    },
+    "counterfactual": {
+      "video": "env_3h_02_f153cf147_counterfactual.mp4",
+      "caption": "Hands clapping repeatedly in the bathroom"
+    },
+    "duration": 8.127,
+    "hit_times": [
+      0.992653,
+      4.017052,
+      6.751202
+    ],
+    "expected_metrics": {
+      "rt60": "increase",
+      "drr": "decrease"
+    }
+  },
+  "env_1h_05_f154cf191": {
+    "category": "acoustic_environment",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "bedroom",
+      "to": "stairwell"
+    },
+    "factual": {
+      "video": "env_1h_05_f154cf191_factual.mp4",
+      "caption": "Hands clapping in the bedroom with a backdrop of cushioned bedding"
+    },
+    "counterfactual": {
+      "video": "env_1h_05_f154cf191_counterfactual.mp4",
+      "caption": "Hand clapping in a concrete stairwell"
+    },
+    "duration": 7.86958,
+    "hit_times": [
+      4.011247
+    ],
+    "expected_metrics": {
+      "rt60": "increase",
+      "drr": "decrease",
+      "decay_rate": "decrease"
+    }
+  },
+  "env_2h_06_f152cf193": {
+    "category": "acoustic_environment",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "bedroom",
+      "to": "stairwell"
+    },
+    "factual": {
+      "video": "env_2h_06_f152cf193_factual.mp4",
+      "caption": "Hands clapping in the bedroom with a backdrop of cushioned bedding"
+    },
+    "counterfactual": {
+      "video": "env_2h_06_f152cf193_counterfactual.mp4",
+      "caption": "Hand clapping in a concrete stairwell"
+    },
+    "duration": 6.0727,
+    "hit_times": [
+      1.938866,
+      4.458231
+    ],
+    "expected_metrics": {
+      "rt60": "increase",
+      "drr": "decrease",
+      "decay_rate": "decrease"
+    }
+  },
+  "env_2h_07_f152cf194": {
+    "category": "acoustic_environment",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "bedroom",
+      "to": "stairwell"
+    },
+    "factual": {
+      "video": "env_2h_07_f152cf194_factual.mp4",
+      "caption": "Hands clapping in the bedroom with a backdrop of cushioned bedding"
+    },
+    "counterfactual": {
+      "video": "env_2h_07_f152cf194_counterfactual.mp4",
+      "caption": "Hand clapping in a concrete stairwell"
+    },
+    "duration": 6.378,
+    "hit_times": [
+      1.938866,
+      4.458231
+    ],
+    "expected_metrics": {
+      "rt60": "increase",
+      "drr": "decrease",
+      "decay_rate": "decrease"
+    }
+  },
+  "env_2h_08_f152cf192": {
+    "category": "acoustic_environment",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "bedroom",
+      "to": "stairwell"
+    },
+    "factual": {
+      "video": "env_2h_08_f152cf192_factual.mp4",
+      "caption": "Hands clapping in the bedroom with a backdrop of cushioned bedding"
+    },
+    "counterfactual": {
+      "video": "env_2h_08_f152cf192_counterfactual.mp4",
+      "caption": "Hand clapping in a concrete stairwell"
+    },
+    "duration": 6.378,
+    "hit_times": [
+      1.938866,
+      4.458231
+    ],
+    "expected_metrics": {
+      "rt60": "increase",
+      "drr": "decrease",
+      "decay_rate": "decrease"
+    }
+  },
+  "env_2h_09_f192cf152": {
+    "category": "acoustic_environment",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "stairwell",
+      "to": "bedroom"
+    },
+    "factual": {
+      "video": "env_2h_09_f192cf152_factual.mp4",
+      "caption": "Hand clapping in a concrete stairwell"
+    },
+    "counterfactual": {
+      "video": "env_2h_09_f192cf152_counterfactual.mp4",
+      "caption": "Hands clapping in the bedroom with a backdrop of cushioned bedding"
+    },
+    "duration": 3.5086395,
+    "hit_times": [
+      1.491882,
+      2.786395
+    ],
+    "expected_metrics": {
+      "rt60": "decrease",
+      "drr": "increase",
+      "decay_rate": "increase"
+    }
+  },
+  "fullness_1h_01_f157cf158": {
+    "category": "fullness",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "empty",
+      "to": "half_full"
+    },
+    "factual": {
+      "video": "fullness_1h_01_f157cf158_factual.mp4",
+      "caption": "A metal spoon taps an empty glass cup sitting on a wooden table in the kitchen"
+    },
+    "counterfactual": {
+      "video": "fullness_1h_01_f157cf158_counterfactual.mp4",
+      "caption": "A metal spoon taps a glass cup sitting on a wooden table in the kitchen. The glass cup is half full with clear water."
+    },
+    "duration": 8.323456,
+    "hit_times": [
+      4.092517
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "decrease",
+      "decay_rate": "increase",
+      "spectral_centroid": "decrease"
+    }
+  },
+  "fullness_1h_02_f157cf159": {
+    "category": "fullness",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "empty",
+      "to": "half_full"
+    },
+    "factual": {
+      "video": "fullness_1h_02_f157cf159_factual.mp4",
+      "caption": "A metal spoon taps an empty glass cup sitting on a wooden table in the kitchen"
+    },
+    "counterfactual": {
+      "video": "fullness_1h_02_f157cf159_counterfactual.mp4",
+      "caption": "A metal spoon taps a glass cup sitting on a wooden table in the kitchen. The glass cup is half full with a green liquid."
+    },
+    "duration": 8.029186,
+    "hit_times": [
+      4.092517
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "decrease",
+      "decay_rate": "increase",
+      "spectral_centroid": "decrease"
+    }
+  },
+  "striker_1h_07_f158cf160": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "metal_spoon",
+      "to": "wooden_spoon"
+    },
+    "factual": {
+      "video": "striker_1h_07_f158cf160_factual.mp4",
+      "caption": "A metal spoon taps a glass cup sitting on a wooden table in the kitchen. The glass cup is half full with clear water."
+    },
+    "counterfactual": {
+      "video": "striker_1h_07_f158cf160_counterfactual.mp4",
+      "caption": "A wooden spoon taps a glass cup sitting on a wooden table in the kitchen. The glass cup is half full with clear water."
+    },
+    "duration": 8.724,
+    "hit_times": [
+      4.493061
+    ],
+    "expected_metrics": {
+      "attack_time": "increase",
+      "spectral_centroid": "decrease",
+      "spectral_rolloff": "decrease"
+    }
+  },
+  "striker_1h_08_f158cf161": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "metal_spoon",
+      "to": "plastic_spoon"
+    },
+    "factual": {
+      "video": "striker_1h_08_f158cf161_factual.mp4",
+      "caption": "A metal spoon taps a glass cup sitting on a wooden table in the kitchen. The glass cup is half full with clear water."
+    },
+    "counterfactual": {
+      "video": "striker_1h_08_f158cf161_counterfactual.mp4",
+      "caption": "A white plastic spoon taps a glass cup sitting on a wooden table in the kitchen. The glass cup is half full with clear water."
+    },
+    "duration": 8.050622,
+    "hit_times": [
+      3.819683
+    ],
+    "expected_metrics": {
+      "attack_time": "increase",
+      "spectral_centroid": "decrease",
+      "spectral_rolloff": "decrease"
+    }
+  },
+  "striker_1h_11_f162cf163": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "metal_spoon",
+      "to": "wooden_spoon"
+    },
+    "factual": {
+      "video": "striker_1h_11_f162cf163_factual.mp4",
+      "caption": "A metal spoon taps a glass pot lid sitting on a wooden table in the kitchen."
+    },
+    "counterfactual": {
+      "video": "striker_1h_11_f162cf163_counterfactual.mp4",
+      "caption": "A wooden spoon taps a glass pot lid sitting on a wooden table in the kitchen."
+    },
+    "duration": 8.66,
+    "hit_times": [
+      4.446621
+    ],
+    "expected_metrics": {
+      "attack_time": "increase",
+      "spectral_centroid": "decrease",
+      "spectral_rolloff": "decrease",
+      "rt60": "no_change"
+    }
+  },
+  "striker_1h_12_f162cf164": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "metal_spoon",
+      "to": "plastic_spoon"
+    },
+    "factual": {
+      "video": "striker_1h_12_f162cf164_factual.mp4",
+      "caption": "A metal spoon taps a glass pot lid sitting on a wooden table in the kitchen."
+    },
+    "counterfactual": {
+      "video": "striker_1h_12_f162cf164_counterfactual.mp4",
+      "caption": "A white plastic spoon taps a glass pot lid sitting on a wooden table in the kitchen."
+    },
+    "duration": 8.66,
+    "hit_times": [
+      4.446621
+    ],
+    "expected_metrics": {
+      "attack_time": "increase",
+      "spectral_centroid": "decrease",
+      "spectral_rolloff": "decrease"
+    }
+  },
+  "striker_1h_15_f165cf166": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "metal_spoon",
+      "to": "wooden_spoon"
+    },
+    "factual": {
+      "video": "striker_1h_15_f165cf166_factual.mp4",
+      "caption": "A metal spoon taps a metal pan sitting upside down on a wooden table in the kitchen."
+    },
+    "counterfactual": {
+      "video": "striker_1h_15_f165cf166_counterfactual.mp4",
+      "caption": "A wooden spoon taps a metal pan sitting upside down on a wooden table in the kitchen."
+    },
+    "duration": 8.496095,
+    "hit_times": [
+      4.069297
+    ],
+    "expected_metrics": {
+      "attack_time": "increase",
+      "spectral_centroid": "decrease",
+      "spectral_rolloff": "decrease",
+      "rt60": "no_change"
+    }
+  },
+  "striker_1h_16_f165cf167": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "metal_spoon",
+      "to": "plastic_spoon"
+    },
+    "factual": {
+      "video": "striker_1h_16_f165cf167_factual.mp4",
+      "caption": "A metal spoon taps a metal pan sitting upside down on a wooden table in the kitchen."
+    },
+    "counterfactual": {
+      "video": "striker_1h_16_f165cf167_counterfactual.mp4",
+      "caption": "A white plastic spoon taps a metal pan sitting upside down on a wooden table in the kitchen."
+    },
+    "duration": 7.967841000000001,
+    "hit_times": [
+      3.541043
+    ],
+    "expected_metrics": {
+      "attack_time": "increase",
+      "spectral_centroid": "decrease",
+      "spectral_rolloff": "decrease",
+      "rt60": "no_change"
+    }
+  },
+  "striker_1h_19_f170cf168": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "metal_spoon",
+      "to": "wooden_spoon"
+    },
+    "factual": {
+      "video": "striker_1h_19_f170cf168_factual.mp4",
+      "caption": "A metal spoon taps a bamboo cutting board sitting on a wooden table in the kitchen."
+    },
+    "counterfactual": {
+      "video": "striker_1h_19_f170cf168_counterfactual.mp4",
+      "caption": "A wooden spoon taps a bamboo cutting board sitting on a wooden table in the kitchen."
+    },
+    "duration": 8.433315,
+    "hit_times": [
+      4.034467
+    ],
+    "expected_metrics": {
+      "attack_time": "increase",
+      "spectral_centroid": "decrease",
+      "spectral_rolloff": "decrease",
+      "rt60": "no_change"
+    }
+  },
+  "striker_1h_20_f170cf169": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "metal_spoon",
+      "to": "plastic_spoon"
+    },
+    "factual": {
+      "video": "striker_1h_20_f170cf169_factual.mp4",
+      "caption": "A metal spoon taps a bamboo cutting board sitting on a wooden table in the kitchen."
+    },
+    "counterfactual": {
+      "video": "striker_1h_20_f170cf169_counterfactual.mp4",
+      "caption": "A white plastic spoon taps a bamboo cutting board sitting on a wooden table in the kitchen."
+    },
+    "duration": 8.224336000000001,
+    "hit_times": [
+      3.825488
+    ],
+    "expected_metrics": {
+      "attack_time": "increase",
+      "spectral_centroid": "decrease",
+      "spectral_rolloff": "decrease",
+      "rt60": "no_change"
+    }
+  },
+  "config_2h_09_f171cf173": {
+    "category": "configuration",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "pan_in_air",
+      "to": "pan_on_table"
+    },
+    "factual": {
+      "video": "config_2h_09_f171cf173_factual.mp4",
+      "caption": "A metal spoon taps a metal pan held in the air"
+    },
+    "counterfactual": {
+      "video": "config_2h_09_f171cf173_counterfactual.mp4",
+      "caption": "A metal spoon taps a metal pan lying flat on a wooden table in the kitchen."
+    },
+    "duration": 8.724,
+    "hit_times": [
+      1.671837,
+      6.263583
+    ],
+    "expected_metrics": {
+      "decay_rate": "increase"
+    }
+  },
+  "config_2h_10_f173cf171": {
+    "category": "configuration",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "pan_on_table",
+      "to": "pan_in_air"
+    },
+    "factual": {
+      "video": "config_2h_10_f173cf171_factual.mp4",
+      "caption": "A metal spoon taps a metal pan lying flat on a wooden table in the kitchen."
+    },
+    "counterfactual": {
+      "video": "config_2h_10_f173cf171_counterfactual.mp4",
+      "caption": "A metal spoon taps a metal pan held in the air"
+    },
+    "duration": 8.724,
+    "hit_times": [
+      0.957823,
+      5.25932
+    ],
+    "expected_metrics": {
+      "decay_rate": "decrease"
+    }
+  },
+  "config_1h_07_f172cf171": {
+    "category": "configuration",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "pan_on_table",
+      "to": "pan_in_air"
+    },
+    "factual": {
+      "video": "config_1h_07_f172cf171_factual.mp4",
+      "caption": "A metal spoon taps a metal pan lying flat on a wooden table in the kitchen."
+    },
+    "counterfactual": {
+      "video": "config_1h_07_f172cf171_counterfactual.mp4",
+      "caption": "A metal spoon taps a metal pan held in the air"
+    },
+    "duration": 5.196787,
+    "hit_times": [
+      1.671837
+    ],
+    "expected_metrics": {
+      "decay_rate": "decrease"
+    }
+  },
+  "config_1h_08_f174cf175": {
+    "category": "configuration",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "board_dangling",
+      "to": "board_on_table"
+    },
+    "factual": {
+      "video": "config_1h_08_f174cf175_factual.mp4",
+      "caption": "A metal spoon taps a bamboo cutting board dangling in midair, held by someone's hand."
+    },
+    "counterfactual": {
+      "video": "config_1h_08_f174cf175_counterfactual.mp4",
+      "caption": "A metal spoon taps a bamboo cutting board lying flat on a wooden table in the kitchen."
+    },
+    "duration": 8.191,
+    "hit_times": [
+      5.090975
+    ],
+    "expected_metrics": {
+      "decay_rate": "increase"
+    }
+  },
+  "config_2h_11_f177cf176": {
+    "category": "configuration",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "board_dangling",
+      "to": "board_on_table"
+    },
+    "factual": {
+      "video": "config_2h_11_f177cf176_factual.mp4",
+      "caption": "A metal spoon taps a bamboo cutting board dangling in midair, held by someone's hand."
+    },
+    "counterfactual": {
+      "video": "config_2h_11_f177cf176_counterfactual.mp4",
+      "caption": "A metal spoon taps a bamboo cutting board lying flat on a wooden table in the kitchen."
+    },
+    "duration": 9.492,
+    "hit_times": [
+      2.73415,
+      6.838277
+    ],
+    "expected_metrics": {
+      "decay_rate": "increase"
+    }
+  },
+  "config_2h_12_f176cf177": {
+    "category": "configuration",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "board_on_table",
+      "to": "board_dangling"
+    },
+    "factual": {
+      "video": "config_2h_12_f176cf177_factual.mp4",
+      "caption": "A metal spoon taps a bamboo cutting board lying flat on a wooden table in the kitchen."
+    },
+    "counterfactual": {
+      "video": "config_2h_12_f176cf177_counterfactual.mp4",
+      "caption": "A metal spoon taps a bamboo cutting board dangling in midair, held by someone's hand."
+    },
+    "duration": 9.492,
+    "hit_times": [
+      2.809615,
+      7.180771
+    ],
+    "expected_metrics": {
+      "decay_rate": "decrease"
+    }
+  },
+  "surface_1h_03_f172cf175": {
+    "category": "surface",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "metal_pan",
+      "to": "bamboo_board"
+    },
+    "factual": {
+      "video": "surface_1h_03_f172cf175_factual.mp4",
+      "caption": "A metal spoon taps a metal pan lying flat on a wooden table in the kitchen."
+    },
+    "counterfactual": {
+      "video": "surface_1h_03_f172cf175_counterfactual.mp4",
+      "caption": "A metal spoon taps a bamboo cutting board lying flat on a wooden table in the kitchen."
+    },
+    "duration": 8.703,
+    "hit_times": [
+      5.17805
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "decrease",
+      "decay_rate": "increase",
+      "spectral_rolloff": "decrease"
+    }
+  },
+  "scraping_2h_03_f178cf179": {
+    "category": "scraper_type",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "plastic_spatula",
+      "to": "dish_sponge"
+    },
+    "factual": {
+      "video": "scraping_2h_03_f178cf179_factual.mp4",
+      "caption": "A plastic spatula scrapes across the surface of a non-stick pan"
+    },
+    "counterfactual": {
+      "video": "scraping_2h_03_f178cf179_counterfactual.mp4",
+      "caption": "The rough side of a sponge scrubs across the surface of a non-stick pan"
+    },
+    "duration": 7.85,
+    "hit_times": [
+      3.668753,
+      6.101043
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "decrease",
+      "spectral_flux": "decrease"
+    }
+  },
+  "scraping_2h_04_f179cf178": {
+    "category": "scraper_type",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "dish_sponge",
+      "to": "plastic_spatula"
+    },
+    "factual": {
+      "video": "scraping_2h_04_f179cf178_factual.mp4",
+      "caption": "The rough side of a sponge scrubs across the surface of a non-stick pan"
+    },
+    "counterfactual": {
+      "video": "scraping_2h_04_f179cf178_counterfactual.mp4",
+      "caption": "A plastic spatula scrapes across the surface of a non-stick pan"
+    },
+    "duration": 7.85,
+    "hit_times": [
+      4.249252,
+      6.942766
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "increase",
+      "spectral_flux": "increase"
+    }
+  },
+  "material_1h_01_f183cf182": {
+    "category": "material",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "paper",
+      "to": "cardboard"
+    },
+    "factual": {
+      "video": "material_1h_01_f183cf182_factual.mp4",
+      "caption": "A piece of paper is torn by hand"
+    },
+    "counterfactual": {
+      "video": "material_1h_01_f183cf182_counterfactual.mp4",
+      "caption": "A piece of cardboard is torn by hand"
+    },
+    "duration": 6.84,
+    "hit_times": [
+      3.320454
+    ],
+    "expected_metrics": {
+      "spectral_flux": "increase",
+      "temporal_modulation": "increase",
+      "spectral_centroid": "decrease"
+    }
+  },
+  "material_1h_02_f183cf186": {
+    "category": "material",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "paper",
+      "to": "cardboard"
+    },
+    "factual": {
+      "video": "material_1h_02_f183cf186_factual.mp4",
+      "caption": "A piece of paper is torn by hand"
+    },
+    "counterfactual": {
+      "video": "material_1h_02_f183cf186_counterfactual.mp4",
+      "caption": "A piece of cardboard is torn by hand"
+    },
+    "duration": 6.84,
+    "hit_times": [
+      3.320454
+    ],
+    "expected_metrics": {
+      "spectral_flux": "increase",
+      "temporal_modulation": "increase",
+      "spectral_centroid": "decrease"
+    }
+  },
+  "material_1h_03_f183cf187": {
+    "category": "material",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "paper",
+      "to": "cardboard"
+    },
+    "factual": {
+      "video": "material_1h_03_f183cf187_factual.mp4",
+      "caption": "A piece of paper is torn by hand"
+    },
+    "counterfactual": {
+      "video": "material_1h_03_f183cf187_counterfactual.mp4",
+      "caption": "A piece of cardboard is torn by hand"
+    },
+    "duration": 6.84,
+    "hit_times": [
+      3.320454
+    ],
+    "expected_metrics": {
+      "spectral_flux": "increase",
+      "temporal_modulation": "increase",
+      "spectral_centroid": "decrease"
+    }
+  },
+  "material_1h_04_f183cf188": {
+    "category": "material",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "paper",
+      "to": "paper_bag"
+    },
+    "factual": {
+      "video": "material_1h_04_f183cf188_factual.mp4",
+      "caption": "A piece of paper is torn by hand"
+    },
+    "counterfactual": {
+      "video": "material_1h_04_f183cf188_counterfactual.mp4",
+      "caption": "A paper bag is torn by hand"
+    },
+    "duration": 6.84,
+    "hit_times": [
+      3.320454
+    ],
+    "expected_metrics": {
+      "spectral_flux": "increase",
+      "temporal_modulation": "increase"
+    }
+  },
+  "material_2h_01_f181cf190": {
+    "category": "material",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "paper",
+      "to": "cardboard"
+    },
+    "factual": {
+      "video": "material_2h_01_f181cf190_factual.mp4",
+      "caption": "A piece of paper is torn by hand"
+    },
+    "counterfactual": {
+      "video": "material_2h_01_f181cf190_counterfactual.mp4",
+      "caption": "A piece of cardboard is torn by hand"
+    },
+    "duration": 8.8088,
+    "hit_times": [
+      3.349478,
+      7.174966
+    ],
+    "expected_metrics": {
+      "spectral_flux": "increase",
+      "temporal_modulation": "increase",
+      "spectral_centroid": "decrease"
+    }
+  },
+  "material_2h_02_f189cf190": {
+    "category": "material",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "paper",
+      "to": "cardboard"
+    },
+    "factual": {
+      "video": "material_2h_02_f189cf190_factual.mp4",
+      "caption": "A piece of paper is torn by hand"
+    },
+    "counterfactual": {
+      "video": "material_2h_02_f189cf190_counterfactual.mp4",
+      "caption": "A piece of cardboard is torn by hand"
+    },
+    "duration": 6.41,
+    "hit_times": [
+      3.744218,
+      4.893605
+    ],
+    "expected_metrics": {
+      "spectral_flux": "increase",
+      "temporal_modulation": "increase",
+      "spectral_centroid": "decrease"
+    }
+  },
+  "material_2h_03_f190cf181": {
+    "category": "material",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "cardboard",
+      "to": "paper"
+    },
+    "factual": {
+      "video": "material_2h_03_f190cf181_factual.mp4",
+      "caption": "A piece of cardboard is torn by hand"
+    },
+    "counterfactual": {
+      "video": "material_2h_03_f190cf181_counterfactual.mp4",
+      "caption": "A piece of paper is torn by hand"
+    },
+    "duration": 8.8088,
+    "hit_times": [
+      4.307302,
+      5.961723
+    ],
+    "expected_metrics": {
+      "spectral_flux": "decrease",
+      "temporal_modulation": "decrease",
+      "spectral_centroid": "increase"
+    }
+  },
+  "material_2h_04_f190cf189": {
+    "category": "material",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "cardboard",
+      "to": "paper"
+    },
+    "factual": {
+      "video": "material_2h_04_f190cf189_factual.mp4",
+      "caption": "A piece of cardboard is torn by hand"
+    },
+    "counterfactual": {
+      "video": "material_2h_04_f190cf189_counterfactual.mp4",
+      "caption": "A piece of paper is torn by hand"
+    },
+    "duration": 6.41,
+    "hit_times": [
+      4.307302,
+      5.961723
+    ],
+    "expected_metrics": {
+      "spectral_flux": "decrease",
+      "temporal_modulation": "decrease",
+      "spectral_centroid": "increase"
+    }
+  },
+  "guitar_clip_184_ascending": {
+    "category": "direction",
+    "evaluation_method": "single_video",
+    "pattern": "ascending",
+    "factual": {
+      "video": "guitar_clip_184_ascending.mp4",
+      "caption": "A man plays a sequence of ascending notes on a guitar"
+    },
+    "duration": 9.109104,
+    "hit_times": [
+      2.136236,
+      4.818141,
+      7.285261
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "ascending"
+    },
+    "f0": "pitch"
+  },
+  "guitar_clip_185_descending": {
+    "category": "direction",
+    "evaluation_method": "single_video",
+    "pattern": "descending",
+    "factual": {
+      "video": "guitar_clip_185_descending.mp4",
+      "caption": "A man plays a sequence of descending notes on a guitar"
+    },
+    "duration": 8.975633,
+    "hit_times": [
+      0.476009,
+      2.879274,
+      5.712109
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "descending"
+    },
+    "f0": "pitch"
+  },
+  "guitar_clip_195_ascending": {
+    "category": "direction",
+    "evaluation_method": "single_video",
+    "pattern": "ascending",
+    "factual": {
+      "video": "guitar_clip_195_ascending.mp4",
+      "caption": "Someone playing a series of ascending notes on guitar"
+    },
+    "duration": 8.64,
+    "hit_times": [
+      0.702404,
+      2.62966,
+      4.614966,
+      6.936961
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "ascending"
+    },
+    "f0": "pitch"
+  },
+  "guitar_clip_196_descending": {
+    "category": "direction",
+    "evaluation_method": "single_video",
+    "pattern": "descending",
+    "factual": {
+      "video": "guitar_clip_196_descending.mp4",
+      "caption": "Someone playing a series of descending notes on guitar"
+    },
+    "duration": 9.91,
+    "hit_times": [
+      0.731429,
+      3.999637,
+      7.128526
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "descending"
+    },
+    "f0": "pitch"
+  },
+  "env_bathroom_jar_consistency_3h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "env_bathroom_jar_consistency_3h.mp4",
+      "caption": "A metal spoon taps a glass jar sitting on a bathroom countertop"
+    },
+    "duration": 9.151,
+    "hit_times": [
+      1.097143,
+      4.104127,
+      6.995011
+    ],
+    "expected_metrics": {
+      "rt60": "no_change",
+      "drr": "no_change",
+      "fundamental_frequency": "no_change",
+      "decay_rate": "no_change"
+    }
+  },
+  "env_stairwell_clap_consistency_4h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "env_stairwell_clap_consistency_4h.mp4",
+      "caption": "Hand clapping in a concrete stairwell"
+    },
+    "duration": 7.741,
+    "hit_times": [
+      1.491882,
+      2.786395,
+      4.504671,
+      6.606077
+    ],
+    "expected_metrics": {
+      "rt60": "no_change",
+      "drr": "no_change",
+      "decay_rate": "no_change"
+    }
+  },
+  "env_stairwell_clap_consistency_5h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "env_stairwell_clap_consistency_5h.mp4",
+      "caption": "Hand clapping in a concrete stairwell"
+    },
+    "duration": 8.9423,
+    "hit_times": [
+      2.037551,
+      3.378503,
+      4.760091,
+      6.130068,
+      7.546485
+    ],
+    "expected_metrics": {
+      "rt60": "no_change",
+      "drr": "no_change"
+    }
+  },
+  "pan_air_consistency_2h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "pan_air_consistency_2h.mp4",
+      "caption": "A metal spoon taps a metal pan held in the air"
+    },
+    "duration": 8.852,
+    "hit_times": [
+      1.671837,
+      6.263583
+    ],
+    "expected_metrics": {
+      "decay_rate": "no_change",
+      "rt60": "no_change"
+    }
+  },
+  "pan_flat_consistency_2h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "pan_flat_consistency_2h.mp4",
+      "caption": "A metal spoon taps a metal pan lying flat on a wooden table in the kitchen."
+    },
+    "duration": 8.724,
+    "hit_times": [
+      0.957823,
+      5.25932
+    ],
+    "expected_metrics": {
+      "decay_rate": "no_change",
+      "rt60": "no_change",
+      "drr": "no_change"
+    }
+  },
+  "board_dangle_consistency_2h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "board_dangle_consistency_2h.mp4",
+      "caption": "A metal spoon taps a bamboo cutting board dangling in midair, held by someone's hand."
+    },
+    "duration": 9.492,
+    "hit_times": [
+      2.73415,
+      6.838277
+    ],
+    "expected_metrics": {
+      "decay_rate": "no_change",
+      "fundamental_frequency": "no_change",
+      "rt60": "no_change"
+    }
+  },
+  "board_flat_consistency_2h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "board_flat_consistency_2h.mp4",
+      "caption": "A metal spoon taps a bamboo cutting board lying flat on a wooden table in the kitchen."
+    },
+    "duration": 9.898,
+    "hit_times": [
+      2.809615,
+      7.180771
+    ],
+    "expected_metrics": {
+      "decay_rate": "no_change",
+      "fundamental_frequency": "no_change",
+      "rt60": "no_change",
+      "drr": "no_change"
+    }
+  },
+  "spatula_nonstick_consistency_2h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "spatula_nonstick_consistency_2h.mp4",
+      "caption": "A plastic spatula scrapes across the surface of a non-stick pan"
+    },
+    "duration": 7.85,
+    "hit_times": [
+      3.668753,
+      6.101043
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "no_change",
+      "spectral_flux": "no_change"
+    }
+  },
+  "paper_tear_consistency_2h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "paper_tear_consistency_2h.mp4",
+      "caption": "A piece of paper is torn by hand"
+    },
+    "duration": 6.41,
+    "hit_times": [
+      3.744218,
+      4.893605
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "no_change"
+    }
+  },
+  "cardboard_tear_consistency_2h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "cardboard_tear_consistency_2h.mp4",
+      "caption": "A piece of cardboard is torn by hand"
+    },
+    "duration": 8.8088,
+    "hit_times": [
+      4.307302,
+      5.961723
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "no_change"
+    }
+  },
+  "surface_1h_07_f078cf080": {
+    "category": "surface",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "wooden_floor",
+      "to": "carpet"
+    },
+    "factual": {
+      "video": "surface_1h_07_f078cf080_factual.mp4",
+      "caption": "A rubber slipper taps a wooden floor"
+    },
+    "counterfactual": {
+      "video": "surface_1h_07_f078cf080_counterfactual.mp4",
+      "caption": "A rubber slipper taps a carpeted floor"
+    },
+    "duration": 2.486916000000001,
+    "hit_times": [
+      1.439637
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "decrease",
+      "decay_rate": "increase",
+      "attack_time": "increase",
+      "spectral_rolloff": "decrease",
+      "spectral_flux": "decrease"
+    }
+  },
+  "surface_1h_08_f078cf084": {
+    "category": "surface",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "wooden_floor",
+      "to": "hollow_cardboard"
+    },
+    "factual": {
+      "video": "surface_1h_08_f078cf084_factual.mp4",
+      "caption": "A rubber slipper taps a wooden floor"
+    },
+    "counterfactual": {
+      "video": "surface_1h_08_f078cf084_counterfactual.mp4",
+      "caption": "A rubber slipper taps a hollow-sounding cardboard structure"
+    },
+    "duration": 3.883075,
+    "hit_times": [
+      1.439637
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "decrease",
+      "decay_rate": "decrease"
+    }
+  },
+  "piano_clip_028_descending": {
+    "category": "direction",
+    "evaluation_method": "single_video",
+    "pattern": "descending",
+    "factual": {
+      "video": "piano_clip_028_descending.mp4",
+      "caption": "Descending piano keys are played in succession"
+    },
+    "duration": 6.106,
+    "hit_times": [
+      0.893968,
+      1.625397,
+      2.4439,
+      3.349478,
+      4.353741,
+      5.31737
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "descending"
+    },
+    "f0": "pitch"
+  },
+  "clapping_consistency_4h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "clapping_consistency_4h.mp4",
+      "caption": "Hands clapping repeatedly"
+    },
+    "duration": 5.005,
+    "hit_times": [
+      0.383129,
+      1.979501,
+      2.658685,
+      3.337868
+    ],
+    "expected_metrics": {
+      "rt60": "no_change",
+      "drr": "no_change"
+    }
+  },
+  "piano_chord_consistency_2h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "piano_chord_consistency_2h.mp4",
+      "caption": "A piano chord is played twice"
+    },
+    "duration": 6.44,
+    "hit_times": [
+      2.124626,
+      4.748481
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "no_change",
+      "spectral_centroid": "no_change"
+    }
+  },
+  "door_consistency_4h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "door_consistency_4h.mp4",
+      "caption": "A door is opened and closed repeatedly, with the sounds of unlatching and slamming each time"
+    },
+    "duration": 6.04,
+    "hit_times": [
+      1.300317,
+      2.75737,
+      3.755828,
+      5.450884
+    ],
+    "expected_metrics": {
+      "spectral_flux": "no_change"
+    }
+  },
+  "clapping_cushion_consistency_5h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "clapping_cushion_consistency_5h.mp4",
+      "caption": "A hand claps repeatedly against a backdrop of a cushioned surface"
+    },
+    "duration": 6.54,
+    "hit_times": [
+      0.441179,
+      2.020136,
+      3.448163,
+      5.032925,
+      5.590204
+    ],
+    "expected_metrics": {
+      "rt60": "no_change",
+      "spectral_centroid": "no_change",
+      "drr": "no_change"
+    }
+  },
+  "knife_chopping_consistency_5h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "knife_chopping_consistency_5h.mp4",
+      "caption": "Sound of a knife chopping apple slices and hitting the wooden cutting board beneath"
+    },
+    "duration": 6.874,
+    "hit_times": [
+      0.087075,
+      0.940408,
+      1.718277,
+      4.400181,
+      5.955918
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "no_change",
+      "attack_time": "no_change"
+    }
+  },
+  "switch_consistency_4h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "switch_consistency_4h.mp4",
+      "caption": "Sound of a switch being flipped on and off"
+    },
+    "duration": 6.507,
+    "hit_times": [
+      1.265488,
+      2.292971,
+      3.813878,
+      5.706304
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "no_change",
+      "attack_time": "no_change",
+      "drr": "no_change"
+    }
+  },
+  "palm_smack_consistency_2h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "palm_smack_consistency_2h.mp4",
+      "caption": "An open-palmed hand smacks the wooden surface of a stool repeatedly"
+    },
+    "duration": 5.973,
+    "hit_times": [
+      2.7922,
+      3.726803
+    ],
+    "expected_metrics": {
+      "decay_rate": "no_change",
+      "spectral_centroid": "no_change",
+      "rt60": "no_change",
+      "drr": "no_change"
+    }
+  },
+  "palm_smack_consistency_5h": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "palm_smack_consistency_5h.mp4",
+      "caption": "An open palm smacks the wooden surface of a stool repeatedly"
+    },
+    "duration": 5.973,
+    "hit_times": [
+      0.638549,
+      0.963628,
+      1.277098,
+      2.75737,
+      5.172245
+    ],
+    "expected_metrics": {
+      "decay_rate": "no_change",
+      "spectral_centroid": "no_change",
+      "rt60": "no_change",
+      "drr": "no_change"
+    }
+  },
+  "piano_clip_197_descending": {
+    "category": "direction",
+    "evaluation_method": "single_video",
+    "pattern": "descending",
+    "factual": {
+      "video": "piano_clip_197_descending.mp4",
+      "caption": "Someone playing a series of descending notes on piano"
+    },
+    "duration": 6.954,
+    "hit_times": [
+      0.348299,
+      3.123084,
+      5.880454
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "descending"
+    },
+    "f0": "pitch"
+  },
+  "piano_clip_198_ascending": {
+    "category": "direction",
+    "evaluation_method": "single_video",
+    "pattern": "ascending",
+    "factual": {
+      "video": "piano_clip_198_ascending.mp4",
+      "caption": "Someone playing a series of ascending notes on piano"
+    },
+    "duration": 8.895,
+    "hit_times": [
+      0.388934,
+      2.6761,
+      4.852971,
+      7.331701
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "ascending"
+    },
+    "f0": "pitch"
+  },
+  "piano_clip_199_descending": {
+    "category": "direction",
+    "evaluation_method": "single_video",
+    "pattern": "descending",
+    "factual": {
+      "video": "piano_clip_199_descending.mp4",
+      "caption": "Someone playing a series of descending notes on piano"
+    },
+    "duration": 9.428,
+    "hit_times": [
+      1.340952,
+      3.395918,
+      5.549569,
+      7.85415
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "descending"
+    },
+    "f0": "pitch"
+  },
+  "piano_clip_200_descending": {
+    "category": "direction",
+    "evaluation_method": "single_video",
+    "pattern": "descending",
+    "factual": {
+      "video": "piano_clip_200_descending.mp4",
+      "caption": "Someone playing a series of descending notes on piano"
+    },
+    "duration": 9.62,
+    "hit_times": [
+      0.714014,
+      3.065034,
+      5.392834,
+      8.173424
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "descending"
+    },
+    "f0": "pitch"
+  },
+  "piano_clip_201_ascending": {
+    "category": "direction",
+    "evaluation_method": "single_video",
+    "pattern": "ascending",
+    "factual": {
+      "video": "piano_clip_201_ascending.mp4",
+      "caption": "Someone playing a series of ascending notes on piano"
+    },
+    "duration": 9.898,
+    "hit_times": [
+      0.313469,
+      2.542585,
+      5.021315,
+      8.010884
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "ascending"
+    },
+    "f0": "pitch"
+  },
+  "piano_clip_202_ascending": {
+    "category": "direction",
+    "evaluation_method": "single_video",
+    "pattern": "ascending",
+    "factual": {
+      "video": "piano_clip_202_ascending.mp4",
+      "caption": "Someone playing a series of ascending notes on piano"
+    },
+    "duration": 9.556,
+    "hit_times": [
+      1.004263,
+      3.221769,
+      5.398639,
+      7.732245
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "ascending"
+    },
+    "f0": "pitch"
+  },
+  "piano_clip_203_descending": {
+    "category": "direction",
+    "evaluation_method": "single_video",
+    "pattern": "descending",
+    "factual": {
+      "video": "piano_clip_203_descending.mp4",
+      "caption": "Someone playing a series of descending notes on piano"
+    },
+    "duration": 9.556,
+    "hit_times": [
+      0.272834,
+      2.58322,
+      5.090975,
+      8.126984
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "descending"
+    },
+    "f0": "pitch"
+  },
+  "piano_clip_204_ascending": {
+    "category": "direction",
+    "evaluation_method": "single_video",
+    "pattern": "ascending",
+    "factual": {
+      "video": "piano_clip_204_ascending.mp4",
+      "caption": "Someone playing a series of ascending notes on piano"
+    },
+    "duration": 8.66,
+    "hit_times": [
+      0.673379,
+      3.146304,
+      6.420317
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "ascending"
+    },
+    "f0": "pitch"
+  },
+  "clap_consistency_3h_f020": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "clapping_cushioned_3h_factual.mp4",
+      "caption": "Hands clapping repeatedly"
+    },
+    "duration": 4.47,
+    "hit_times": [
+      0.25,
+      2.038,
+      2.659
+    ],
+    "expected_metrics": {
+      "rt60": "no_change"
+    }
+  },
+  "jar_room_consistency_2h_f141": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "env_2h_01_f141cf150_factual.mp4",
+      "caption": "A metal spoon taps a glass jar sitting on a bathroom countertop"
+    },
+    "duration": 6.356,
+    "hit_times": [
+      1.527,
+      4.232
+    ],
+    "expected_metrics": {
+      "drr": "no_change",
+      "fundamental_frequency": "no_change",
+      "decay_rate": "no_change"
+    }
+  },
+  "jar_room_consistency_2h_f150": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "env_2h_04_f150cf143_factual.mp4",
+      "caption": "A metal spoon taps a glass jar sitting on the wooden floor of a bedroom"
+    },
+    "duration": 7.594,
+    "hit_times": [
+      2.299,
+      5.706
+    ],
+    "expected_metrics": {
+      "rt60": "no_change",
+      "fundamental_frequency": "no_change",
+      "decay_rate": "no_change"
+    }
+  },
+  "jar_room_consistency_2h_f142": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "env_2h_02_f142cf150_factual.mp4",
+      "caption": "A metal spoon taps a glass jar sitting on a bathroom countertop"
+    },
+    "duration": 7.21,
+    "hit_times": [
+      2.281,
+      5.254
+    ],
+    "expected_metrics": {
+      "rt60": "no_change",
+      "drr": "no_change",
+      "decay_rate": "no_change"
+    }
+  },
+  "clap_consistency_2h_f144": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "env_2h_03_f144cf152_factual.mp4",
+      "caption": "Hands clapping repeatedly in the bathroom"
+    },
+    "duration": 5.674,
+    "hit_times": [
+      1.66,
+      4.098
+    ],
+    "expected_metrics": {
+      "rt60": "no_change"
+    }
+  },
+  "clap_consistency_2h_f152": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "env_2h_05_f152cf148_factual.mp4",
+      "caption": "Hands clapping in the bedroom with a backdrop of cushioned bedding"
+    },
+    "duration": 6.378,
+    "hit_times": [
+      1.939,
+      4.458
+    ],
+    "expected_metrics": {
+      "rt60": "no_change"
+    }
+  },
+  "clap_consistency_3h_f145": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "env_3h_01_f145cf153_factual.mp4",
+      "caption": "Hands clapping repeatedly in the bathroom"
+    },
+    "duration": 7.06,
+    "hit_times": [
+      0.766,
+      3.233,
+      5.584
+    ],
+    "expected_metrics": {
+      "rt60": "no_change"
+    }
+  },
+  "clap_consistency_3h_f153": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "env_3h_02_f153cf147_factual.mp4",
+      "caption": "Hands clapping in the bedroom with a backdrop of cushioned bedding"
+    },
+    "duration": 8.127,
+    "hit_times": [
+      0.993,
+      4.017,
+      6.751
+    ],
+    "expected_metrics": {
+      "rt60": "no_change"
+    }
+  },
+  "clap_consistency_2h_f193": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "env_2h_06_f152cf193_counterfactual.mp4",
+      "caption": "Hand clapping in a concrete stairwell"
+    },
+    "duration": 6.0727,
+    "hit_times": [
+      1.939,
+      4.458
+    ],
+    "expected_metrics": {
+      "drr": "no_change",
+      "decay_rate": "no_change"
+    }
+  },
+  "clap_consistency_3h_f147": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "env_3h_02_f153cf147_counterfactual.mp4",
+      "caption": "Hands clapping repeatedly in the bathroom"
+    },
+    "duration": 8.127,
+    "hit_times": [
+      0.993,
+      4.017,
+      6.751
+    ],
+    "expected_metrics": {
+      "rt60": "no_change",
+      "decay_rate": "no_change"
+    }
+  },
+  "metal_stick_consistency_2h_f073": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "config_2h_01_f071cf073_counterfactual.mp4",
+      "caption": "A metal stick hits a protruding end of another metal stick that is lying flat on a wooden surface."
+    },
+    "duration": 7.06,
+    "hit_times": [
+      2.084,
+      5.021
+    ],
+    "expected_metrics": {
+      "drr": "no_change"
+    }
+  },
+  "stool_consistency_3h_f054": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "palm_vs_fist_3h_factual.mp4",
+      "caption": "An open-palmed hand smacks the wooden surface of a stool repeatedly"
+    },
+    "duration": 5.038,
+    "hit_times": [
+      0.308,
+      1.097,
+      2.699
+    ],
+    "expected_metrics": {
+      "rt60": "no_change",
+      "drr": "no_change"
+    }
+  },
+  "castiron_tap_consistency_2h_f121": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "config_2h_02_f121cf123_factual.mp4",
+      "caption": "A wooden spatula repeatedly taps the surface of a cast iron pan suspended in mid-air"
+    },
+    "duration": 6.89,
+    "hit_times": [
+      3.692,
+      5.462
+    ],
+    "expected_metrics": {
+      "decay_rate": "no_change",
+      "fundamental_frequency": "no_change",
+      "rt60": "no_change",
+      "drr": "no_change"
+    }
+  },
+  "mechanism_consistency_3h_f033": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "drawer_vs_cupboard_3h_counterfactual.mp4",
+      "caption": "A cupboard door is repeatedly opened and closed"
+    },
+    "duration": 8.2,
+    "hit_times": [
+      2.067,
+      4.203,
+      6.705
+    ],
+    "expected_metrics": {
+      "rt60": "no_change"
+    }
+  },
+  "consistency_3h_f017cf018": {
+    "category": "consistency",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "metal_spoon",
+      "to": "metal_spoon"
+    },
+    "factual": {
+      "video": "consistency_3h_f017cf018_factual.mp4",
+      "caption": "A metal spoon repeatedly tapping a metal cup"
+    },
+    "counterfactual": {
+      "video": "consistency_3h_f017cf018_counterfactual.mp4",
+      "caption": "A metal spoon repeatedly tapping a metal cup"
+    },
+    "duration": 6.807,
+    "hit_times": [
+      1.097143,
+      3.250794,
+      5.613424
+    ],
+    "expected_metrics": {
+      "decay_rate": "no_change",
+      "rt60": "no_change"
+    }
+  },
+  "metal_cup_consistency_3h_f017": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "consistency_3h_f017cf018_factual.mp4",
+      "caption": "A metal spoon repeatedly tapping a metal cup"
+    },
+    "duration": 6.807,
+    "hit_times": [
+      1.097143,
+      3.250794,
+      5.613424
+    ],
+    "expected_metrics": {
+      "decay_rate": "no_change",
+      "fundamental_frequency": "no_change",
+      "drr": "no_change"
+    }
+  },
+  "stool_consistency_4h_f057": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "stool_consistency_4h_f057.mp4",
+      "caption": "A wooden stick repeatedly taps the wooden surface of a stool"
+    },
+    "duration": 5.639,
+    "hit_times": [
+      0.487619,
+      2.263946,
+      4.255057,
+      4.655601
+    ],
+    "expected_metrics": {
+      "decay_rate": "no_change",
+      "rt60": "no_change",
+      "drr": "no_change"
+    }
+  },
+  "clap_consistency_3h_f040": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "clap_consistency_3h_f040.mp4",
+      "caption": "A hand claps repeatedly in a hallway"
+    },
+    "duration": 7.108,
+    "hit_times": [
+      1.654422,
+      4.069297,
+      6.402902
+    ],
+    "expected_metrics": {
+      "rt60": "no_change"
+    }
+  },
+  "clap_consistency_4h_f038": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "clap_consistency_4h_f038.mp4",
+      "caption": "A hand claps repeatedly in a long, open hallway."
+    },
+    "duration": 5.906,
+    "hit_times": [
+      0.2322,
+      2.113016,
+      2.66449,
+      4.719456
+    ],
+    "expected_metrics": {
+      "rt60": "no_change",
+      "decay_rate": "no_change"
+    }
+  },
+  "clap_consistency_4h_f035": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "clap_consistency_4h_f035.mp4",
+      "caption": "A hand claps repeatedly against a backdrop of a cushioned surface"
+    },
+    "duration": 5.439,
+    "hit_times": [
+      0.568889,
+      1.909841,
+      3.303039,
+      4.551111
+    ],
+    "expected_metrics": {
+      "rt60": "no_change"
+    }
+  },
+  "clap_consistency_4h_f148": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "clap_consistency_4h_f148.mp4",
+      "caption": "Hands clapping repeatedly in the bathroom"
+    },
+    "duration": 9.45,
+    "hit_times": [
+      0.870748,
+      3.471383,
+      5.816599,
+      8.126984
+    ],
+    "expected_metrics": {
+      "rt60": "no_change"
+    }
+  },
+  "glass_cup_full_consistency_4h_f001": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "glass_cup_full_consistency_4h_f001.mp4",
+      "caption": "A metal spoon repeatedly taps the side of a glass cup full of liquid"
+    },
+    "duration": 6.707,
+    "hit_times": [
+      1.352562,
+      2.49034,
+      4.179592,
+      5.723719
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "no_change"
+    }
+  },
+  "stool_consistency_3h_f058": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "stool_consistency_3h_f058.mp4",
+      "caption": "A wooden stick repeatedly taps the wooden surface of a stool"
+    },
+    "duration": 5.105,
+    "hit_times": [
+      0.702404,
+      2.798005,
+      3.575873
+    ],
+    "expected_metrics": {
+      "rt60": "no_change",
+      "drr": "no_change"
+    }
+  },
+  "metal_cup_consistency_4h_f018": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "metal_cup_consistency_4h_f018.mp4",
+      "caption": "A metal spoon repeatedly tapping a metal cup"
+    },
+    "duration": 6.573,
+    "hit_times": [
+      0.841723,
+      2.083991,
+      4.336327,
+      5.590204
+    ],
+    "expected_metrics": {
+      "rt60": "no_change",
+      "drr": "no_change"
+    }
+  },
+  "stomp_consistency_4h_f050": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "stomp_consistency_4h_f050.mp4",
+      "caption": "Sound of a shoe stomping on the wooden floor"
+    },
+    "duration": 5.439,
+    "hit_times": [
+      0.922993,
+      2.200091,
+      3.361088,
+      4.504671
+    ],
+    "expected_metrics": {
+      "rt60": "no_change"
+    }
+  },
+  "stomp_consistency_4h_f051": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "stomp_consistency_4h_f051.mp4",
+      "caption": "Sound of a shoe stomping on the wooden floor"
+    },
+    "duration": 5.573,
+    "hit_times": [
+      0.603719,
+      1.956281,
+      3.366893,
+      4.684626
+    ],
+    "expected_metrics": {
+      "drr": "no_change"
+    }
+  },
+  "knife_consistency_4h_f047": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "knife_consistency_4h_f047.mp4",
+      "caption": "Sound of a knife chopping cabbage and hitting the wooden cutting board beneath"
+    },
+    "duration": 8.075,
+    "hit_times": [
+      2.176871,
+      3.570068,
+      5.207075,
+      6.501587
+    ],
+    "expected_metrics": {
+      "rt60": "no_change"
+    }
+  },
+  "consistency_3h_f057cf058": {
+    "category": "consistency",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "wooden_stick",
+      "to": "wooden_stick"
+    },
+    "factual": {
+      "video": "consistency_3h_f057cf058_factual.mp4",
+      "caption": "A wooden stick repeatedly taps the wooden surface of a stool"
+    },
+    "counterfactual": {
+      "video": "consistency_3h_f057cf058_counterfactual.mp4",
+      "caption": "A wooden stick repeatedly taps the wooden surface of a stool"
+    },
+    "duration": 4.555,
+    "hit_times": [
+      0.487619,
+      2.263946,
+      4.255057
+    ],
+    "expected_metrics": {
+      "decay_rate": "no_change",
+      "rt60": "no_change"
+    }
+  },
+  "glass_cup_full_consistency_2h_f002": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "glass_cup_full_consistency_2h_f002.mp4",
+      "caption": "A metal spoon repeatedly taps the side of a glass cup full of liquid"
+    },
+    "duration": 7.641,
+    "hit_times": [
+      2.321995,
+      5.967528
+    ],
+    "expected_metrics": {
+      "decay_rate": "no_change",
+      "drr": "no_change"
+    }
+  },
+  "stool_consistency_5h_f014": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "stool_consistency_5h_f014.mp4",
+      "caption": "A fist repeatedly hammers down on a wooden stool surface"
+    },
+    "duration": 7.374,
+    "hit_times": [
+      0.725624,
+      2.57161,
+      4.075102,
+      5.218685,
+      6.501587
+    ],
+    "expected_metrics": {
+      "rt60": "no_change",
+      "drr": "no_change"
+    }
+  },
+  "consistency_4h_01_f013cf014": {
+    "category": "consistency",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "closed_fist",
+      "to": "closed_fist"
+    },
+    "factual": {
+      "video": "consistency_4h_01_f013cf014_factual.mp4",
+      "caption": "A fist repeatedly hammers down on a wooden stool surface"
+    },
+    "counterfactual": {
+      "video": "consistency_4h_01_f013cf014_counterfactual.mp4",
+      "caption": "A fist repeatedly hammers down on a wooden stool surface"
+    },
+    "duration": 6.24,
+    "hit_times": [
+      1.044898,
+      2.38585,
+      3.877732,
+      5.10839
+    ],
+    "expected_metrics": {
+      "rt60": "no_change"
+    }
+  },
+  "consistency_1h_02_f082cf084": {
+    "category": "consistency",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "hollow_cardboard",
+      "to": "hollow_cardboard"
+    },
+    "factual": {
+      "video": "consistency_1h_02_f082cf084_factual.mp4",
+      "caption": "A rubber slipper repeatedly taps a hollow-sounding cardboard structure"
+    },
+    "counterfactual": {
+      "video": "consistency_1h_02_f082cf084_counterfactual.mp4",
+      "caption": "A rubber slipper taps a hollow-sounding cardboard structure"
+    },
+    "duration": 3.45,
+    "hit_times": [
+      2.113016
+    ],
+    "expected_metrics": {
+      "attack_time": "no_change",
+      "decay_rate": "no_change",
+      "rt60": "no_change"
+    }
+  },
+  "interaction_3h_01_f044cf048": {
+    "category": "interaction_type",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "honing",
+      "to": "chopping"
+    },
+    "factual": {
+      "video": "interaction_3h_01_f044cf048_factual.mp4",
+      "caption": "Sound of a knife stroking against a metal honing steel"
+    },
+    "counterfactual": {
+      "video": "interaction_3h_01_f044cf048_counterfactual.mp4",
+      "caption": "Sound of a knife chopping apple slices and hitting the wooden cutting board beneath"
+    },
+    "duration": 5.106,
+    "hit_times": [
+      1.033288,
+      2.62966,
+      4.226032
+    ],
+    "expected_metrics": {
+      "attack_time": "decrease",
+      "spectral_centroid": "decrease",
+      "spectral_rolloff": "decrease",
+      "spectral_flux": "increase"
+    }
+  },
+  "interaction_3h_02_f044cf047": {
+    "category": "interaction_type",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "honing",
+      "to": "chopping"
+    },
+    "factual": {
+      "video": "interaction_3h_02_f044cf047_factual.mp4",
+      "caption": "Sound of a knife stroking against a metal honing steel"
+    },
+    "counterfactual": {
+      "video": "interaction_3h_02_f044cf047_counterfactual.mp4",
+      "caption": "Sound of a knife chopping cabbage and hitting the wooden cutting board beneath"
+    },
+    "duration": 5.106,
+    "hit_times": [
+      1.033288,
+      2.62966,
+      4.226032
+    ],
+    "expected_metrics": {
+      "attack_time": "decrease",
+      "spectral_centroid": "decrease",
+      "spectral_rolloff": "decrease",
+      "spectral_flux": "increase"
+    }
+  },
+  "consistency_4h_02_f050cf051": {
+    "category": "consistency",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "wooden_floor",
+      "to": "wooden_floor"
+    },
+    "factual": {
+      "video": "consistency_4h_02_f050cf051_factual.mp4",
+      "caption": "Sound of a shoe stomping on the wooden floor"
+    },
+    "counterfactual": {
+      "video": "consistency_4h_02_f050cf051_counterfactual.mp4",
+      "caption": "Sound of a shoe stomping on the wooden floor"
+    },
+    "duration": 5.439,
+    "hit_times": [
+      0.922993,
+      2.200091,
+      3.361088,
+      4.504671
+    ],
+    "expected_metrics": {
+      "rt60": "no_change"
+    }
+  },
+  "consistency_3h_01_f012cf014": {
+    "category": "consistency",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "closed_fist",
+      "to": "closed_fist"
+    },
+    "factual": {
+      "video": "consistency_3h_01_f012cf014_factual.mp4",
+      "caption": "A fist repeatedly hammers down on a wooden stool surface"
+    },
+    "counterfactual": {
+      "video": "consistency_3h_01_f012cf014_counterfactual.mp4",
+      "caption": "A fist repeatedly hammers down on a wooden stool surface"
+    },
+    "duration": 5.572,
+    "hit_times": [
+      1.044898,
+      2.472925,
+      4.266667
+    ],
+    "expected_metrics": {
+      "decay_rate": "no_change"
+    }
+  },
+  "consistency_2h_05_f144cf145": {
+    "category": "consistency",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "bathroom",
+      "to": "bathroom"
+    },
+    "factual": {
+      "video": "consistency_2h_05_f144cf145_factual.mp4",
+      "caption": "Hands clapping repeatedly in the bathroom"
+    },
+    "counterfactual": {
+      "video": "consistency_2h_05_f144cf145_counterfactual.mp4",
+      "caption": "Hands clapping repeatedly in the bathroom"
+    },
+    "duration": 5.674,
+    "hit_times": [
+      1.660227,
+      4.098322
+    ],
+    "expected_metrics": {
+      "rt60": "no_change"
+    }
+  },
+  "consistency_3h_03_f037cf038": {
+    "category": "consistency",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "hallway",
+      "to": "hallway"
+    },
+    "factual": {
+      "video": "consistency_3h_03_f037cf038_factual.mp4",
+      "caption": "A hand claps repeatedly in a long, open hallway."
+    },
+    "counterfactual": {
+      "video": "consistency_3h_03_f037cf038_counterfactual.mp4",
+      "caption": "A hand claps repeatedly in a long, open hallway."
+    },
+    "duration": 5.506,
+    "hit_times": [
+      1.660227,
+      3.593288,
+      4.371156
+    ],
+    "expected_metrics": {
+      "rt60": "no_change"
+    }
+  },
+  "texture_2h_03_f081cf083": {
+    "category": "surface_texture",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "carpet",
+      "to": "hollow_cardboard"
+    },
+    "factual": {
+      "video": "texture_2h_03_f081cf083_factual.mp4",
+      "caption": "A rubber slipper repeatedly taps a carpeted floor"
+    },
+    "counterfactual": {
+      "video": "texture_2h_03_f081cf083_counterfactual.mp4",
+      "caption": "A rubber slipper repeatedly taps a hollow-sounding cardboard structure"
+    },
+    "duration": 6.248,
+    "hit_times": [
+      1.468662,
+      4.063492
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "increase",
+      "spectral_rolloff": "increase",
+      "decay_rate": "decrease"
+    }
+  },
+  "striker_4h_01_f013cf057": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "closed_fist",
+      "to": "wooden_stick"
+    },
+    "factual": {
+      "video": "striker_4h_01_f013cf057_factual.mp4",
+      "caption": "A fist repeatedly hammers down on a wooden stool surface"
+    },
+    "counterfactual": {
+      "video": "striker_4h_01_f013cf057_counterfactual.mp4",
+      "caption": "A wooden stick repeatedly taps the wooden surface of a stool"
+    },
+    "duration": 6.24,
+    "hit_times": [
+      1.044898,
+      2.38585,
+      3.877732,
+      5.10839
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "increase",
+      "spectral_rolloff": "increase",
+      "attack_time": "decrease"
+    }
+  },
+  "texture_4h_01_f050cf053": {
+    "category": "surface_texture",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "wooden_floor",
+      "to": "gravel"
+    },
+    "factual": {
+      "video": "texture_4h_01_f050cf053_factual.mp4",
+      "caption": "Sound of a shoe stomping on the wooden floor"
+    },
+    "counterfactual": {
+      "video": "texture_4h_01_f050cf053_counterfactual.mp4",
+      "caption": "Sound of a shoe stomping in gravel"
+    },
+    "duration": 5.439,
+    "hit_times": [
+      0.922993,
+      2.200091,
+      3.361088,
+      4.504671
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "increase",
+      "spectral_rolloff": "increase"
+    }
+  },
+  "consistency_2h_06_f001cf002": {
+    "category": "consistency",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "full",
+      "to": "full"
+    },
+    "factual": {
+      "video": "consistency_2h_06_f001cf002_factual.mp4",
+      "caption": "A metal spoon repeatedly taps the side of a glass cup full of liquid"
+    },
+    "counterfactual": {
+      "video": "consistency_2h_06_f001cf002_counterfactual.mp4",
+      "caption": "A metal spoon repeatedly taps the side of a glass cup full of liquid"
+    },
+    "duration": 3.88,
+    "hit_times": [
+      1.352562,
+      2.49034
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "no_change"
+    }
+  },
+  "env_1h_07_f143cf155": {
+    "category": "acoustic_environment",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "bathroom",
+      "to": "bedroom"
+    },
+    "factual": {
+      "video": "env_1h_07_f143cf155_factual.mp4",
+      "caption": "A metal spoon taps a glass jar sitting on a bathroom countertop"
+    },
+    "counterfactual": {
+      "video": "env_1h_07_f143cf155_counterfactual.mp4",
+      "caption": "A metal spoon taps a glass jar sitting on the wooden floor of a bedroom"
+    },
+    "duration": 3.804,
+    "hit_times": [
+      1.097143
+    ],
+    "expected_metrics": {
+      "rt60": "decrease"
+    }
+  },
+  "env_1h_08_f142cf151": {
+    "category": "acoustic_environment",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "bathroom",
+      "to": "bedroom"
+    },
+    "factual": {
+      "video": "env_1h_08_f142cf151_factual.mp4",
+      "caption": "A metal spoon taps a glass jar sitting on a bathroom countertop"
+    },
+    "counterfactual": {
+      "video": "env_1h_08_f142cf151_counterfactual.mp4",
+      "caption": "A metal spoon taps a glass jar sitting on the wooden floor of a bedroom"
+    },
+    "duration": 4.954,
+    "hit_times": [
+      2.281361
+    ],
+    "expected_metrics": {
+      "rt60": "decrease"
+    }
+  },
+  "striker_1h_23_f166cf167": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "wooden_spoon",
+      "to": "plastic_spoon"
+    },
+    "factual": {
+      "video": "striker_1h_23_f166cf167_factual.mp4",
+      "caption": "A wooden spoon taps a metal pan sitting upside down on a wooden table in the kitchen."
+    },
+    "counterfactual": {
+      "video": "striker_1h_23_f166cf167_counterfactual.mp4",
+      "caption": "A white plastic spoon taps a metal pan sitting upside down on a wooden table in the kitchen."
+    },
+    "duration": 8.596,
+    "hit_times": [
+      4.069297
+    ],
+    "expected_metrics": {
+      "rt60": "no_change"
+    }
+  },
+  "consistency_1h_07_f120cf121": {
+    "category": "consistency",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "suspended",
+      "to": "suspended"
+    },
+    "factual": {
+      "video": "consistency_1h_07_f120cf121_factual.mp4",
+      "caption": "A wooden spatula taps the surface of a cast iron pan suspended in mid-air"
+    },
+    "counterfactual": {
+      "video": "consistency_1h_07_f120cf121_counterfactual.mp4",
+      "caption": "A wooden spatula repeatedly taps the surface of a cast iron pan suspended in mid-air"
+    },
+    "duration": 6.52,
+    "hit_times": [
+      5.05034
+    ],
+    "expected_metrics": {
+      "decay_rate": "no_change",
+      "fundamental_frequency": "no_change",
+      "rt60": "no_change"
+    }
+  },
+  "interaction_4h_02_f043cf048": {
+    "category": "interaction_type",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "honing",
+      "to": "chopping"
+    },
+    "factual": {
+      "video": "interaction_4h_02_f043cf048_factual.mp4",
+      "caption": "Sound of a knife stroking against a metal honing steel"
+    },
+    "counterfactual": {
+      "video": "interaction_4h_02_f043cf048_counterfactual.mp4",
+      "caption": "Sound of a knife chopping apple slices and hitting the wooden cutting board beneath"
+    },
+    "duration": 5.0,
+    "hit_times": [
+      1.143583,
+      2.292971,
+      3.575873,
+      4.667211
+    ],
+    "expected_metrics": {
+      "attack_time": "decrease",
+      "spectral_centroid": "decrease",
+      "spectral_rolloff": "decrease",
+      "spectral_flux": "increase"
+    }
+  },
+  "striker_2h_17_f112cf114": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "metal_spatula",
+      "to": "wooden_spatula"
+    },
+    "factual": {
+      "video": "striker_2h_17_f112cf114_factual.mp4",
+      "caption": "A metal spatula repeatedly scrapes the surface of a cast iron pan"
+    },
+    "counterfactual": {
+      "video": "striker_2h_17_f112cf114_counterfactual.mp4",
+      "caption": "A wooden spatula repeatedly scrapes the surface of a cast iron pan"
+    },
+    "duration": 6.88,
+    "hit_times": [
+      3.430748,
+      5.090975
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "decrease",
+      "spectral_rolloff": "decrease"
+    }
+  },
+  "consistency_2h_08_f074cf076": {
+    "category": "consistency",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "stairwell",
+      "to": "stairwell"
+    },
+    "factual": {
+      "video": "consistency_2h_08_f074cf076_factual.mp4",
+      "caption": "A hand claps against a backdrop of a stairwell"
+    },
+    "counterfactual": {
+      "video": "consistency_2h_08_f074cf076_counterfactual.mp4",
+      "caption": "A hand claps against a backdrop of a stairwell"
+    },
+    "duration": 4.9,
+    "hit_times": [
+      1.073923,
+      3.215964
+    ],
+    "expected_metrics": {
+      "rt60": "no_change"
+    }
+  },
+  "consistency_3h_02_f039cf040": {
+    "category": "consistency",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "hallway",
+      "to": "hallway"
+    },
+    "factual": {
+      "video": "consistency_3h_02_f039cf040_factual.mp4",
+      "caption": "A hand claps repeatedly in an open hallway"
+    },
+    "counterfactual": {
+      "video": "consistency_3h_02_f039cf040_counterfactual.mp4",
+      "caption": "A hand claps repeatedly in a hallway"
+    },
+    "duration": 5.072,
+    "hit_times": [
+      0.638549,
+      2.025941,
+      3.622313
+    ],
+    "expected_metrics": {
+      "rt60": "no_change"
+    }
+  },
+  "consistency_4h_04_f003cf004": {
+    "category": "consistency",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "full_and_empty_glasses",
+      "to": "full_and_empty_glasses"
+    },
+    "factual": {
+      "video": "consistency_4h_04_f003cf004_factual.mp4",
+      "caption": "A metal spoon alternates between tapping two glass cups, one full and one empty."
+    },
+    "counterfactual": {
+      "video": "consistency_4h_04_f003cf004_counterfactual.mp4",
+      "caption": "A metal spoon alternates between tapping two glass cups, one full and one empty."
+    },
+    "duration": 4.884,
+    "hit_times": [
+      0.557279,
+      1.526712,
+      2.739955,
+      4.075102
+    ],
+    "expected_metrics": {
+      "rt60": "no_change",
+      "drr": "no_change",
+      "decay_rate": "no_change"
+    }
+  },
+  "consistency_4h_05_f024cf025": {
+    "category": "consistency",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "alternating_piano_keys",
+      "to": "alternating_piano_keys"
+    },
+    "factual": {
+      "video": "consistency_4h_05_f024cf025_factual.mp4",
+      "caption": "Alternating piano keys are played"
+    },
+    "counterfactual": {
+      "video": "consistency_4h_05_f024cf025_counterfactual.mp4",
+      "caption": "Alternating piano keys are played"
+    },
+    "duration": 5.372,
+    "hit_times": [
+      0.690794,
+      1.799546,
+      3.366893,
+      4.603356
+    ],
+    "expected_metrics": {
+      "rt60": "no_change",
+      "fundamental_frequency": "no_change",
+      "drr": "no_change"
+    }
+  },
+  "consistency_4h_06_f042cf041": {
+    "category": "consistency",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "cushioned_room",
+      "to": "cushioned_room"
+    },
+    "factual": {
+      "video": "consistency_4h_06_f042cf041_factual.mp4",
+      "caption": "A hand claps repeatedly against a backdrop of a cushioned surface"
+    },
+    "counterfactual": {
+      "video": "consistency_4h_06_f042cf041_counterfactual.mp4",
+      "caption": "A hand claps repeatedly against a backdrop of a cushioned surface"
+    },
+    "duration": 5.333,
+    "hit_times": [
+      0.441179,
+      2.020136,
+      3.448163,
+      5.032925
+    ],
+    "expected_metrics": {
+      "rt60": "no_change"
+    }
+  },
+  "mechanism_consistency_3h_f032": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "mechanism_consistency_3h_f032.mp4",
+      "caption": "A drawer is repeatedly opened and closed"
+    },
+    "duration": 7.141,
+    "hit_times": [
+      2.066576,
+      4.202812,
+      6.704762
+    ],
+    "expected_metrics": {
+      "rt60": "no_change"
+    }
+  },
+  "piano_clip_022_ascending": {
+    "category": "direction",
+    "evaluation_method": "single_video",
+    "pattern": "ascending",
+    "factual": {
+      "video": "piano_clip_022_ascending.mp4",
+      "caption": "Ascending piano notes are played in succession"
+    },
+    "duration": 2.742,
+    "hit_times": [
+      0.406349,
+      1.346757
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "ascending"
+    },
+    "f0": "pitch"
+  },
+  "piano_clip_022_descending": {
+    "category": "direction",
+    "evaluation_method": "single_video",
+    "pattern": "descending",
+    "factual": {
+      "video": "piano_clip_022_descending.mp4",
+      "caption": "Descending piano keys are played in succession"
+    },
+    "duration": 4.795,
+    "hit_times": [
+      0.469757,
+      2.164814
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "descending"
+    },
+    "f0": "pitch"
+  },
+  "consistency_1h_08_f180cf179": {
+    "category": "consistency",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "sponge_on_nonstick_pan",
+      "to": "sponge_on_nonstick_pan"
+    },
+    "factual": {
+      "video": "consistency_1h_08_f180cf179_factual.mp4",
+      "caption": "The rough side of a sponge scrubs across the surface of a non-stick pan"
+    },
+    "counterfactual": {
+      "video": "consistency_1h_08_f180cf179_counterfactual.mp4",
+      "caption": "The rough side of a sponge scrubs across the surface of a non-stick pan"
+    },
+    "duration": 4.35,
+    "hit_times": [
+      1.956281
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "no_change",
+      "spectral_rolloff": "no_change"
+    }
+  },
+  "env_hallway_to_cushioned_4h": {
+    "category": "acoustic_environment",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "hallway",
+      "to": "cushioned_room"
+    },
+    "factual": {
+      "video": "env_hallway_to_cushioned_4h_factual_cut.mp4",
+      "caption": "A hand claps repeatedly in a long, open hallway."
+    },
+    "counterfactual": {
+      "video": "env_hallway_to_cushioned_4h_counterfactual_cut.mp4",
+      "caption": "A hand claps repeatedly against a backdrop of a cushioned surface"
+    },
+    "duration": 2.859,
+    "hit_times": [
+      0.2322,
+      2.113016,
+      2.66449
+    ],
+    "expected_metrics": {
+      "rt60": "decrease",
+      "drr": "increase"
+    }
+  },
+  "env_2h_10_f148cf193": {
+    "category": "acoustic_environment",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "bathroom",
+      "to": "stairwell"
+    },
+    "factual": {
+      "video": "env_2h_05_f152cf148_counterfactual.mp4",
+      "caption": "Hands clapping repeatedly in the bathroom"
+    },
+    "counterfactual": {
+      "video": "env_2h_06_f152cf193_counterfactual.mp4",
+      "caption": "Hand clapping in a concrete stairwell"
+    },
+    "duration": 6.0727,
+    "hit_times": [
+      1.939,
+      4.458
+    ],
+    "expected_metrics": {
+      "rt60": "increase",
+      "decay_rate": "decrease"
+    }
+  },
+  "env_4h_01_f041cf194": {
+    "category": "acoustic_environment",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "cushioned_room",
+      "to": "stairwell"
+    },
+    "factual": {
+      "video": "env_4h_01_f041cf194_factual.mp4",
+      "caption": "A hand claps repeatedly against a backdrop of a cushioned surface"
+    },
+    "counterfactual": {
+      "video": "env_4h_01_f041cf194_counterfactual.mp4",
+      "caption": "Hand clapping in a concrete stairwell"
+    },
+    "duration": 4.625,
+    "hit_times": [
+      0.626939,
+      2.078186,
+      3.709388,
+      4.307302
+    ],
+    "expected_metrics": {
+      "rt60": "increase",
+      "decay_rate": "decrease"
+    }
+  },
+  "consistency_2h_09_f055cf056": {
+    "category": "consistency",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "open_palm",
+      "to": "open_palm"
+    },
+    "factual": {
+      "video": "consistency_2h_09_f055cf056_factual.mp4",
+      "caption": "An open-palmed hand smacks the wooden surface of a stool repeatedly"
+    },
+    "counterfactual": {
+      "video": "consistency_2h_09_f055cf056_counterfactual.mp4",
+      "caption": "An open palm smacks the wooden surface of a stool repeatedly"
+    },
+    "duration": 4.328,
+    "hit_times": [
+      2.7922,
+      3.726803
+    ],
+    "expected_metrics": {
+      "decay_rate": "no_change"
+    }
+  },
+  "env_1h_09_f146cf191": {
+    "category": "acoustic_environment",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "bathroom",
+      "to": "stairwell"
+    },
+    "factual": {
+      "video": "env_1h_09_f146cf191_factual.mp4",
+      "caption": "Hands clapping in the bathroom"
+    },
+    "counterfactual": {
+      "video": "env_1h_09_f146cf191_counterfactual.mp4",
+      "caption": "Hand clapping in a concrete stairwell"
+    },
+    "duration": 6.911,
+    "hit_times": [
+      4.400181
+    ],
+    "expected_metrics": {
+      "rt60": "increase",
+      "decay_rate": "decrease"
+    }
+  },
+  "interaction_1h_02_f070cf073": {
+    "category": "interaction_type",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "free_hanging",
+      "to": "surface_constrained"
+    },
+    "factual": {
+      "video": "interaction_1h_02_f070cf073_factual.mp4",
+      "caption": "A metal stick hits another dangling metal stick"
+    },
+    "counterfactual": {
+      "video": "interaction_1h_02_f070cf073_counterfactual.mp4",
+      "caption": "A metal stick hits a protruding end of another metal stick that is lying flat on a wooden surface."
+    },
+    "duration": 4.019,
+    "hit_times": [
+      2.223311
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "decrease",
+      "spectral_rolloff": "decrease"
+    }
+  },
+  "interaction_1h_03_f071cf072": {
+    "category": "interaction_type",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "free_hanging",
+      "to": "surface_constrained"
+    },
+    "factual": {
+      "video": "interaction_1h_03_f071cf072_factual.mp4",
+      "caption": "A metal stick hits another dangling metal stick"
+    },
+    "counterfactual": {
+      "video": "interaction_1h_03_f071cf072_counterfactual.mp4",
+      "caption": "A metal stick hits a protruding end of another metal stick that is lying flat on a wooden surface."
+    },
+    "duration": 4.721,
+    "hit_times": [
+      2.083991
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "decrease",
+      "spectral_rolloff": "decrease"
+    }
+  },
+  "surface_1h_09_f160cf168": {
+    "category": "surface",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "glass_cup",
+      "to": "bamboo_board"
+    },
+    "factual": {
+      "video": "surface_1h_09_f160cf168_factual.mp4",
+      "caption": "A wooden spoon taps a glass cup sitting on a wooden table in the kitchen. The glass cup is half full with clear water."
+    },
+    "counterfactual": {
+      "video": "surface_1h_09_f160cf168_counterfactual.mp4",
+      "caption": "A wooden spoon taps a bamboo cutting board sitting on a wooden table in the kitchen."
+    },
+    "duration": 9.322,
+    "hit_times": [
+      4.493061
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "decrease"
+    }
+  },
+  "clap_consistency_3h_f036": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "clap_consistency_3h_f036.mp4",
+      "caption": "A hand claps repeatedly against a backdrop of a cushioned surface"
+    },
+    "duration": 5.306,
+    "hit_times": [
+      0.412154,
+      2.165261,
+      3.854512
+    ],
+    "expected_metrics": {
+      "spectral_flux": "no_change"
+    }
+  },
+  "clap_consistency_4h_f041": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "clap_consistency_4h_f041.mp4",
+      "caption": "A hand claps repeatedly against a backdrop of a cushioned surface"
+    },
+    "duration": 5.339,
+    "hit_times": [
+      0.626939,
+      2.078186,
+      3.709388,
+      4.307302
+    ],
+    "expected_metrics": {
+      "spectral_flux": "no_change"
+    }
+  },
+  "castiron_scrape_consistency_4h_f114": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "castiron_scrape_consistency_4h_f114.mp4",
+      "caption": "A wooden spatula repeatedly scrapes the surface of a cast iron pan"
+    },
+    "duration": 7.743,
+    "hit_times": [
+      2.61805,
+      3.610703,
+      4.858776,
+      6.042993
+    ],
+    "expected_metrics": {
+      "spectral_flux": "no_change",
+      "fundamental_frequency": "no_change"
+    }
+  },
+  "castiron_scrape_consistency_4h_f118": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "castiron_scrape_consistency_4h_f118.mp4",
+      "caption": "The rough side of a dish sponge repeatedly scrubs across the surface of a cast iron pan"
+    },
+    "duration": 6.911,
+    "hit_times": [
+      1.938866,
+      2.798005,
+      4.034467,
+      5.299955
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "no_change",
+      "spectral_rolloff": "no_change"
+    }
+  },
+  "nonstick_scrape_consistency_2h_f179": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "nonstick_scrape_consistency_2h_f179.mp4",
+      "caption": "The rough side of a sponge scrubs across the surface of a non-stick pan"
+    },
+    "duration": 8.788,
+    "hit_times": [
+      4.249252,
+      6.942766
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "no_change",
+      "spectral_rolloff": "no_change"
+    }
+  },
+  "tear_consistency_2h_f181": {
+    "category": "consistency",
+    "evaluation_method": "single_video",
+    "pattern": "consistent",
+    "factual": {
+      "video": "tear_consistency_2h_f181.mp4",
+      "caption": "A piece of paper is torn by hand"
+    },
+    "duration": 9.3093,
+    "hit_times": [
+      3.349478,
+      7.174966
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "no_change",
+      "spectral_rolloff": "no_change"
+    }
+  },
+  "striker_3h_08_f054cf058": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "open_palm",
+      "to": "wooden_stick"
+    },
+    "factual": {
+      "video": "striker_3h_08_f054cf058_factual.mp4",
+      "caption": "An open-palmed hand smacks the wooden surface of a stool repeatedly"
+    },
+    "counterfactual": {
+      "video": "striker_3h_08_f054cf058_counterfactual.mp4",
+      "caption": "A wooden stick repeatedly taps the wooden surface of a stool"
+    },
+    "duration": 5.038,
+    "hit_times": [
+      0.307664,
+      1.097143,
+      2.69932
+    ],
+    "expected_metrics": {
+      "spectral_centroid": "increase",
+      "spectral_rolloff": "increase"
+    }
+  }
+}

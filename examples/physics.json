@@ -1,0 +1,50 @@
+{
+  "striker_3h_04_f137cf140": {
+    "category": "striker",
+    "evaluation_method": "pair_comparison",
+    "change": {
+      "from": "wooden_spoon",
+      "to": "metal_spoon"
+    },
+    "factual": {
+      "video": "striker_3h_04_f137cf140_factual.mp4",
+      "caption": "A wooden spoon taps several glass cups filled to different levels of yellow liquid. The resulting pitch increases with each tap."
+    },
+    "counterfactual": {
+      "video": "striker_3h_04_f137cf140_counterfactual.mp4",
+      "caption": "A metal spoon taps several glass cups filled to different levels of yellow liquid. The resulting pitch increases with each tap."
+    },
+    "duration": 7.658,
+    "hit_times": [
+      3.349478,
+      4.464036,
+      5.479909
+    ],
+    "expected_metrics": {
+      "attack_time": "decrease",
+      "spectral_centroid": "increase",
+      "spectral_rolloff": "increase",
+      "fundamental_frequency": "no_change",
+      "rt60": "no_change"
+    }
+  },
+  "piano_clip_023_ascending": {
+    "category": "direction",
+    "evaluation_method": "single_video",
+    "pattern": "ascending",
+    "factual": {
+      "video": "piano_clip_023_ascending.mp4",
+      "caption": "Ascending piano notes are played in succession"
+    },
+    "duration": 5.839,
+    "hit_times": [
+      0.446984,
+      2.39746,
+      4.260862
+    ],
+    "expected_metrics": {
+      "fundamental_frequency": "ascending"
+    },
+    "f0": "pitch"
+  }
+}

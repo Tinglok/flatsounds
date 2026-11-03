@@ -1,0 +1,24 @@
+[project]
+name = "v2a-bench"
+version = "1.0.0"
+description = "FlatSounds: benchmarking single-factor physical video-to-audio generation (CVPR 2026)"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.0",
+    "scipy>=1.13",
+    "librosa>=0.11",
+    "mir_eval>=0.8",
+    "soundfile>=0.12",
+    "swift-f0>=0.3",
+    "joblib>=1.4",
+    "tqdm>=4.66",
+    "av>=14.0",
+    "torch>=2.6",
+    "transformers>=5.0",
+]
+
+[tool.uv]
+package = false
